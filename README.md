@@ -4,8 +4,8 @@ Official open-source implementation and benchmark suite for **ANTENA** (*Soft Or
 
 * **Part 2 of the Memory-Free Continual Learning Series:**
   * **[Part 1: EGPR Foundation](https://github.com/jerolemos/antena-cl-egpr)** (Vision benchmarks: Split-MNIST, Permuted-MNIST, Rotated-MNIST, Split-FashionMNIST, Split-CIFAR10, Split-CIFAR100)
-  * **[Part 2: ANTENA SLM](https://github.com/jerolemos/antena-cl-slm)** (Small Language Models & Soft-OGP)
-  * **[Part 3: ANTENA 1-Bit](https://github.com/jerolemos/antena-cl-1bit)** (1-Bit Discrete Subspace Routing)
+  * **[Part 2: SLM](https://github.com/jerolemos/antena-cl-slm)** (Small Language Models & Soft-OGP)
+  * **[Part 3: 1-Bit](https://github.com/jerolemos/antena-cl-1bit)** (1-Bit Discrete Subspace Routing)
 
 ---
 
