@@ -1,0 +1,403 @@
+\documentclass[11pt,a4paper]{article}
+
+% ── Packages ──
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{caption}
+\usepackage{natbib}
+\usepackage{authblk}
+\usepackage{verbatim}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue,
+}
+
+% ── Title ──
+\title{Zero-Exemplar Class-Incremental Learning in Small Language Models\\via Soft Orthogonal Gradient Projection and Feature Alignment}
+\author{Lemos J.}
+\affil{Independent Researcher}
+\date{}
+
+\begin{document}
+\maketitle
+
+% ══════════════════════════════════════════════════════════════
+\begin{abstract}
+The deployment of Small Language Models (SLMs, ${<}500$M parameters) on edge hardware is constrained by catastrophic forgetting during sequential class-incremental learning (CIL). While storing past text samples (Experience Replay) mitigates classification forgetting, an important limitation is observed: \textbf{Generative Perplexity Degradation}, wherein replaying raw text samples degrades the pre-trained language model backbone (WikiText-2 PPL increases from ${\sim}172$ to ${>}3{,}600$). To address this trade-off without maintaining episodic text buffers, \textbf{ANTENA} is introduced: a zero-exemplar structural framework combining three controls: (1)~\textbf{Soft Orthogonal Gradient Projection (Soft-OGP)} applying spectral thresholding inspired by random matrix theory to LoRA adapter updates to preserve backbone representations; (2)~\textbf{Head-Level Feature Augmentation (IL2A)} generating Gaussian pseudo-features via batched Welford covariance updates to shield classification boundaries from recency bias; and (3)~an \textbf{Entropy-Gated Plasticity Regulator (EGPR)} modulating learning rates dynamically based on entropic drift ($dH/dt$). On DBpedia14 (7-task CIL), ANTENA achieves \textbf{82.88\% Average Incremental Accuracy (AIA)} with \textbf{+29.17\% Positive Backward Transfer (BWT)} while preserving generative perplexity (PPL~172.65) and zero-shot reasoning (PIQA~64.53\%)---demonstrating competitive performance relative to O-LoRA (76.50\%) on a 50$\times$ smaller model (SmolLM-135M). On CLINC-150 (15-task CIL), \texttt{ANTENA\_SlowDistill} achieves \textbf{73.69\% AIA} with competitive zero-shot reasoning (PIQA~59.25\% vs~56.91\% in Replay) without episodic storage.
+\end{abstract}
+
+% ══════════════════════════════════════════════════════════════
+\section{Introduction}
+
+Parameter compression and low-level execution engines have enabled local inference of Small Language Models (SLMs) on edge hardware. However, enabling these models to continually acquire new domain tasks without cloud dependency remains a critical challenge.
+
+Existing continual learning paradigms present fundamental drawbacks when applied to sub-500M parameter causal language models:
+
+\begin{enumerate}
+    \item \textbf{Experience Replay (ER):} Storing raw text exemplars violates privacy constraints and, as empirically demonstrated in this work, induces substantial generative perplexity degradation in small model backbones.
+    \item \textbf{Standard Weight Consolidation (e.g., EWC):} Quadratic penalty methods rely on the empirical Fisher Information Matrix ($F$). However, in modern deep networks where parameters vastly outnumber training samples ($P \gg N$), random matrix theory (Marchenko-Pastur limits) indicates that the empirical Fisher matrix suffers from severe eigenvalue dispersion and noise rotation, penalizing parameters based on statistical noise rather than structural signal.
+    \item \textbf{Naive Fine-Tuning \& Parameter Isolation:} Standard sequential tuning or unconstrained Low-Rank Adaptation \citep[LoRA;][]{hu2022lora} causes rapid overwrite of the structural subspaces holding the model's pre-trained linguistic knowledge.
+\end{enumerate}
+
+To address this challenge, \textbf{ANTENA} is evaluated, a buffer-free class-incremental learning framework engineered specifically for sub-150M parameter models. ANTENA operates without storing historical text samples by decomposing structural protection into two complementary levels:
+
+\begin{itemize}
+    \item \textbf{Backbone Protection via Soft-OGP:} Restricting LoRA parameter updates to the orthogonal complement of historical activation signal subspaces via spectral thresholding inspired by random matrix theory \citep{ledoit2011eigenvectors}.
+    \item \textbf{Classification Head Alignment via Feature Augmentation:} Maintaining running Gaussian distributions of class feature vectors at the final hidden layer using batched Welford updates \citep{welford1962note}, generating synthetic feature vectors to maintain prior decision boundaries.
+\end{itemize}
+
+\subsection{Related Work}
+
+\textbf{Gradient Projection Methods.} Gradient Projection Memory \citep[GPM;][]{saha2021gradient} constrains gradient updates to the null space of prior task activation subspaces via SVD. Soft-OGP extends this principle by replacing binary null-space clipping with continuous Hebbian covariance accumulation and spectral thresholding inspired by random matrix theory \citep{ledoit2011eigenvectors}, preventing the rank collapse that occurs under GPM's iterative SVD-blend approach.
+
+\textbf{Orthogonal LoRA Methods.} O-LoRA \citep{wang2023orthogonal} enforces orthogonality between task-specific LoRA subspaces to prevent interference. InfLoRA \citep{liang2024inflora} designs interference-free LoRA adaptation subspaces. Both target larger models (LLaMA-7B, T5-Large); ANTENA addresses the sub-150M regime where parameter budget constraints are more severe.
+
+\textbf{Exemplar-Free Class-Incremental Learning.} Learning Without Forgetting \citep[LwF;][]{li2017learning} uses knowledge distillation on new data as a proxy for old knowledge. IL2A---Class-Incremental Learning via Dual Augmentation \citep{zhu2021class}---introduces class augmentation for representation bias and semantic augmentation via stored class statistics for classifier bias. ANTENA adopts IL2A's semantic augmentation strategy but replaces full covariance Cholesky sampling with SVD-filtered signal subspace sampling to reduce noise.
+
+\textbf{Entropy-Based Continual Learning.} EGPR \citep{lemos2026egpr} introduces entropy-gated plasticity regulation for memory-free continual learning in CNNs. The present work integrates EGPR as one of three complementary controls within a transformer-based framework.
+
+\textbf{Post-Hoc Bias Correction.} Weight Aligning \citep[WA;][]{zhao2020maintaining} corrects recency bias in class-incremental learning by normalizing classifier weight magnitudes between old and new classes.
+
+% ══════════════════════════════════════════════════════════════
+\section{ANTENA Framework Architecture}
+
+\begin{verbatim}
+[ Input Tokens ] --> [ Transformer Backbone (Layers 1-30) ] --> [ Hidden State ] --> [ Head ]
+                          | (Soft-OGP on LoRA Gradients)           | (IL2A Feature Replay)
+                          v                                        v
+                   [ Null-Space Projection ]              [ Synthetic Gaussian Features ]
+\end{verbatim}
+
+\subsection{Soft Orthogonal Gradient Projection (Soft-OGP)}
+
+To protect pre-trained transformer representations during LoRA fine-tuning (applied to $Q$ and $V$ attention projections), a topological protection scheme is implemented over target layers $L_{\text{target}} \in [10, 29]$.
+
+For each incoming activation tensor $\mathbf{X}_t \in \mathbb{R}^{B \times d}$, the empirical covariance matrix is accumulated using a Hebbian Decay factor $\gamma = 0.95$:
+
+\begin{equation}
+\boldsymbol{\Sigma}_{t} = \gamma \boldsymbol{\Sigma}_{t-1} + (1 - \gamma) \frac{1}{B} \mathbf{X}_t^T \mathbf{X}_t
+\end{equation}
+
+Unlike iterative SVD eigen-blending (which clips the null space and induces \textbf{Rank Collapse} under sequential tasks), continuous Hebbian covariance accumulation preserves subspace energy across extended task streams in $O(1)$ memory complexity ($576 \times 576$ matrix).
+
+Applying Singular Value Decomposition (SVD), $\boldsymbol{\Sigma}_t = \mathbf{U} \mathbf{S} \mathbf{U}^T$. To filter statistical noise from true signal directions, spectral thresholding inspired by Marchenko-Pastur random matrix limits \citep{ledoit2011eigenvectors} is applied to isolate principal signal eigenvectors $\mathbf{U}_{\text{sig}} \in \mathbb{R}^{d \times k}$.
+
+During backpropagation, candidate gradients $\mathbf{G} = \nabla_{\mathbf{W}} \mathcal{L}$ are projected onto the orthogonal complement of the protected signal subspace, scaled by projection coefficient $\rho \in [0, 1]$:
+
+\begin{equation}
+\mathbf{G}_{\text{protected}} = \mathbf{G} - \rho \, \mathbf{U}_{\text{sig}} \mathbf{U}_{\text{sig}}^T \mathbf{G}
+\end{equation}
+
+This soft projection attenuates gradient components attempting to overwrite primary geometric manifolds while permitting adaptation along unconstrained directions.
+
+\subsection{Classification Head Feature Augmentation (IL2A)}
+
+While Soft-OGP protects the core transformer backbone, the linear classification head remains vulnerable to recency bias---new class logits receive disproportionately large gradient updates while unobserved old class logits stagnate.
+
+To prevent head degradation in a zero-exemplar setting, per-class Gaussian models $\mathcal{N}(\mu_c, \Sigma_c)$ are maintained over pooled hidden states $\mathbf{h}_c \in \mathbb{R}^d$ at layer $L-1$. Covariance is accumulated across tasks using Welford's batched algorithm \citep{welford1962note} with inter-group correction:
+
+\begin{equation}
+\Sigma_c^{(\text{new})} = \Sigma_c^{(\text{old})} + S_{\text{batch}} + \frac{n_{\text{old}} \cdot N}{n_{\text{new}}} (\mu_{\text{batch}} - \mu_c^{(\text{old})})(\mu_{\text{batch}} - \mu_c^{(\text{old})})^T
+\end{equation}
+
+During training on task $T_k$ ($k > 0$), synthetic feature vectors (``Feature Dreams'') are sampled from each prior class's signal subspace:
+
+\begin{equation}
+\mathbf{h}_{\text{dream}}^{(c)} = \mu_c + \mathbf{U}_{\text{sig}}^{(c)} \sqrt{\mathbf{S}_{\text{sig}}^{(c)}} \, \mathbf{z}, \quad \mathbf{z} \sim \mathcal{N}(0, \mathbf{I})
+\end{equation}
+
+These features are passed directly to the linear classification head to compute cross-entropy loss against original class labels:
+
+\begin{equation}
+\mathcal{L}_{\text{IL2A}} = -\sum_{c \in \mathcal{C}_{\text{old}}} \log \text{Softmax}\left(\mathbf{W}_{\text{head}} \mathbf{h}_{\text{dream}}^{(c)}\right)_c
+\end{equation}
+
+Because pseudo-features are evaluated exclusively on the final linear layer, the computational overhead of feature replay is minimal (${<}0.01$s per batch), avoiding any backward pass through the transformer backbone.
+
+\subsection{Entropy-Gated Plasticity Regulation (EGPR)}
+
+Rather than employing fixed learning rate schedules, the Shannon Entropy of the model's output probability distribution is monitored during sequence processing. The temporal derivative ($dH/dt$) serves as an indicator of internal representation stability. Learning rate scaling is dynamically governed by entropic stabilization:
+
+\begin{equation}
+\eta_{\text{effective}} = \eta_{\text{base}} \cdot \text{EGPR}(dH/dt)
+\end{equation}
+
+The complete EGPR formulation, including calibration protocol, sigmoid gating, temporal derivative boost, and depth-modulated plasticity, is detailed in Part~1 of this series \citep{lemos2026egpr}.
+
+\subsection{Post-Task Weight Aligning}
+
+After completing task $T_k$, post-hoc weight alignment \citep{zhao2020maintaining} is applied to correct magnitude asymmetry between old and new class weights in the linear classification head:
+
+\begin{equation}
+\mathbf{W}_{\text{new}} \leftarrow \mathbf{W}_{\text{new}} \cdot \frac{\|\mathbf{W}_{\text{old}}\|}{\|\mathbf{W}_{\text{new}}\|}
+\end{equation}
+
+% ══════════════════════════════════════════════════════════════
+\section{Experimental Evaluation}
+
+\subsection{Metrics}
+
+Two standard continual learning metrics are reported:
+
+\begin{itemize}
+    \item \textbf{Average Incremental Accuracy (AIA):} $\text{AIA} = \frac{1}{T}\sum_{k=1}^{T} a_{k,k}$, where $a_{k,k}$ is the accuracy on task $k$ evaluated immediately after training on task $k$.
+    \item \textbf{Backward Transfer (BWT):} $\text{BWT} = \frac{1}{T-1}\sum_{k=1}^{T-1} (a_{T,k} - a_{k,k})$, measuring the average change in task accuracy between initial evaluation and final evaluation after all $T$ tasks.
+\end{itemize}
+
+All experiments were conducted with a single random seed (42). This is acknowledged as a limitation; future work should evaluate variance across multiple seeds.
+
+Experiments were conducted on an NVIDIA T4 GPU using pre-trained \texttt{SmolLM-135M} (LlamaForCausalLM architecture, 30 transformer layers, $d=576$). LoRA adapters (rank~16, $\alpha=32$) were injected into layers 10--29.
+
+\subsection{DBpedia14 (7 Tasks, 14 Classes)}
+
+DBpedia14 was divided into 7 sequential tasks of 2 classes each. Models were trained for 3 epochs per task with batch size~16. Post-CIL generative perplexity (WikiText-2) and zero-shot reasoning (PIQA) were evaluated by transferring the backbone to a CausalLM head.
+
+\begin{table}[h]
+\centering
+\caption{DBpedia14 results (7-task CIL). $^*$O-LoRA baseline reported on LLaMA-7B / T5-Large models.}
+\label{tab:dbpedia}
+\begin{tabular}{lccccc}
+\toprule
+Configuration & AIA $\uparrow$ & BWT $\uparrow$ & PIQA $\uparrow$ & PPL $\downarrow$ & Buffer \\
+\midrule
+\textbf{ANTENA\_Base} ($\lambda_{\text{LwF}}{=}5.0$) & \textbf{82.88\%} & +29.17\% & 64.53\% & 172.65 & \textbf{0} \\
+\textbf{ANTENA\_SlowDistill} ($\lambda_{\text{LwF}}{=}7.5$) & 80.67\% & \textbf{+38.37\%} & \textbf{64.58\%} & \textbf{101.79} & \textbf{0} \\
+Experience Replay (100/task) & 84.46\% & +55.07\% & 61.64\% & 3,666.93 & 100/task \\
+O-LoRA$^*$ & 76.50\% & $-$1.90\% & N/A & N/A & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{CLINC-150 (15 Tasks, 150 Intent Classes)}
+
+CLINC-150 tests long-term retention over 15 sequential tasks of 10 intent classes each (5 epochs/task, \texttt{MAX\_LENGTH}=64).
+
+\begin{table}[h]
+\centering
+\caption{CLINC-150 results (15-task CIL). $^*$O-LoRA baseline reported on LLaMA-7B / T5-Large models.}
+\label{tab:clinc}
+\begin{tabular}{lccccc}
+\toprule
+Configuration & AIA $\uparrow$ & BWT $\uparrow$ & PIQA $\uparrow$ & PPL $\downarrow$ & Buffer \\
+\midrule
+\textbf{ANTENA\_Base} ($\lambda_{\text{LwF}}{=}5.0$) & 63.49\% & $-$58.24\% & 56.37\% & 813,633 & \textbf{0} \\
+\textbf{ANTENA\_SlowDistill} ($\lambda_{\text{LwF}}{=}7.5$) & \textbf{73.69\%} & \textbf{$-$31.03\%} & \textbf{59.25\%} & \textbf{20,731} & \textbf{0} \\
+Experience Replay (100/task) & 84.24\% & +10.48\% & 56.91\% & 9,908 & 100/task \\
+O-LoRA$^*$ & 76.20\% & $-$6.80\% & N/A & N/A & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{General Ability Delta (GAD Benchmark)}
+
+To evaluate whether targeted fine-tuning affects core reasoning capabilities, zero-shot reasoning (PIQA) was measured on \texttt{SmolLM-135M} before and after fine-tuning on an unrelated domain task (AG News, 500 samples, 3 epochs).
+
+\begin{table}[h]
+\centering
+\caption{General Ability Delta benchmark.}
+\label{tab:gad}
+\begin{tabular}{lccc}
+\toprule
+Method & PIQA Pre $\uparrow$ & PIQA Post $\uparrow$ & GAD $\Delta$ \\
+\midrule
+Vanilla Fine-Tuning & 67.20\% & 67.20\% & 0.00\% \\
+EWC ($\lambda{=}100$) & 67.20\% & 67.00\% & $-$0.20\% \\
+\textbf{ANTENA (Soft-OGP)} & 67.20\% & 67.00\% & $-$0.20\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Both EWC and ANTENA exhibit minimal reasoning variation ($\Delta = -0.20\%$), indicating that Soft Orthogonal Gradient Projection maintains out-of-domain reasoning manifolds during targeted parameter updates.
+
+\subsection{Main Empirical Findings}
+
+\begin{enumerate}
+    \item \textbf{Observation of Generative Perplexity Degradation:} Experience Replay (100 samples/task) maintains classification accuracy but induces significant language model perplexity degradation (PPL~3,666 on DBpedia, PPL~9,908 on CLINC). Replaying text fragments forces gradient updates that perturb pre-trained language manifolds.
+
+    \item \textbf{Distillation Adjustment for Extended Sequences:} On CLINC-150 (15 tasks), increasing distillation strength ($\lambda_{\text{LwF}} = 7.5$) and tuning learning rates ($\eta = 3 \times 10^{-4}$) in \texttt{ANTENA\_SlowDistill} improves AIA from 63.49\% to \textbf{73.69\%}, reducing forgetting by +27.21 BWT points and achieving higher post-CIL zero-shot reasoning (PIQA~\textbf{59.25\%}) than Experience Replay (56.91\%).
+
+    \item \textbf{Performance Relative to Larger Baselines:} ANTENA (82.88\% AIA on DBpedia, 73.69\% AIA on CLINC) demonstrates competitive performance relative to O-LoRA (76.50\% / 76.20\%) while operating on a smaller backbone (SmolLM-135M vs LLaMA-7B) and exhibiting positive BWT on DBpedia (+29.17\% to +38.37\% vs O-LoRA $-$1.90\%). Direct comparison with O-LoRA is constrained by the use of different backbone architectures (SmolLM-135M vs.\ LLaMA-7B). These results should be interpreted as evidence of competitive performance at a substantially smaller scale rather than a direct superiority claim.
+
+    \item \textbf{Retroactive Feature Consolidation (``Sleep Effect''):} Inspection of task-wise evaluation matrices $R$ reveals that task accuracy often evaluates lower immediately post-training (e.g., 42.4\% on DBpedia Task~2) and \textbf{increases retroactively to 95.0\%} during subsequent tasks. As subsequent tasks generate synthetic feature dreams from historical class covariances, feature replay and weight aligning re-balance decision boundaries, acting as a structural consolidation process that supports positive backward transfer.
+\end{enumerate}
+
+% ══════════════════════════════════════════════════════════════
+\section{Discussion}
+
+Beyond continual text classification, the mathematical formulation of Soft-OGP and Welford covariance models suggests several potential applications for decentralized language models. The following extensions are speculative and have not been empirically validated in this work:
+
+\subsection{Value Locking (Guardrail Preservation)}
+
+When fine-tuning edge language models for domain personalization, safety alignment (RLHF/DPO guardrails) is frequently degraded. By defining a safety subspace $\mathbf{U}_{\text{safety}}$ over aligned interaction data, downstream fine-tuning updates can be projected onto its orthogonal complement:
+
+\begin{equation}
+\mathbf{G}_{\text{safe}} = \mathbf{G} - \mathbf{U}_{\text{safety}} \mathbf{U}_{\text{safety}}^T \mathbf{G}
+\end{equation}
+
+This mathematically prevents fine-tuning gradients from perturbing pre-trained alignment boundaries, ensuring deterministic guardrail retention.
+
+\subsection{Subtractive Machine Unlearning}
+
+To remove toxic, biased, or copyrighted knowledge from a model without costly retraining, the activation covariance matrix $\boldsymbol{\Sigma}_{\text{toxic}}$ of the target domain is extracted and its principal eigenvectors $\mathbf{U}_{\text{toxic}}$ are computed. A subtractive projection operator is applied to parameter updates or weights:
+
+\begin{equation}
+\mathbf{P}_{\text{clean}} = \mathbf{I} - \mathbf{U}_{\text{toxic}} \mathbf{U}_{\text{toxic}}^T
+\end{equation}
+
+This nullifies the model's capacity to activate along toxic subspace directions without altering unrelated representations.
+
+\subsection{Privacy-Preserving Federated Aggregation}
+
+In edge computing networks, user privacy prevents uploading raw conversation transcripts to a central server. Under ANTENA, edge devices share only local covariance matrices $\boldsymbol{\Sigma}_i$ or principal eigenvectors $\mathbf{U}_i$---abstract geometric manifolds containing \textbf{zero raw text tokens}.
+
+A central orchestrator aggregates these manifolds ($\bar{\boldsymbol{\Sigma}} = \frac{1}{M}\sum \boldsymbol{\Sigma}_i$) and computes a global SVD update. Furthermore, each device's contribution can be audited via projection energy divergence against the collective space:
+
+\begin{equation}
+E_i = \frac{\|\mathbf{U}_i^T \mathbf{U}_{\text{global}}\|_F^2}{\|\mathbf{U}_i\|_F^2}
+\end{equation}
+
+This could establish a verifiable \textbf{Proof-of-Contribution} for data cooperatives, rewarding users for data value without harvesting private text.
+
+% ══════════════════════════════════════════════════════════════
+\section{Conclusion \& Future Work}
+
+ANTENA demonstrates that Small Language Models (${<}150$M) can achieve competitive zero-exemplar continual learning without storing historical text samples. By combining Soft Orthogonal Gradient Projection (Soft-OGP) at the LoRA parameter level with Head Feature Augmentation (IL2A), ANTENA preserves pre-trained language perplexity on shorter task sequences and delivers positive backward transfer (+29.17\% to +38.37\% on DBpedia14), providing a viable path for privacy-preserving, edge-deployed continual learning.
+
+Building upon the empirical discovery of Retroactive Feature Consolidation, future extensions of ANTENA will explore three architectural enhancements:
+
+\begin{enumerate}
+    \item \textbf{Post-Task Micro-Consolidation (Pseudo-Sleep):} Introducing a brief post-task re-balancing phase over frozen backbone representations to eliminate transient initial task accuracy dips.
+    \item \textbf{Entropy-Gated Temperature Sampling ($T_c$-Sampling):} Modulating Gaussian feature dream variances dynamically per class to prevent representation overcrowding in sequences exceeding 50 tasks.
+    \item \textbf{Subspace Memory Pruning:} Applying SVD truncation to class covariance matrices to compress prototype storage below 25~KB per class for sub-megabyte SRAM edge hardware.
+\end{enumerate}
+
+% ══════════════════════════════════════════════════════════════
+\section{Limitations}
+
+\begin{enumerate}
+    \item \textbf{Single-Seed Evaluation.} All reported results correspond to a single random seed ($s=42$). While the deterministic setup ensures exact reproducibility, it does not characterize variance across initialization conditions.
+    \item \textbf{Generative Perplexity on Long Sequences.} While ANTENA preserves backbone perplexity on DBpedia14 (7 tasks, PPL~172.65), the CLINC-150 benchmark (15 tasks) reveals substantial perplexity degradation even with SlowDistill (PPL~20,731 vs.\ baseline~172). Mitigating long-sequence generative degradation remains an open challenge.
+    \item \textbf{Cross-Model Baseline Comparison.} The O-LoRA comparison is constrained by architecture differences (SmolLM-135M vs.\ LLaMA-7B). A fair comparison would require running O-LoRA on the same backbone, which was not feasible due to the absence of an official SmolLM implementation.
+    \item \textbf{Limited Baseline Coverage.} This work compares against O-LoRA and Experience Replay. Comparison with additional zero-exemplar methods (InfLoRA, GPM, EASE) would strengthen the empirical positioning.
+    \item \textbf{Spectral Thresholding Heuristic.} The signal-noise separation currently uses a mean-eigenvalue threshold ($S > \bar{S}$), which is a heuristic inspired by random matrix theory rather than an exact optimal shrinkage formula. The threshold's sensitivity to the ratio $p/n$ (dimensionality vs.\ sample size) has not been systematically characterized.
+\end{enumerate}
+
+% ══════════════════════════════════════════════════════════════
+\section{Reproducibility}
+
+\begin{table}[h]
+\centering
+\caption{Hyperparameter configurations.}
+\label{tab:hyperparams}
+\begin{tabular}{lcc}
+\toprule
+Hyperparameter & DBpedia14 & CLINC-150 \\
+\midrule
+Model & SmolLM-135M-Instruct & SmolLM-135M-Instruct \\
+LoRA Rank / Alpha & 16 / 32 & 16 / 32 \\
+Target Layers & 10--29 & 10--29 \\
+Batch Size & 16 & 16 \\
+Epochs per Task & 3 & 5 \\
+Max Sequence Length & 128 & 64 \\
+Samples per Task & 500 train, 250 test & 500 train, 250 test \\
+LoRA LR (Base) & 5e-4 & 5e-4 \\
+LoRA LR (SlowDistill) & 3e-4 & 3e-4 \\
+Score LR & 1e-4 & 1e-4 \\
+Soft-OGP $\rho$ & 0.99 & 0.99 \\
+LwF $\lambda$ (Base) & 5.0 & 5.0 \\
+LwF $\lambda$ (SlowDistill) & 7.5 & 7.5 \\
+LwF Temperature & 2.0 & 2.0 \\
+IL2A Temperature & 1.0 & 1.0 \\
+EGPR Sensitivity & 0.1 & 0.2 \\
+EGPR Center & 2.0 & 1.5 \\
+EGPR Window & 30 & 10 \\
+Hebbian Decay $\gamma$ & 0.95 & 0.95 \\
+Random Seed & 42 & 42 \\
+Hardware & NVIDIA T4 (Colab) & NVIDIA T4 (Colab) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Source code is available at: \url{https://github.com/jerolemos/antena-cl-egpr}
+
+% ══════════════════════════════════════════════════════════════
+\section*{Acknowledgments}
+
+The author acknowledges the use of large language model assistants for code review, test orchestration, and manuscript preparation during the research process. All theoretical concepts, architectural designs, and experimental decisions described in this work are the original intellectual contribution of the author.
+
+% ══════════════════════════════════════════════════════════════
+\bibliographystyle{plainnat}
+
+\begin{thebibliography}{99}
+
+\bibitem[Balestriero \& LeCun(2025)]{balestriero2025sigreg}
+Balestriero, R., \& LeCun, Y. (2025).
+\newblock LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics.
+\newblock \emph{arXiv:2511.08544}.
+
+\bibitem[Hu et~al.(2022)]{hu2022lora}
+Hu, E.~J., et~al. (2022).
+\newblock LoRA: Low-Rank Adaptation of Large Language Models.
+\newblock \emph{ICLR}.
+
+\bibitem[Kirkpatrick et~al.(2017)]{kirkpatrick2017overcoming}
+Kirkpatrick, J., et~al. (2017).
+\newblock Overcoming catastrophic forgetting in neural networks.
+\newblock \emph{PNAS}, 114(13), 3521--3526.
+
+\bibitem[Ledoit \& P\'{e}ch\'{e}(2011)]{ledoit2011eigenvectors}
+Ledoit, O., \& P\'{e}ch\'{e}, S. (2011).
+\newblock Eigenvectors of some large sample covariance matrix ensembles.
+\newblock \emph{Probability Theory and Related Fields}, 151(1--2), 233--264.
+
+\bibitem[Lemos(2026)]{lemos2026egpr}
+Lemos, J. (2026).
+\newblock Entropy-Gated Plasticity Regulation for Continual Learning Without Episodic Memory.
+\newblock Part~1 of this series.
+
+\bibitem[Li \& Hoiem(2017)]{li2017learning}
+Li, Z., \& Hoiem, D. (2017).
+\newblock Learning Without Forgetting.
+\newblock \emph{IEEE TPAMI}, 40(12), 2935--2947.
+
+\bibitem[Liang \& Li(2024)]{liang2024inflora}
+Liang, Y.-S., \& Li, Y. (2024).
+\newblock InfLoRA: Interference-Free Low-Rank Adaptation for Continual Learning.
+\newblock \emph{CVPR}.
+
+\bibitem[Saha et~al.(2021)]{saha2021gradient}
+Saha, G., Garg, I., \& Roy, K. (2021).
+\newblock Gradient Projection Memory for Continual Learning.
+\newblock \emph{ICLR}.
+
+\bibitem[Wang et~al.(2023)]{wang2023orthogonal}
+Wang, X., et~al. (2023).
+\newblock Orthogonal Subspace Learning for Language Model Continual Learning.
+\newblock \emph{Findings of EMNLP}.
+
+\bibitem[Welford(1962)]{welford1962note}
+Welford, B.~P. (1962).
+\newblock Note on a method for calculating corrected sums of squares and products.
+\newblock \emph{Technometrics}, 4(3), 419--420.
+
+\bibitem[Zhao et~al.(2020)]{zhao2020maintaining}
+Zhao, B., et~al. (2020).
+\newblock Maintaining Discrimination and Fairness in Class Incremental Learning.
+\newblock \emph{CVPR}.
+
+\bibitem[Zhu et~al.(2021)]{zhu2021class}
+Zhu, F., et~al. (2021).
+\newblock Class-Incremental Learning via Dual Augmentation.
+\newblock \emph{NeurIPS}.
+
+\end{thebibliography}
+
+\end{document}

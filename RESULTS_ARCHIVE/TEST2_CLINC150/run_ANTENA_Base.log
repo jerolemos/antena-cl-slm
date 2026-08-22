@@ -1,0 +1,1639 @@
+
+🚀 ENTRENANDO VARIANTE: ANTENA_Base | rho=0.99, LwF=5.0, use_quimera=False, use_il2a=True, temp=1.0, Rep=0
+
+==================================================
+🚀 ANTENA_Base | rho=0.99 lwf=5.0 quim=False il2a=True rep=0
+Loading weights:   0%|          | 0/272 [00:00<?, ?it/s]Loading weights:  42%|████▏     | 113/272 [00:00<00:00, 1097.61it/s]Loading weights:  82%|████████▏ | 223/272 [00:00<00:00, 959.87it/s] Loading weights: 100%|██████████| 272/272 [00:00<00:00, 971.95it/s]
+  [Entrenando Tarea 1/15]...  [Ep 0] Batch 0/63 | Loss Task: 2.2969
+  [Ep 0] Batch 5/63 | Loss Task: 2.2656
+  [Ep 0] Batch 10/63 | Loss Task: 2.0000
+  [Ep 0] Batch 15/63 | Loss Task: 2.0469
+  [Ep 0] Batch 20/63 | Loss Task: 2.2031
+  [Ep 0] Batch 25/63 | Loss Task: 2.0156
+  [Ep 0] Batch 30/63 | Loss Task: 1.7812
+  [Ep 0] Batch 35/63 | Loss Task: 1.3906
+  [Ep 0] Batch 40/63 | Loss Task: 1.2031
+  [Ep 0] Batch 45/63 | Loss Task: 1.0000
+  [Ep 0] Batch 50/63 | Loss Task: 1.0469
+  [Ep 0] Batch 55/63 | Loss Task: 0.5625
+  [Ep 0] Batch 60/63 | Loss Task: 0.4629
+  [Ep 1] Batch 0/63 | Loss Task: 0.4414
+  [Ep 1] Batch 5/63 | Loss Task: 0.3340
+  [Ep 1] Batch 10/63 | Loss Task: 0.2295
+  [Ep 1] Batch 15/63 | Loss Task: 0.4141
+  [Ep 1] Batch 20/63 | Loss Task: 0.2695
+  [Ep 1] Batch 25/63 | Loss Task: 0.2451
+  [Ep 1] Batch 30/63 | Loss Task: 0.3242
+  [Ep 1] Batch 35/63 | Loss Task: 0.1758
+  [Ep 1] Batch 40/63 | Loss Task: 0.1533
+  [Ep 1] Batch 45/63 | Loss Task: 0.0952
+  [Ep 1] Batch 50/63 | Loss Task: 0.0933
+  [Ep 1] Batch 55/63 | Loss Task: 0.0894
+  [Ep 1] Batch 60/63 | Loss Task: 0.1514
+  [Ep 2] Batch 0/63 | Loss Task: 0.0693
+  [Ep 2] Batch 5/63 | Loss Task: 0.0583
+  [Ep 2] Batch 10/63 | Loss Task: 0.0544
+  [Ep 2] Batch 15/63 | Loss Task: 0.0505
+  [Ep 2] Batch 20/63 | Loss Task: 0.0913
+  [Ep 2] Batch 25/63 | Loss Task: 0.0620
+  [Ep 2] Batch 30/63 | Loss Task: 0.0276
+  [Ep 2] Batch 35/63 | Loss Task: 0.1216
+  [Ep 2] Batch 40/63 | Loss Task: 0.0510
+  [Ep 2] Batch 45/63 | Loss Task: 0.0645
+  [Ep 2] Batch 50/63 | Loss Task: 0.0449
+  [Ep 2] Batch 55/63 | Loss Task: 0.0576
+  [Ep 2] Batch 60/63 | Loss Task: 0.0786
+  [Ep 3] Batch 0/63 | Loss Task: 0.0513
+  [Ep 3] Batch 5/63 | Loss Task: 0.0330
+  [Ep 3] Batch 10/63 | Loss Task: 0.0325
+  [Ep 3] Batch 15/63 | Loss Task: 0.0287
+  [Ep 3] Batch 20/63 | Loss Task: 0.0376
+  [Ep 3] Batch 25/63 | Loss Task: 0.0217
+  [Ep 3] Batch 30/63 | Loss Task: 0.0233
+  [Ep 3] Batch 35/63 | Loss Task: 0.0383
+  [Ep 3] Batch 40/63 | Loss Task: 0.0447
+  [Ep 3] Batch 45/63 | Loss Task: 0.0317
+  [Ep 3] Batch 50/63 | Loss Task: 0.0203
+  [Ep 3] Batch 55/63 | Loss Task: 0.0222
+  [Ep 3] Batch 60/63 | Loss Task: 0.0267
+  [Ep 4] Batch 0/63 | Loss Task: 0.0265
+  [Ep 4] Batch 5/63 | Loss Task: 0.0371
+  [Ep 4] Batch 10/63 | Loss Task: 0.0405
+  [Ep 4] Batch 15/63 | Loss Task: 0.0225
+  [Ep 4] Batch 20/63 | Loss Task: 0.0159
+  [Ep 4] Batch 25/63 | Loss Task: 0.0216
+  [Ep 4] Batch 30/63 | Loss Task: 0.0240
+  [Ep 4] Batch 35/63 | Loss Task: 0.0146
+  [Ep 4] Batch 40/63 | Loss Task: 0.0212
+  [Ep 4] Batch 45/63 | Loss Task: 0.0150
+  [Ep 4] Batch 50/63 | Loss Task: 0.0144
+  [Ep 4] Batch 55/63 | Loss Task: 0.0684
+  [Ep 4] Batch 60/63 | Loss Task: 0.0182
+    [Gestalt] L10_q: 68/576 dims protegidas
+    [Gestalt] L10_v: 68/576 dims protegidas
+    [Gestalt] L11_q: 43/576 dims protegidas
+    [Gestalt] L11_v: 43/576 dims protegidas
+    [Gestalt] L12_q: 11/576 dims protegidas
+    [Gestalt] L12_v: 11/576 dims protegidas
+    [Gestalt] L13_q: 7/576 dims protegidas
+    [Gestalt] L13_v: 7/576 dims protegidas
+    [Gestalt] L14_q: 12/576 dims protegidas
+    [Gestalt] L14_v: 12/576 dims protegidas
+    [Gestalt] L15_q: 14/576 dims protegidas
+    [Gestalt] L15_v: 14/576 dims protegidas
+    [Gestalt] L16_q: 15/576 dims protegidas
+    [Gestalt] L16_v: 15/576 dims protegidas
+    [Gestalt] L17_q: 16/576 dims protegidas
+    [Gestalt] L17_v: 16/576 dims protegidas
+    [Gestalt] L18_q: 19/576 dims protegidas
+    [Gestalt] L18_v: 19/576 dims protegidas
+    [Gestalt] L19_q: 13/576 dims protegidas
+    [Gestalt] L19_v: 13/576 dims protegidas
+    [Gestalt] L20_q: 22/576 dims protegidas
+    [Gestalt] L20_v: 22/576 dims protegidas
+    [Gestalt] L21_q: 25/576 dims protegidas
+    [Gestalt] L21_v: 25/576 dims protegidas
+    [Gestalt] L22_q: 30/576 dims protegidas
+    [Gestalt] L22_v: 30/576 dims protegidas
+    [Gestalt] L23_q: 41/576 dims protegidas
+    [Gestalt] L23_v: 41/576 dims protegidas
+    [Gestalt] L24_q: 34/576 dims protegidas
+    [Gestalt] L24_v: 34/576 dims protegidas
+    [Gestalt] L25_q: 40/576 dims protegidas
+    [Gestalt] L25_v: 40/576 dims protegidas
+    [Gestalt] L26_q: 41/576 dims protegidas
+    [Gestalt] L26_v: 41/576 dims protegidas
+    [Gestalt] L27_q: 38/576 dims protegidas
+    [Gestalt] L27_v: 38/576 dims protegidas
+    [Gestalt] L28_q: 35/576 dims protegidas
+    [Gestalt] L28_v: 35/576 dims protegidas
+    [Gestalt] L29_q: 37/576 dims protegidas
+    [Gestalt] L29_v: 37/576 dims protegidas
+ Completado. Accs: ['100%']
+  T1/15 → ['100%']
+  [Entrenando Tarea 2/15]...  [Ep 0] Batch 0/63 | Loss Task: 3.6875 | LwF:0.0000 | P:1.000 | Loss_Ratio:36875000000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 2.7500 | LwF:0.0267 | P:1.000 | Loss_Ratio:20.5735
+  [Ep 0] Batch 10/63 | Loss Task: 2.3438 | LwF:0.0476 | P:1.000 | Loss_Ratio:9.8462
+  [Ep 0] Batch 15/63 | Loss Task: 2.4219 | LwF:0.0649 | P:1.000 | Loss_Ratio:7.4586
+  [Ep 0] Batch 20/63 | Loss Task: 1.7109 | LwF:0.0864 | P:1.000 | Loss_Ratio:3.9593
+  [Ep 0] Batch 25/63 | Loss Task: 1.8594 | LwF:0.0942 | P:1.000 | Loss_Ratio:3.9461
+  [Ep 0] Batch 30/63 | Loss Task: 1.2500 | LwF:0.1172 | P:1.000 | Loss_Ratio:2.1333
+  [Ep 0] Batch 35/63 | Loss Task: 1.3203 | LwF:0.1016 | P:1.000 | Loss_Ratio:2.6000
+  [Ep 0] Batch 40/63 | Loss Task: 1.2188 | LwF:0.1128 | P:1.000 | Loss_Ratio:2.1610
+  [Ep 0] Batch 45/63 | Loss Task: 1.3125 | LwF:0.1045 | P:1.000 | Loss_Ratio:2.5121
+  [Ep 0] Batch 50/63 | Loss Task: 1.4141 | LwF:0.1016 | P:1.000 | Loss_Ratio:2.7846
+  [Ep 0] Batch 55/63 | Loss Task: 1.1250 | LwF:0.1230 | P:1.000 | Loss_Ratio:1.8286
+  [Ep 0] Batch 60/63 | Loss Task: 1.1250 | LwF:0.1074 | P:1.000 | Loss_Ratio:2.0945
+  [Ep 1] Batch 0/63 | Loss Task: 1.0391 | LwF:0.1021 | P:1.000 | Loss_Ratio:2.0364
+  [Ep 1] Batch 5/63 | Loss Task: 0.8359 | LwF:0.1221 | P:1.000 | Loss_Ratio:1.3696
+  [Ep 1] Batch 10/63 | Loss Task: 0.8633 | LwF:0.1250 | P:1.000 | Loss_Ratio:1.3812
+  [Ep 1] Batch 15/63 | Loss Task: 0.7734 | LwF:0.1074 | P:1.000 | Loss_Ratio:1.4400
+  [Ep 1] Batch 20/63 | Loss Task: 0.7695 | LwF:0.1230 | P:1.000 | Loss_Ratio:1.2508
+  [Ep 1] Batch 25/63 | Loss Task: 0.8672 | LwF:0.1201 | P:1.000 | Loss_Ratio:1.4439
+  [Ep 1] Batch 30/63 | Loss Task: 0.7969 | LwF:0.1260 | P:1.000 | Loss_Ratio:1.2651
+  [Ep 1] Batch 35/63 | Loss Task: 0.9219 | LwF:0.1118 | P:1.000 | Loss_Ratio:1.6489
+  [Ep 1] Batch 40/63 | Loss Task: 0.7422 | LwF:0.1211 | P:1.000 | Loss_Ratio:1.2258
+  [Ep 1] Batch 45/63 | Loss Task: 0.7695 | LwF:0.1270 | P:1.000 | Loss_Ratio:1.2123
+  [Ep 1] Batch 50/63 | Loss Task: 0.7930 | LwF:0.1235 | P:1.000 | Loss_Ratio:1.2838
+  [Ep 1] Batch 55/63 | Loss Task: 0.7227 | LwF:0.1157 | P:1.000 | Loss_Ratio:1.2489
+  [Ep 1] Batch 60/63 | Loss Task: 0.9688 | LwF:0.1089 | P:1.000 | Loss_Ratio:1.7794
+  [Ep 2] Batch 0/63 | Loss Task: 0.6445 | LwF:0.1152 | P:1.000 | Loss_Ratio:1.1186
+  [Ep 2] Batch 5/63 | Loss Task: 0.6133 | LwF:0.1279 | P:1.000 | Loss_Ratio:0.9588
+  [Ep 2] Batch 10/63 | Loss Task: 0.7695 | LwF:0.1191 | P:1.000 | Loss_Ratio:1.2918
+  [Ep 2] Batch 15/63 | Loss Task: 0.5508 | LwF:0.1309 | P:1.000 | Loss_Ratio:0.8418
+  [Ep 2] Batch 20/63 | Loss Task: 0.6914 | LwF:0.1226 | P:1.000 | Loss_Ratio:1.1283
+  [Ep 2] Batch 25/63 | Loss Task: 0.6875 | LwF:0.1299 | P:1.000 | Loss_Ratio:1.0586
+  [Ep 2] Batch 30/63 | Loss Task: 0.7227 | LwF:0.1260 | P:1.000 | Loss_Ratio:1.1473
+  [Ep 2] Batch 35/63 | Loss Task: 0.5312 | LwF:0.1240 | P:1.000 | Loss_Ratio:0.8567
+  [Ep 2] Batch 40/63 | Loss Task: 0.4453 | LwF:0.1279 | P:1.000 | Loss_Ratio:0.6962
+  [Ep 2] Batch 45/63 | Loss Task: 0.6016 | LwF:0.1172 | P:1.000 | Loss_Ratio:1.0267
+  [Ep 2] Batch 50/63 | Loss Task: 0.5742 | LwF:0.1309 | P:1.000 | Loss_Ratio:0.8776
+  [Ep 2] Batch 55/63 | Loss Task: 0.5898 | LwF:0.1123 | P:1.000 | Loss_Ratio:1.0504
+  [Ep 2] Batch 60/63 | Loss Task: 0.4980 | LwF:0.1206 | P:1.000 | Loss_Ratio:0.8259
+  [Ep 3] Batch 0/63 | Loss Task: 0.5820 | LwF:0.1216 | P:1.000 | Loss_Ratio:0.9574
+  [Ep 3] Batch 5/63 | Loss Task: 0.5859 | LwF:0.1162 | P:1.000 | Loss_Ratio:1.0084
+  [Ep 3] Batch 10/63 | Loss Task: 0.5508 | LwF:0.1143 | P:1.000 | Loss_Ratio:0.9641
+  [Ep 3] Batch 15/63 | Loss Task: 0.7422 | LwF:0.1167 | P:1.000 | Loss_Ratio:1.2720
+  [Ep 3] Batch 20/63 | Loss Task: 0.5117 | LwF:0.1289 | P:1.000 | Loss_Ratio:0.7939
+  [Ep 3] Batch 25/63 | Loss Task: 0.5430 | LwF:0.1289 | P:1.000 | Loss_Ratio:0.8424
+  [Ep 3] Batch 30/63 | Loss Task: 0.6094 | LwF:0.1216 | P:1.000 | Loss_Ratio:1.0024
+  [Ep 3] Batch 35/63 | Loss Task: 0.5938 | LwF:0.1289 | P:1.000 | Loss_Ratio:0.9212
+  [Ep 3] Batch 40/63 | Loss Task: 0.5156 | LwF:0.1260 | P:1.000 | Loss_Ratio:0.8186
+  [Ep 3] Batch 45/63 | Loss Task: 0.4512 | LwF:0.1245 | P:1.000 | Loss_Ratio:0.7247
+  [Ep 3] Batch 50/63 | Loss Task: 0.5430 | LwF:0.1128 | P:1.000 | Loss_Ratio:0.9628
+  [Ep 3] Batch 55/63 | Loss Task: 0.5664 | LwF:0.1206 | P:1.000 | Loss_Ratio:0.9393
+  [Ep 3] Batch 60/63 | Loss Task: 0.6641 | LwF:0.1138 | P:1.000 | Loss_Ratio:1.1674
+  [Ep 4] Batch 0/63 | Loss Task: 0.5195 | LwF:0.1172 | P:1.000 | Loss_Ratio:0.8867
+  [Ep 4] Batch 5/63 | Loss Task: 0.5703 | LwF:0.1250 | P:1.000 | Loss_Ratio:0.9125
+  [Ep 4] Batch 10/63 | Loss Task: 0.5234 | LwF:0.1094 | P:1.000 | Loss_Ratio:0.9571
+  [Ep 4] Batch 15/63 | Loss Task: 0.4668 | LwF:0.1206 | P:1.000 | Loss_Ratio:0.7741
+  [Ep 4] Batch 20/63 | Loss Task: 0.4941 | LwF:0.1230 | P:1.000 | Loss_Ratio:0.8032
+  [Ep 4] Batch 25/63 | Loss Task: 0.5508 | LwF:0.1162 | P:1.000 | Loss_Ratio:0.9479
+  [Ep 4] Batch 30/63 | Loss Task: 0.4102 | LwF:0.1318 | P:1.000 | Loss_Ratio:0.6222
+  [Ep 4] Batch 35/63 | Loss Task: 0.4453 | LwF:0.1211 | P:1.000 | Loss_Ratio:0.7355
+  [Ep 4] Batch 40/63 | Loss Task: 0.6523 | LwF:0.1040 | P:1.000 | Loss_Ratio:1.2545
+  [Ep 4] Batch 45/63 | Loss Task: 0.5078 | LwF:0.1196 | P:1.000 | Loss_Ratio:0.8490
+  [Ep 4] Batch 50/63 | Loss Task: 0.6719 | LwF:0.1143 | P:1.000 | Loss_Ratio:1.1761
+  [Ep 4] Batch 55/63 | Loss Task: 0.4844 | LwF:0.1289 | P:1.000 | Loss_Ratio:0.7515
+  [Ep 4] Batch 60/63 | Loss Task: 0.4883 | LwF:0.1211 | P:1.000 | Loss_Ratio:0.8065
+    [Gestalt] L10_q: 71/576 dims protegidas
+    [Gestalt] L10_v: 71/576 dims protegidas
+    [Gestalt] L11_q: 43/576 dims protegidas
+    [Gestalt] L11_v: 43/576 dims protegidas
+    [Gestalt] L12_q: 11/576 dims protegidas
+    [Gestalt] L12_v: 11/576 dims protegidas
+    [Gestalt] L13_q: 7/576 dims protegidas
+    [Gestalt] L13_v: 7/576 dims protegidas
+    [Gestalt] L14_q: 11/576 dims protegidas
+    [Gestalt] L14_v: 11/576 dims protegidas
+    [Gestalt] L15_q: 13/576 dims protegidas
+    [Gestalt] L15_v: 13/576 dims protegidas
+    [Gestalt] L16_q: 14/576 dims protegidas
+    [Gestalt] L16_v: 14/576 dims protegidas
+    [Gestalt] L17_q: 14/576 dims protegidas
+    [Gestalt] L17_v: 14/576 dims protegidas
+    [Gestalt] L18_q: 16/576 dims protegidas
+    [Gestalt] L18_v: 16/576 dims protegidas
+    [Gestalt] L19_q: 11/576 dims protegidas
+    [Gestalt] L19_v: 11/576 dims protegidas
+    [Gestalt] L20_q: 18/576 dims protegidas
+    [Gestalt] L20_v: 18/576 dims protegidas
+    [Gestalt] L21_q: 21/576 dims protegidas
+    [Gestalt] L21_v: 21/576 dims protegidas
+    [Gestalt] L22_q: 30/576 dims protegidas
+    [Gestalt] L22_v: 30/576 dims protegidas
+    [Gestalt] L23_q: 41/576 dims protegidas
+    [Gestalt] L23_v: 41/576 dims protegidas
+    [Gestalt] L24_q: 35/576 dims protegidas
+    [Gestalt] L24_v: 35/576 dims protegidas
+    [Gestalt] L25_q: 42/576 dims protegidas
+    [Gestalt] L25_v: 42/576 dims protegidas
+    [Gestalt] L26_q: 43/576 dims protegidas
+    [Gestalt] L26_v: 43/576 dims protegidas
+    [Gestalt] L27_q: 40/576 dims protegidas
+    [Gestalt] L27_v: 40/576 dims protegidas
+    [Gestalt] L28_q: 35/576 dims protegidas
+    [Gestalt] L28_v: 35/576 dims protegidas
+    [Gestalt] L29_q: 39/576 dims protegidas
+    [Gestalt] L29_v: 39/576 dims protegidas
+ Completado. Accs: ['98%', '94%']
+  T2/15 → ['98%', '94%']
+  [Entrenando Tarea 3/15]...  [Ep 0] Batch 0/63 | Loss Task: 3.6406 | LwF:0.0000 | P:1.000 | Loss_Ratio:36406250000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 2.5312 | LwF:0.0527 | P:1.000 | Loss_Ratio:9.6000
+  [Ep 0] Batch 10/63 | Loss Task: 2.1719 | LwF:0.0742 | P:1.000 | Loss_Ratio:5.8526
+  [Ep 0] Batch 15/63 | Loss Task: 1.8281 | LwF:0.0942 | P:1.000 | Loss_Ratio:3.8798
+  [Ep 0] Batch 20/63 | Loss Task: 1.6953 | LwF:0.1348 | P:1.000 | Loss_Ratio:2.5159
+  [Ep 0] Batch 25/63 | Loss Task: 1.4922 | LwF:0.1045 | P:1.000 | Loss_Ratio:2.8561
+  [Ep 0] Batch 30/63 | Loss Task: 1.6250 | LwF:0.1035 | P:1.000 | Loss_Ratio:3.1396
+  [Ep 0] Batch 35/63 | Loss Task: 1.4766 | LwF:0.1201 | P:1.000 | Loss_Ratio:2.4585
+  [Ep 0] Batch 40/63 | Loss Task: 1.2656 | LwF:0.1338 | P:1.000 | Loss_Ratio:1.8920
+  [Ep 0] Batch 45/63 | Loss Task: 1.0234 | LwF:0.1309 | P:1.000 | Loss_Ratio:1.5642
+  [Ep 0] Batch 50/63 | Loss Task: 1.2500 | LwF:0.1245 | P:1.000 | Loss_Ratio:2.0078
+  [Ep 0] Batch 55/63 | Loss Task: 0.9961 | LwF:0.1328 | P:1.000 | Loss_Ratio:1.5000
+  [Ep 0] Batch 60/63 | Loss Task: 0.9062 | LwF:0.1514 | P:1.000 | Loss_Ratio:1.1974
+  [Ep 1] Batch 0/63 | Loss Task: 0.8828 | LwF:0.1484 | P:1.000 | Loss_Ratio:1.1895
+  [Ep 1] Batch 5/63 | Loss Task: 1.1641 | LwF:0.1226 | P:1.000 | Loss_Ratio:1.8996
+  [Ep 1] Batch 10/63 | Loss Task: 0.8672 | LwF:0.1201 | P:1.000 | Loss_Ratio:1.4439
+  [Ep 1] Batch 15/63 | Loss Task: 0.9727 | LwF:0.1357 | P:1.000 | Loss_Ratio:1.4331
+  [Ep 1] Batch 20/63 | Loss Task: 0.9570 | LwF:0.1357 | P:1.000 | Loss_Ratio:1.4101
+  [Ep 1] Batch 25/63 | Loss Task: 0.8477 | LwF:0.1406 | P:1.000 | Loss_Ratio:1.2056
+  [Ep 1] Batch 30/63 | Loss Task: 0.7734 | LwF:0.1426 | P:1.000 | Loss_Ratio:1.0849
+  [Ep 1] Batch 35/63 | Loss Task: 0.9141 | LwF:0.1367 | P:1.000 | Loss_Ratio:1.3371
+  [Ep 1] Batch 40/63 | Loss Task: 0.8711 | LwF:0.1416 | P:1.000 | Loss_Ratio:1.2303
+  [Ep 1] Batch 45/63 | Loss Task: 0.6992 | LwF:0.1396 | P:1.000 | Loss_Ratio:1.0014
+  [Ep 1] Batch 50/63 | Loss Task: 0.7227 | LwF:0.1328 | P:1.000 | Loss_Ratio:1.0882
+  [Ep 1] Batch 55/63 | Loss Task: 0.8828 | LwF:0.1445 | P:1.000 | Loss_Ratio:1.2216
+  [Ep 1] Batch 60/63 | Loss Task: 0.6758 | LwF:0.1348 | P:1.000 | Loss_Ratio:1.0029
+  [Ep 2] Batch 0/63 | Loss Task: 0.8047 | LwF:0.1357 | P:1.000 | Loss_Ratio:1.1856
+  [Ep 2] Batch 5/63 | Loss Task: 0.8438 | LwF:0.1426 | P:1.000 | Loss_Ratio:1.1836
+  [Ep 2] Batch 10/63 | Loss Task: 0.8281 | LwF:0.1436 | P:1.000 | Loss_Ratio:1.1537
+  [Ep 2] Batch 15/63 | Loss Task: 0.7383 | LwF:0.1396 | P:1.000 | Loss_Ratio:1.0573
+  [Ep 2] Batch 20/63 | Loss Task: 0.6055 | LwF:0.1416 | P:1.000 | Loss_Ratio:0.8552
+  [Ep 2] Batch 25/63 | Loss Task: 0.6328 | LwF:0.1475 | P:1.000 | Loss_Ratio:0.8583
+  [Ep 2] Batch 30/63 | Loss Task: 0.5625 | LwF:0.1309 | P:1.000 | Loss_Ratio:0.8597
+  [Ep 2] Batch 35/63 | Loss Task: 0.7852 | LwF:0.1445 | P:1.000 | Loss_Ratio:1.0865
+  [Ep 2] Batch 40/63 | Loss Task: 0.7695 | LwF:0.1523 | P:1.000 | Loss_Ratio:1.0103
+  [Ep 2] Batch 45/63 | Loss Task: 0.5312 | LwF:0.1465 | P:1.000 | Loss_Ratio:0.7253
+  [Ep 2] Batch 50/63 | Loss Task: 0.6055 | LwF:0.1514 | P:1.000 | Loss_Ratio:0.8000
+  [Ep 2] Batch 55/63 | Loss Task: 0.7812 | LwF:0.1572 | P:1.000 | Loss_Ratio:0.9938
+  [Ep 2] Batch 60/63 | Loss Task: 0.5742 | LwF:0.1357 | P:1.000 | Loss_Ratio:0.8460
+  [Ep 3] Batch 0/63 | Loss Task: 0.5312 | LwF:0.1328 | P:1.000 | Loss_Ratio:0.8000
+  [Ep 3] Batch 5/63 | Loss Task: 0.6250 | LwF:0.1367 | P:1.000 | Loss_Ratio:0.9143
+  [Ep 3] Batch 10/63 | Loss Task: 0.6055 | LwF:0.1436 | P:1.000 | Loss_Ratio:0.8435
+  [Ep 3] Batch 15/63 | Loss Task: 0.6641 | LwF:0.1377 | P:1.000 | Loss_Ratio:0.9645
+  [Ep 3] Batch 20/63 | Loss Task: 0.5234 | LwF:0.1426 | P:1.000 | Loss_Ratio:0.7342
+  [Ep 3] Batch 25/63 | Loss Task: 0.5742 | LwF:0.1279 | P:1.000 | Loss_Ratio:0.8977
+  [Ep 3] Batch 30/63 | Loss Task: 0.6562 | LwF:0.1445 | P:1.000 | Loss_Ratio:0.9081
+  [Ep 3] Batch 35/63 | Loss Task: 0.6484 | LwF:0.1406 | P:1.000 | Loss_Ratio:0.9222
+  [Ep 3] Batch 40/63 | Loss Task: 0.4785 | LwF:0.1436 | P:1.000 | Loss_Ratio:0.6667
+  [Ep 3] Batch 45/63 | Loss Task: 0.6992 | LwF:0.1387 | P:1.000 | Loss_Ratio:1.0085
+  [Ep 3] Batch 50/63 | Loss Task: 0.5703 | LwF:0.1436 | P:1.000 | Loss_Ratio:0.7946
+  [Ep 3] Batch 55/63 | Loss Task: 0.6055 | LwF:0.1670 | P:1.000 | Loss_Ratio:0.7251
+  [Ep 3] Batch 60/63 | Loss Task: 0.7031 | LwF:0.1436 | P:1.000 | Loss_Ratio:0.9796
+  [Ep 4] Batch 0/63 | Loss Task: 0.6484 | LwF:0.1396 | P:1.000 | Loss_Ratio:0.9287
+  [Ep 4] Batch 5/63 | Loss Task: 0.6133 | LwF:0.1514 | P:1.000 | Loss_Ratio:0.8103
+  [Ep 4] Batch 10/63 | Loss Task: 0.7031 | LwF:0.1445 | P:1.000 | Loss_Ratio:0.9730
+  [Ep 4] Batch 15/63 | Loss Task: 0.7227 | LwF:0.1299 | P:1.000 | Loss_Ratio:1.1128
+  [Ep 4] Batch 20/63 | Loss Task: 0.5391 | LwF:0.1650 | P:1.000 | Loss_Ratio:0.6533
+  [Ep 4] Batch 25/63 | Loss Task: 0.5703 | LwF:0.1436 | P:1.000 | Loss_Ratio:0.7946
+  [Ep 4] Batch 30/63 | Loss Task: 0.6211 | LwF:0.1436 | P:1.000 | Loss_Ratio:0.8653
+  [Ep 4] Batch 35/63 | Loss Task: 0.6289 | LwF:0.1416 | P:1.000 | Loss_Ratio:0.8883
+  [Ep 4] Batch 40/63 | Loss Task: 0.5664 | LwF:0.1475 | P:1.000 | Loss_Ratio:0.7682
+  [Ep 4] Batch 45/63 | Loss Task: 0.6406 | LwF:0.1357 | P:1.000 | Loss_Ratio:0.9439
+  [Ep 4] Batch 50/63 | Loss Task: 0.5547 | LwF:0.1602 | P:1.000 | Loss_Ratio:0.6927
+  [Ep 4] Batch 55/63 | Loss Task: 0.4883 | LwF:0.1357 | P:1.000 | Loss_Ratio:0.7194
+  [Ep 4] Batch 60/63 | Loss Task: 0.6172 | LwF:0.1270 | P:1.000 | Loss_Ratio:0.9723
+    [Gestalt] L10_q: 71/576 dims protegidas
+    [Gestalt] L10_v: 71/576 dims protegidas
+    [Gestalt] L11_q: 43/576 dims protegidas
+    [Gestalt] L11_v: 43/576 dims protegidas
+    [Gestalt] L12_q: 11/576 dims protegidas
+    [Gestalt] L12_v: 11/576 dims protegidas
+    [Gestalt] L13_q: 6/576 dims protegidas
+    [Gestalt] L13_v: 6/576 dims protegidas
+    [Gestalt] L14_q: 11/576 dims protegidas
+    [Gestalt] L14_v: 11/576 dims protegidas
+    [Gestalt] L15_q: 12/576 dims protegidas
+    [Gestalt] L15_v: 12/576 dims protegidas
+    [Gestalt] L16_q: 13/576 dims protegidas
+    [Gestalt] L16_v: 13/576 dims protegidas
+    [Gestalt] L17_q: 13/576 dims protegidas
+    [Gestalt] L17_v: 13/576 dims protegidas
+    [Gestalt] L18_q: 15/576 dims protegidas
+    [Gestalt] L18_v: 15/576 dims protegidas
+    [Gestalt] L19_q: 12/576 dims protegidas
+    [Gestalt] L19_v: 12/576 dims protegidas
+    [Gestalt] L20_q: 17/576 dims protegidas
+    [Gestalt] L20_v: 17/576 dims protegidas
+    [Gestalt] L21_q: 20/576 dims protegidas
+    [Gestalt] L21_v: 20/576 dims protegidas
+    [Gestalt] L22_q: 29/576 dims protegidas
+    [Gestalt] L22_v: 29/576 dims protegidas
+    [Gestalt] L23_q: 40/576 dims protegidas
+    [Gestalt] L23_v: 40/576 dims protegidas
+    [Gestalt] L24_q: 34/576 dims protegidas
+    [Gestalt] L24_v: 34/576 dims protegidas
+    [Gestalt] L25_q: 44/576 dims protegidas
+    [Gestalt] L25_v: 44/576 dims protegidas
+    [Gestalt] L26_q: 45/576 dims protegidas
+    [Gestalt] L26_v: 45/576 dims protegidas
+    [Gestalt] L27_q: 42/576 dims protegidas
+    [Gestalt] L27_v: 42/576 dims protegidas
+    [Gestalt] L28_q: 38/576 dims protegidas
+    [Gestalt] L28_v: 38/576 dims protegidas
+    [Gestalt] L29_q: 43/576 dims protegidas
+    [Gestalt] L29_v: 43/576 dims protegidas
+ Completado. Accs: ['94%', '94%', '92%']
+  T3/15 → ['94%', '94%', '92%']
+  [Entrenando Tarea 4/15]...  [Ep 0] Batch 0/63 | Loss Task: 4.3750 | LwF:0.0000 | P:1.000 | Loss_Ratio:43750000000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 3.2344 | LwF:0.0654 | P:1.000 | Loss_Ratio:9.8866
+  [Ep 0] Batch 10/63 | Loss Task: 2.6875 | LwF:0.0933 | P:1.000 | Loss_Ratio:5.7634
+  [Ep 0] Batch 15/63 | Loss Task: 2.4688 | LwF:0.1240 | P:1.000 | Loss_Ratio:3.9811
+  [Ep 0] Batch 20/63 | Loss Task: 2.0625 | LwF:0.1191 | P:1.000 | Loss_Ratio:3.4623
+  [Ep 0] Batch 25/63 | Loss Task: 2.0156 | LwF:0.1699 | P:1.000 | Loss_Ratio:2.3724
+  [Ep 0] Batch 30/63 | Loss Task: 1.6406 | LwF:0.1318 | P:1.000 | Loss_Ratio:2.4889
+  [Ep 0] Batch 35/63 | Loss Task: 1.3359 | LwF:0.1455 | P:1.000 | Loss_Ratio:1.8362
+  [Ep 0] Batch 40/63 | Loss Task: 1.4609 | LwF:0.1562 | P:1.000 | Loss_Ratio:1.8700
+  [Ep 0] Batch 45/63 | Loss Task: 1.0391 | LwF:0.1514 | P:1.000 | Loss_Ratio:1.3729
+  [Ep 0] Batch 50/63 | Loss Task: 0.9805 | LwF:0.1592 | P:1.000 | Loss_Ratio:1.2319
+  [Ep 0] Batch 55/63 | Loss Task: 1.0391 | LwF:0.1621 | P:1.000 | Loss_Ratio:1.2819
+  [Ep 0] Batch 60/63 | Loss Task: 1.1719 | LwF:0.1494 | P:1.000 | Loss_Ratio:1.5686
+  [Ep 1] Batch 0/63 | Loss Task: 0.9297 | LwF:0.1787 | P:1.000 | Loss_Ratio:1.0404
+  [Ep 1] Batch 5/63 | Loss Task: 0.8867 | LwF:0.1562 | P:1.000 | Loss_Ratio:1.1350
+  [Ep 1] Batch 10/63 | Loss Task: 0.8086 | LwF:0.1436 | P:1.000 | Loss_Ratio:1.1265
+  [Ep 1] Batch 15/63 | Loss Task: 0.8477 | LwF:0.1592 | P:1.000 | Loss_Ratio:1.0650
+  [Ep 1] Batch 20/63 | Loss Task: 0.8555 | LwF:0.1504 | P:1.000 | Loss_Ratio:1.1377
+  [Ep 1] Batch 25/63 | Loss Task: 0.8867 | LwF:0.1377 | P:1.000 | Loss_Ratio:1.2879
+  [Ep 1] Batch 30/63 | Loss Task: 0.7500 | LwF:0.1709 | P:1.000 | Loss_Ratio:0.8777
+  [Ep 1] Batch 35/63 | Loss Task: 0.7969 | LwF:0.1797 | P:1.000 | Loss_Ratio:0.8870
+  [Ep 1] Batch 40/63 | Loss Task: 0.9453 | LwF:0.1396 | P:1.000 | Loss_Ratio:1.3538
+  [Ep 1] Batch 45/63 | Loss Task: 0.8438 | LwF:0.1641 | P:1.000 | Loss_Ratio:1.0286
+  [Ep 1] Batch 50/63 | Loss Task: 0.7773 | LwF:0.1592 | P:1.000 | Loss_Ratio:0.9767
+  [Ep 1] Batch 55/63 | Loss Task: 0.7773 | LwF:0.1826 | P:1.000 | Loss_Ratio:0.8513
+  [Ep 1] Batch 60/63 | Loss Task: 1.0391 | LwF:0.1553 | P:1.000 | Loss_Ratio:1.3384
+  [Ep 2] Batch 0/63 | Loss Task: 0.7852 | LwF:0.1445 | P:1.000 | Loss_Ratio:1.0865
+  [Ep 2] Batch 5/63 | Loss Task: 0.8711 | LwF:0.1572 | P:1.000 | Loss_Ratio:1.1081
+  [Ep 2] Batch 10/63 | Loss Task: 0.6406 | LwF:0.1465 | P:1.000 | Loss_Ratio:0.8747
+  [Ep 2] Batch 15/63 | Loss Task: 0.8359 | LwF:0.1475 | P:1.000 | Loss_Ratio:1.1338
+  [Ep 2] Batch 20/63 | Loss Task: 0.7109 | LwF:0.1523 | P:1.000 | Loss_Ratio:0.9333
+  [Ep 2] Batch 25/63 | Loss Task: 0.6836 | LwF:0.1670 | P:1.000 | Loss_Ratio:0.8187
+  [Ep 2] Batch 30/63 | Loss Task: 0.7695 | LwF:0.1367 | P:1.000 | Loss_Ratio:1.1257
+  [Ep 2] Batch 35/63 | Loss Task: 0.6523 | LwF:0.1699 | P:1.000 | Loss_Ratio:0.7678
+  [Ep 2] Batch 40/63 | Loss Task: 0.6641 | LwF:0.1758 | P:1.000 | Loss_Ratio:0.7556
+  [Ep 2] Batch 45/63 | Loss Task: 0.6875 | LwF:0.1504 | P:1.000 | Loss_Ratio:0.9143
+  [Ep 2] Batch 50/63 | Loss Task: 0.7266 | LwF:0.1416 | P:1.000 | Loss_Ratio:1.0262
+  [Ep 2] Batch 55/63 | Loss Task: 0.7500 | LwF:0.1592 | P:1.000 | Loss_Ratio:0.9423
+  [Ep 2] Batch 60/63 | Loss Task: 0.5938 | LwF:0.1738 | P:1.000 | Loss_Ratio:0.6831
+  [Ep 3] Batch 0/63 | Loss Task: 0.6523 | LwF:0.1611 | P:1.000 | Loss_Ratio:0.8097
+  [Ep 3] Batch 5/63 | Loss Task: 0.6992 | LwF:0.1572 | P:1.000 | Loss_Ratio:0.8894
+  [Ep 3] Batch 10/63 | Loss Task: 0.7422 | LwF:0.1641 | P:1.000 | Loss_Ratio:0.9048
+  [Ep 3] Batch 15/63 | Loss Task: 0.7109 | LwF:0.1543 | P:1.000 | Loss_Ratio:0.9215
+  [Ep 3] Batch 20/63 | Loss Task: 0.6367 | LwF:0.1631 | P:1.000 | Loss_Ratio:0.7808
+  [Ep 3] Batch 25/63 | Loss Task: 0.5547 | LwF:0.1602 | P:1.000 | Loss_Ratio:0.6927
+  [Ep 3] Batch 30/63 | Loss Task: 0.8633 | LwF:0.1543 | P:1.000 | Loss_Ratio:1.1190
+  [Ep 3] Batch 35/63 | Loss Task: 0.6055 | LwF:0.1650 | P:1.000 | Loss_Ratio:0.7337
+  [Ep 3] Batch 40/63 | Loss Task: 0.7461 | LwF:0.1475 | P:1.000 | Loss_Ratio:1.0119
+  [Ep 3] Batch 45/63 | Loss Task: 0.5312 | LwF:0.1680 | P:1.000 | Loss_Ratio:0.6326
+  [Ep 3] Batch 50/63 | Loss Task: 0.5781 | LwF:0.1572 | P:1.000 | Loss_Ratio:0.7354
+  [Ep 3] Batch 55/63 | Loss Task: 0.6797 | LwF:0.1514 | P:1.000 | Loss_Ratio:0.8981
+  [Ep 3] Batch 60/63 | Loss Task: 0.6836 | LwF:0.1553 | P:1.000 | Loss_Ratio:0.8805
+  [Ep 4] Batch 0/63 | Loss Task: 0.6523 | LwF:0.1602 | P:1.000 | Loss_Ratio:0.8146
+  [Ep 4] Batch 5/63 | Loss Task: 0.6875 | LwF:0.1553 | P:1.000 | Loss_Ratio:0.8855
+  [Ep 4] Batch 10/63 | Loss Task: 0.6250 | LwF:0.1680 | P:1.000 | Loss_Ratio:0.7442
+  [Ep 4] Batch 15/63 | Loss Task: 0.5625 | LwF:0.1631 | P:1.000 | Loss_Ratio:0.6898
+  [Ep 4] Batch 20/63 | Loss Task: 0.5781 | LwF:0.1582 | P:1.000 | Loss_Ratio:0.7309
+  [Ep 4] Batch 25/63 | Loss Task: 0.6836 | LwF:0.1416 | P:1.000 | Loss_Ratio:0.9655
+  [Ep 4] Batch 30/63 | Loss Task: 0.5625 | LwF:0.1641 | P:1.000 | Loss_Ratio:0.6857
+  [Ep 4] Batch 35/63 | Loss Task: 0.6953 | LwF:0.1455 | P:1.000 | Loss_Ratio:0.9557
+  [Ep 4] Batch 40/63 | Loss Task: 0.8672 | LwF:0.1406 | P:1.000 | Loss_Ratio:1.2333
+  [Ep 4] Batch 45/63 | Loss Task: 0.6523 | LwF:0.1533 | P:1.000 | Loss_Ratio:0.8510
+  [Ep 4] Batch 50/63 | Loss Task: 0.6797 | LwF:0.1641 | P:1.000 | Loss_Ratio:0.8286
+  [Ep 4] Batch 55/63 | Loss Task: 0.7109 | LwF:0.1543 | P:1.000 | Loss_Ratio:0.9215
+  [Ep 4] Batch 60/63 | Loss Task: 0.7109 | LwF:0.1543 | P:1.000 | Loss_Ratio:0.9215
+    [Gestalt] L10_q: 72/576 dims protegidas
+    [Gestalt] L10_v: 72/576 dims protegidas
+    [Gestalt] L11_q: 48/576 dims protegidas
+    [Gestalt] L11_v: 48/576 dims protegidas
+    [Gestalt] L12_q: 11/576 dims protegidas
+    [Gestalt] L12_v: 11/576 dims protegidas
+    [Gestalt] L13_q: 7/576 dims protegidas
+    [Gestalt] L13_v: 7/576 dims protegidas
+    [Gestalt] L14_q: 12/576 dims protegidas
+    [Gestalt] L14_v: 12/576 dims protegidas
+    [Gestalt] L15_q: 12/576 dims protegidas
+    [Gestalt] L15_v: 12/576 dims protegidas
+    [Gestalt] L16_q: 12/576 dims protegidas
+    [Gestalt] L16_v: 12/576 dims protegidas
+    [Gestalt] L17_q: 13/576 dims protegidas
+    [Gestalt] L17_v: 13/576 dims protegidas
+    [Gestalt] L18_q: 16/576 dims protegidas
+    [Gestalt] L18_v: 16/576 dims protegidas
+    [Gestalt] L19_q: 11/576 dims protegidas
+    [Gestalt] L19_v: 11/576 dims protegidas
+    [Gestalt] L20_q: 18/576 dims protegidas
+    [Gestalt] L20_v: 18/576 dims protegidas
+    [Gestalt] L21_q: 21/576 dims protegidas
+    [Gestalt] L21_v: 21/576 dims protegidas
+    [Gestalt] L22_q: 28/576 dims protegidas
+    [Gestalt] L22_v: 28/576 dims protegidas
+    [Gestalt] L23_q: 40/576 dims protegidas
+    [Gestalt] L23_v: 40/576 dims protegidas
+    [Gestalt] L24_q: 33/576 dims protegidas
+    [Gestalt] L24_v: 33/576 dims protegidas
+    [Gestalt] L25_q: 43/576 dims protegidas
+    [Gestalt] L25_v: 43/576 dims protegidas
+    [Gestalt] L26_q: 44/576 dims protegidas
+    [Gestalt] L26_v: 44/576 dims protegidas
+    [Gestalt] L27_q: 40/576 dims protegidas
+    [Gestalt] L27_v: 40/576 dims protegidas
+    [Gestalt] L28_q: 38/576 dims protegidas
+    [Gestalt] L28_v: 38/576 dims protegidas
+    [Gestalt] L29_q: 45/576 dims protegidas
+    [Gestalt] L29_v: 45/576 dims protegidas
+ Completado. Accs: ['81%', '85%', '84%', '97%']
+  T4/15 → ['81%', '85%', '84%', '97%']
+  [Entrenando Tarea 5/15]...  [Ep 0] Batch 0/72 | Loss Task: 4.1562 | LwF:0.0000 | P:1.000 | Loss_Ratio:41562500000.0000
+  [Ep 0] Batch 5/72 | Loss Task: 3.2344 | LwF:0.0645 | P:1.000 | Loss_Ratio:10.0364
+  [Ep 0] Batch 10/72 | Loss Task: 2.7031 | LwF:0.1006 | P:1.000 | Loss_Ratio:5.3748
+  [Ep 0] Batch 15/72 | Loss Task: 2.4375 | LwF:0.1260 | P:1.000 | Loss_Ratio:3.8698
+  [Ep 0] Batch 20/72 | Loss Task: 2.4219 | LwF:0.1260 | P:1.000 | Loss_Ratio:3.8450
+  [Ep 0] Batch 25/72 | Loss Task: 1.7812 | LwF:0.1309 | P:1.000 | Loss_Ratio:2.7224
+  [Ep 0] Batch 30/72 | Loss Task: 2.0469 | LwF:0.1377 | P:1.000 | Loss_Ratio:2.9730
+  [Ep 0] Batch 35/72 | Loss Task: 1.6953 | LwF:0.1299 | P:1.000 | Loss_Ratio:2.6105
+  [Ep 0] Batch 40/72 | Loss Task: 1.5547 | LwF:0.1377 | P:1.000 | Loss_Ratio:2.2582
+  [Ep 0] Batch 45/72 | Loss Task: 1.6641 | LwF:0.1436 | P:1.000 | Loss_Ratio:2.3184
+  [Ep 0] Batch 50/72 | Loss Task: 1.4453 | LwF:0.1494 | P:1.000 | Loss_Ratio:1.9346
+  [Ep 0] Batch 55/72 | Loss Task: 1.4766 | LwF:0.1553 | P:1.000 | Loss_Ratio:1.9019
+  [Ep 0] Batch 60/72 | Loss Task: 1.5391 | LwF:0.1377 | P:1.000 | Loss_Ratio:2.2355
+  [Ep 0] Batch 65/72 | Loss Task: 1.1406 | LwF:0.1650 | P:1.000 | Loss_Ratio:1.3822
+  [Ep 0] Batch 70/72 | Loss Task: 0.9609 | LwF:0.1670 | P:1.000 | Loss_Ratio:1.1509
+  [Ep 1] Batch 0/72 | Loss Task: 0.9414 | LwF:0.1680 | P:1.000 | Loss_Ratio:1.1209
+  [Ep 1] Batch 5/72 | Loss Task: 1.0547 | LwF:0.1699 | P:1.000 | Loss_Ratio:1.2414
+  [Ep 1] Batch 10/72 | Loss Task: 1.1797 | LwF:0.1611 | P:1.000 | Loss_Ratio:1.4642
+  [Ep 1] Batch 15/72 | Loss Task: 1.0078 | LwF:0.1641 | P:1.000 | Loss_Ratio:1.2286
+  [Ep 1] Batch 20/72 | Loss Task: 0.9961 | LwF:0.1846 | P:1.000 | Loss_Ratio:1.0794
+  [Ep 1] Batch 25/72 | Loss Task: 1.1250 | LwF:0.1475 | P:1.000 | Loss_Ratio:1.5258
+  [Ep 1] Batch 30/72 | Loss Task: 0.9219 | LwF:0.1777 | P:1.000 | Loss_Ratio:1.0374
+  [Ep 1] Batch 35/72 | Loss Task: 0.9453 | LwF:0.1797 | P:1.000 | Loss_Ratio:1.0522
+  [Ep 1] Batch 40/72 | Loss Task: 1.0312 | LwF:0.1670 | P:1.000 | Loss_Ratio:1.2351
+  [Ep 1] Batch 45/72 | Loss Task: 0.9648 | LwF:0.1631 | P:1.000 | Loss_Ratio:1.1832
+  [Ep 1] Batch 50/72 | Loss Task: 1.1094 | LwF:0.1621 | P:1.000 | Loss_Ratio:1.3687
+  [Ep 1] Batch 55/72 | Loss Task: 0.9375 | LwF:0.1602 | P:1.000 | Loss_Ratio:1.1707
+  [Ep 1] Batch 60/72 | Loss Task: 0.9414 | LwF:0.1592 | P:1.000 | Loss_Ratio:1.1828
+  [Ep 1] Batch 65/72 | Loss Task: 0.7656 | LwF:0.1680 | P:1.000 | Loss_Ratio:0.9116
+  [Ep 1] Batch 70/72 | Loss Task: 0.9141 | LwF:0.1680 | P:1.000 | Loss_Ratio:1.0884
+  [Ep 2] Batch 0/72 | Loss Task: 0.8438 | LwF:0.1611 | P:1.000 | Loss_Ratio:1.0473
+  [Ep 2] Batch 5/72 | Loss Task: 0.8711 | LwF:0.1680 | P:1.000 | Loss_Ratio:1.0372
+  [Ep 2] Batch 10/72 | Loss Task: 1.0000 | LwF:0.1592 | P:1.000 | Loss_Ratio:1.2564
+  [Ep 2] Batch 15/72 | Loss Task: 0.9102 | LwF:0.1621 | P:1.000 | Loss_Ratio:1.1229
+  [Ep 2] Batch 20/72 | Loss Task: 0.9180 | LwF:0.1592 | P:1.000 | Loss_Ratio:1.1534
+  [Ep 2] Batch 25/72 | Loss Task: 1.1172 | LwF:0.1562 | P:1.000 | Loss_Ratio:1.4300
+  [Ep 2] Batch 30/72 | Loss Task: 0.7930 | LwF:0.1777 | P:1.000 | Loss_Ratio:0.8923
+  [Ep 2] Batch 35/72 | Loss Task: 0.7891 | LwF:0.1787 | P:1.000 | Loss_Ratio:0.8831
+  [Ep 2] Batch 40/72 | Loss Task: 0.8906 | LwF:0.1660 | P:1.000 | Loss_Ratio:1.0729
+  [Ep 2] Batch 45/72 | Loss Task: 0.9688 | LwF:0.1621 | P:1.000 | Loss_Ratio:1.1952
+  [Ep 2] Batch 50/72 | Loss Task: 1.0078 | LwF:0.1582 | P:1.000 | Loss_Ratio:1.2741
+  [Ep 2] Batch 55/72 | Loss Task: 0.7500 | LwF:0.1689 | P:1.000 | Loss_Ratio:0.8879
+  [Ep 2] Batch 60/72 | Loss Task: 0.9883 | LwF:0.1582 | P:1.000 | Loss_Ratio:1.2494
+  [Ep 2] Batch 65/72 | Loss Task: 0.8203 | LwF:0.1670 | P:1.000 | Loss_Ratio:0.9825
+  [Ep 2] Batch 70/72 | Loss Task: 0.9141 | LwF:0.1631 | P:1.000 | Loss_Ratio:1.1210
+  [Ep 3] Batch 0/72 | Loss Task: 0.8555 | LwF:0.1719 | P:1.000 | Loss_Ratio:0.9955
+  [Ep 3] Batch 5/72 | Loss Task: 0.8945 | LwF:0.1553 | P:1.000 | Loss_Ratio:1.1522
+  [Ep 3] Batch 10/72 | Loss Task: 0.8008 | LwF:0.1689 | P:1.000 | Loss_Ratio:0.9480
+  [Ep 3] Batch 15/72 | Loss Task: 0.7812 | LwF:0.1895 | P:1.000 | Loss_Ratio:0.8247
+  [Ep 3] Batch 20/72 | Loss Task: 0.8008 | LwF:0.1631 | P:1.000 | Loss_Ratio:0.9820
+  [Ep 3] Batch 25/72 | Loss Task: 0.7891 | LwF:0.1650 | P:1.000 | Loss_Ratio:0.9562
+  [Ep 3] Batch 30/72 | Loss Task: 1.0938 | LwF:0.1436 | P:1.000 | Loss_Ratio:1.5238
+  [Ep 3] Batch 35/72 | Loss Task: 0.8789 | LwF:0.1611 | P:1.000 | Loss_Ratio:1.0909
+  [Ep 3] Batch 40/72 | Loss Task: 0.9883 | LwF:0.1562 | P:1.000 | Loss_Ratio:1.2650
+  [Ep 3] Batch 45/72 | Loss Task: 0.7500 | LwF:0.1611 | P:1.000 | Loss_Ratio:0.9309
+  [Ep 3] Batch 50/72 | Loss Task: 0.7773 | LwF:0.1621 | P:1.000 | Loss_Ratio:0.9590
+  [Ep 3] Batch 55/72 | Loss Task: 0.6680 | LwF:0.1816 | P:1.000 | Loss_Ratio:0.7355
+  [Ep 3] Batch 60/72 | Loss Task: 0.8828 | LwF:0.1670 | P:1.000 | Loss_Ratio:1.0573
+  [Ep 3] Batch 65/72 | Loss Task: 0.8203 | LwF:0.1738 | P:1.000 | Loss_Ratio:0.9438
+  [Ep 3] Batch 70/72 | Loss Task: 0.7227 | LwF:0.1836 | P:1.000 | Loss_Ratio:0.7872
+  [Ep 4] Batch 0/72 | Loss Task: 0.9375 | LwF:0.1582 | P:1.000 | Loss_Ratio:1.1852
+  [Ep 4] Batch 5/72 | Loss Task: 0.8633 | LwF:0.1650 | P:1.000 | Loss_Ratio:1.0462
+  [Ep 4] Batch 10/72 | Loss Task: 0.8047 | LwF:0.1680 | P:1.000 | Loss_Ratio:0.9581
+  [Ep 4] Batch 15/72 | Loss Task: 0.7266 | LwF:0.1807 | P:1.000 | Loss_Ratio:0.8043
+  [Ep 4] Batch 20/72 | Loss Task: 0.7305 | LwF:0.1611 | P:1.000 | Loss_Ratio:0.9067
+  [Ep 4] Batch 25/72 | Loss Task: 0.6719 | LwF:0.1650 | P:1.000 | Loss_Ratio:0.8142
+  [Ep 4] Batch 30/72 | Loss Task: 0.8828 | LwF:0.1494 | P:1.000 | Loss_Ratio:1.1817
+  [Ep 4] Batch 35/72 | Loss Task: 0.6328 | LwF:0.1611 | P:1.000 | Loss_Ratio:0.7855
+  [Ep 4] Batch 40/72 | Loss Task: 1.0000 | LwF:0.1514 | P:1.000 | Loss_Ratio:1.3213
+  [Ep 4] Batch 45/72 | Loss Task: 0.7109 | LwF:0.1709 | P:1.000 | Loss_Ratio:0.8320
+  [Ep 4] Batch 50/72 | Loss Task: 0.8164 | LwF:0.1611 | P:1.000 | Loss_Ratio:1.0133
+  [Ep 4] Batch 55/72 | Loss Task: 0.6367 | LwF:0.1670 | P:1.000 | Loss_Ratio:0.7626
+  [Ep 4] Batch 60/72 | Loss Task: 0.8555 | LwF:0.1689 | P:1.000 | Loss_Ratio:1.0127
+  [Ep 4] Batch 65/72 | Loss Task: 0.7031 | LwF:0.1768 | P:1.000 | Loss_Ratio:0.7956
+  [Ep 4] Batch 70/72 | Loss Task: 0.6914 | LwF:0.1758 | P:1.000 | Loss_Ratio:0.7867
+    [Gestalt] L10_q: 71/576 dims protegidas
+    [Gestalt] L10_v: 71/576 dims protegidas
+    [Gestalt] L11_q: 47/576 dims protegidas
+    [Gestalt] L11_v: 47/576 dims protegidas
+    [Gestalt] L12_q: 10/576 dims protegidas
+    [Gestalt] L12_v: 10/576 dims protegidas
+    [Gestalt] L13_q: 7/576 dims protegidas
+    [Gestalt] L13_v: 7/576 dims protegidas
+    [Gestalt] L14_q: 11/576 dims protegidas
+    [Gestalt] L14_v: 11/576 dims protegidas
+    [Gestalt] L15_q: 12/576 dims protegidas
+    [Gestalt] L15_v: 12/576 dims protegidas
+    [Gestalt] L16_q: 13/576 dims protegidas
+    [Gestalt] L16_v: 13/576 dims protegidas
+    [Gestalt] L17_q: 13/576 dims protegidas
+    [Gestalt] L17_v: 13/576 dims protegidas
+    [Gestalt] L18_q: 16/576 dims protegidas
+    [Gestalt] L18_v: 16/576 dims protegidas
+    [Gestalt] L19_q: 11/576 dims protegidas
+    [Gestalt] L19_v: 11/576 dims protegidas
+    [Gestalt] L20_q: 16/576 dims protegidas
+    [Gestalt] L20_v: 16/576 dims protegidas
+    [Gestalt] L21_q: 20/576 dims protegidas
+    [Gestalt] L21_v: 20/576 dims protegidas
+    [Gestalt] L22_q: 25/576 dims protegidas
+    [Gestalt] L22_v: 25/576 dims protegidas
+    [Gestalt] L23_q: 39/576 dims protegidas
+    [Gestalt] L23_v: 39/576 dims protegidas
+    [Gestalt] L24_q: 31/576 dims protegidas
+    [Gestalt] L24_v: 31/576 dims protegidas
+    [Gestalt] L25_q: 42/576 dims protegidas
+    [Gestalt] L25_v: 42/576 dims protegidas
+    [Gestalt] L26_q: 43/576 dims protegidas
+    [Gestalt] L26_v: 43/576 dims protegidas
+    [Gestalt] L27_q: 40/576 dims protegidas
+    [Gestalt] L27_v: 40/576 dims protegidas
+    [Gestalt] L28_q: 37/576 dims protegidas
+    [Gestalt] L28_v: 37/576 dims protegidas
+    [Gestalt] L29_q: 46/576 dims protegidas
+    [Gestalt] L29_v: 46/576 dims protegidas
+ Completado. Accs: ['61%', '56%', '56%', '80%', '88%']
+  T5/15 → ['61%', '56%', '56%', '80%', '88%']
+  [Entrenando Tarea 6/15]...  [Ep 0] Batch 0/63 | Loss Task: 4.9375 | LwF:0.0000 | P:1.000 | Loss_Ratio:49375000000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 3.2656 | LwF:0.0933 | P:1.000 | Loss_Ratio:7.0031
+  [Ep 0] Batch 10/63 | Loss Task: 3.2656 | LwF:0.1064 | P:1.000 | Loss_Ratio:6.1358
+  [Ep 0] Batch 15/63 | Loss Task: 2.7188 | LwF:0.1250 | P:1.000 | Loss_Ratio:4.3500
+  [Ep 0] Batch 20/63 | Loss Task: 2.5000 | LwF:0.1367 | P:1.000 | Loss_Ratio:3.6571
+  [Ep 0] Batch 25/63 | Loss Task: 2.1094 | LwF:0.1475 | P:1.000 | Loss_Ratio:2.8609
+  [Ep 0] Batch 30/63 | Loss Task: 2.3125 | LwF:0.1377 | P:1.000 | Loss_Ratio:3.3589
+  [Ep 0] Batch 35/63 | Loss Task: 1.8516 | LwF:0.1729 | P:1.000 | Loss_Ratio:2.1424
+  [Ep 0] Batch 40/63 | Loss Task: 1.8672 | LwF:0.1602 | P:1.000 | Loss_Ratio:2.3317
+  [Ep 0] Batch 45/63 | Loss Task: 1.8438 | LwF:0.1582 | P:1.000 | Loss_Ratio:2.3309
+  [Ep 0] Batch 50/63 | Loss Task: 1.5625 | LwF:0.1729 | P:1.000 | Loss_Ratio:1.8079
+  [Ep 0] Batch 55/63 | Loss Task: 1.5391 | LwF:0.1504 | P:1.000 | Loss_Ratio:2.0468
+  [Ep 0] Batch 60/63 | Loss Task: 1.2344 | LwF:0.1650 | P:1.000 | Loss_Ratio:1.4959
+  [Ep 1] Batch 0/63 | Loss Task: 1.0703 | LwF:0.1914 | P:1.000 | Loss_Ratio:1.1184
+  [Ep 1] Batch 5/63 | Loss Task: 1.2969 | LwF:0.1807 | P:1.000 | Loss_Ratio:1.4357
+  [Ep 1] Batch 10/63 | Loss Task: 1.3281 | LwF:0.1680 | P:1.000 | Loss_Ratio:1.5814
+  [Ep 1] Batch 15/63 | Loss Task: 1.2109 | LwF:0.1973 | P:1.000 | Loss_Ratio:1.2277
+  [Ep 1] Batch 20/63 | Loss Task: 1.0469 | LwF:0.1719 | P:1.000 | Loss_Ratio:1.2182
+  [Ep 1] Batch 25/63 | Loss Task: 0.9023 | LwF:0.1885 | P:1.000 | Loss_Ratio:0.9575
+  [Ep 1] Batch 30/63 | Loss Task: 1.1953 | LwF:0.1865 | P:1.000 | Loss_Ratio:1.2817
+  [Ep 1] Batch 35/63 | Loss Task: 1.1016 | LwF:0.1836 | P:1.000 | Loss_Ratio:1.2000
+  [Ep 1] Batch 40/63 | Loss Task: 1.0469 | LwF:0.1738 | P:1.000 | Loss_Ratio:1.2045
+  [Ep 1] Batch 45/63 | Loss Task: 0.9180 | LwF:0.1865 | P:1.000 | Loss_Ratio:0.9843
+  [Ep 1] Batch 50/63 | Loss Task: 0.8633 | LwF:0.1895 | P:1.000 | Loss_Ratio:0.9113
+  [Ep 1] Batch 55/63 | Loss Task: 1.0156 | LwF:0.1699 | P:1.000 | Loss_Ratio:1.1954
+  [Ep 1] Batch 60/63 | Loss Task: 1.0938 | LwF:0.1865 | P:1.000 | Loss_Ratio:1.1728
+  [Ep 2] Batch 0/63 | Loss Task: 0.8789 | LwF:0.1943 | P:1.000 | Loss_Ratio:0.9045
+  [Ep 2] Batch 5/63 | Loss Task: 0.8164 | LwF:0.1982 | P:1.000 | Loss_Ratio:0.8236
+  [Ep 2] Batch 10/63 | Loss Task: 0.7969 | LwF:0.1875 | P:1.000 | Loss_Ratio:0.8500
+  [Ep 2] Batch 15/63 | Loss Task: 0.8633 | LwF:0.1904 | P:1.000 | Loss_Ratio:0.9067
+  [Ep 2] Batch 20/63 | Loss Task: 0.9219 | LwF:0.1865 | P:1.000 | Loss_Ratio:0.9885
+  [Ep 2] Batch 25/63 | Loss Task: 0.9570 | LwF:0.1885 | P:1.000 | Loss_Ratio:1.0155
+  [Ep 2] Batch 30/63 | Loss Task: 0.8750 | LwF:0.1875 | P:1.000 | Loss_Ratio:0.9333
+  [Ep 2] Batch 35/63 | Loss Task: 1.0078 | LwF:0.1768 | P:1.000 | Loss_Ratio:1.1403
+  [Ep 2] Batch 40/63 | Loss Task: 1.0234 | LwF:0.1631 | P:1.000 | Loss_Ratio:1.2551
+  [Ep 2] Batch 45/63 | Loss Task: 1.0469 | LwF:0.1895 | P:1.000 | Loss_Ratio:1.1052
+  [Ep 2] Batch 50/63 | Loss Task: 1.0625 | LwF:0.1826 | P:1.000 | Loss_Ratio:1.1636
+  [Ep 2] Batch 55/63 | Loss Task: 0.7500 | LwF:0.1973 | P:1.000 | Loss_Ratio:0.7604
+  [Ep 2] Batch 60/63 | Loss Task: 1.1094 | LwF:0.1875 | P:1.000 | Loss_Ratio:1.1833
+  [Ep 3] Batch 0/63 | Loss Task: 0.7500 | LwF:0.1934 | P:1.000 | Loss_Ratio:0.7758
+  [Ep 3] Batch 5/63 | Loss Task: 0.8125 | LwF:0.1846 | P:1.000 | Loss_Ratio:0.8804
+  [Ep 3] Batch 10/63 | Loss Task: 0.9688 | LwF:0.1855 | P:1.000 | Loss_Ratio:1.0442
+  [Ep 3] Batch 15/63 | Loss Task: 0.9570 | LwF:0.1816 | P:1.000 | Loss_Ratio:1.0538
+  [Ep 3] Batch 20/63 | Loss Task: 0.7383 | LwF:0.2041 | P:1.000 | Loss_Ratio:0.7234
+  [Ep 3] Batch 25/63 | Loss Task: 0.8125 | LwF:0.1865 | P:1.000 | Loss_Ratio:0.8712
+  [Ep 3] Batch 30/63 | Loss Task: 0.9375 | LwF:0.1836 | P:1.000 | Loss_Ratio:1.0213
+  [Ep 3] Batch 35/63 | Loss Task: 0.9805 | LwF:0.1689 | P:1.000 | Loss_Ratio:1.1607
+  [Ep 3] Batch 40/63 | Loss Task: 0.7266 | LwF:0.1729 | P:1.000 | Loss_Ratio:0.8407
+  [Ep 3] Batch 45/63 | Loss Task: 0.9023 | LwF:0.1895 | P:1.000 | Loss_Ratio:0.9526
+  [Ep 3] Batch 50/63 | Loss Task: 0.8242 | LwF:0.1729 | P:1.000 | Loss_Ratio:0.9537
+  [Ep 3] Batch 55/63 | Loss Task: 0.7227 | LwF:0.1865 | P:1.000 | Loss_Ratio:0.7749
+  [Ep 3] Batch 60/63 | Loss Task: 0.9336 | LwF:0.1924 | P:1.000 | Loss_Ratio:0.9706
+  [Ep 4] Batch 0/63 | Loss Task: 0.7656 | LwF:0.1807 | P:1.000 | Loss_Ratio:0.8476
+  [Ep 4] Batch 5/63 | Loss Task: 0.8047 | LwF:0.1758 | P:1.000 | Loss_Ratio:0.9156
+  [Ep 4] Batch 10/63 | Loss Task: 0.8477 | LwF:0.1787 | P:1.000 | Loss_Ratio:0.9486
+  [Ep 4] Batch 15/63 | Loss Task: 0.8555 | LwF:0.1865 | P:1.000 | Loss_Ratio:0.9173
+  [Ep 4] Batch 20/63 | Loss Task: 0.7422 | LwF:0.1914 | P:1.000 | Loss_Ratio:0.7755
+  [Ep 4] Batch 25/63 | Loss Task: 0.8086 | LwF:0.1934 | P:1.000 | Loss_Ratio:0.8364
+  [Ep 4] Batch 30/63 | Loss Task: 0.9062 | LwF:0.1758 | P:1.000 | Loss_Ratio:1.0311
+  [Ep 4] Batch 35/63 | Loss Task: 0.9648 | LwF:0.1748 | P:1.000 | Loss_Ratio:1.1039
+  [Ep 4] Batch 40/63 | Loss Task: 0.9102 | LwF:0.1768 | P:1.000 | Loss_Ratio:1.0298
+  [Ep 4] Batch 45/63 | Loss Task: 0.8125 | LwF:0.1846 | P:1.000 | Loss_Ratio:0.8804
+  [Ep 4] Batch 50/63 | Loss Task: 0.7500 | LwF:0.1982 | P:1.000 | Loss_Ratio:0.7567
+  [Ep 4] Batch 55/63 | Loss Task: 0.8398 | LwF:0.1797 | P:1.000 | Loss_Ratio:0.9348
+  [Ep 4] Batch 60/63 | Loss Task: 0.7969 | LwF:0.1758 | P:1.000 | Loss_Ratio:0.9067
+    [Gestalt] L10_q: 71/576 dims protegidas
+    [Gestalt] L10_v: 71/576 dims protegidas
+    [Gestalt] L11_q: 50/576 dims protegidas
+    [Gestalt] L11_v: 50/576 dims protegidas
+    [Gestalt] L12_q: 10/576 dims protegidas
+    [Gestalt] L12_v: 10/576 dims protegidas
+    [Gestalt] L13_q: 7/576 dims protegidas
+    [Gestalt] L13_v: 7/576 dims protegidas
+    [Gestalt] L14_q: 12/576 dims protegidas
+    [Gestalt] L14_v: 12/576 dims protegidas
+    [Gestalt] L15_q: 11/576 dims protegidas
+    [Gestalt] L15_v: 11/576 dims protegidas
+    [Gestalt] L16_q: 13/576 dims protegidas
+    [Gestalt] L16_v: 13/576 dims protegidas
+    [Gestalt] L17_q: 13/576 dims protegidas
+    [Gestalt] L17_v: 13/576 dims protegidas
+    [Gestalt] L18_q: 16/576 dims protegidas
+    [Gestalt] L18_v: 16/576 dims protegidas
+    [Gestalt] L19_q: 12/576 dims protegidas
+    [Gestalt] L19_v: 12/576 dims protegidas
+    [Gestalt] L20_q: 17/576 dims protegidas
+    [Gestalt] L20_v: 17/576 dims protegidas
+    [Gestalt] L21_q: 19/576 dims protegidas
+    [Gestalt] L21_v: 19/576 dims protegidas
+    [Gestalt] L22_q: 24/576 dims protegidas
+    [Gestalt] L22_v: 24/576 dims protegidas
+    [Gestalt] L23_q: 39/576 dims protegidas
+    [Gestalt] L23_v: 39/576 dims protegidas
+    [Gestalt] L24_q: 31/576 dims protegidas
+    [Gestalt] L24_v: 31/576 dims protegidas
+    [Gestalt] L25_q: 40/576 dims protegidas
+    [Gestalt] L25_v: 40/576 dims protegidas
+    [Gestalt] L26_q: 42/576 dims protegidas
+    [Gestalt] L26_v: 42/576 dims protegidas
+    [Gestalt] L27_q: 40/576 dims protegidas
+    [Gestalt] L27_v: 40/576 dims protegidas
+    [Gestalt] L28_q: 38/576 dims protegidas
+    [Gestalt] L28_v: 38/576 dims protegidas
+    [Gestalt] L29_q: 47/576 dims protegidas
+    [Gestalt] L29_v: 47/576 dims protegidas
+ Completado. Accs: ['49%', '54%', '50%', '80%', '80%', '93%']
+  T6/15 → ['49%', '54%', '50%', '80%', '80%', '93%']
+  [Entrenando Tarea 7/15]...  [Ep 0] Batch 0/63 | Loss Task: 4.6875 | LwF:0.0000 | P:1.000 | Loss_Ratio:46875000000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 3.5625 | LwF:0.0977 | P:1.000 | Loss_Ratio:7.2960
+  [Ep 0] Batch 10/63 | Loss Task: 2.8281 | LwF:0.1133 | P:1.000 | Loss_Ratio:4.9931
+  [Ep 0] Batch 15/63 | Loss Task: 2.6250 | LwF:0.1250 | P:1.000 | Loss_Ratio:4.2000
+  [Ep 0] Batch 20/63 | Loss Task: 2.7500 | LwF:0.1270 | P:1.000 | Loss_Ratio:4.3323
+  [Ep 0] Batch 25/63 | Loss Task: 2.1875 | LwF:0.1465 | P:1.000 | Loss_Ratio:2.9867
+  [Ep 0] Batch 30/63 | Loss Task: 1.9922 | LwF:0.1611 | P:1.000 | Loss_Ratio:2.4727
+  [Ep 0] Batch 35/63 | Loss Task: 1.5938 | LwF:0.1738 | P:1.000 | Loss_Ratio:1.8337
+  [Ep 0] Batch 40/63 | Loss Task: 1.3906 | LwF:0.1797 | P:1.000 | Loss_Ratio:1.5478
+  [Ep 0] Batch 45/63 | Loss Task: 1.6797 | LwF:0.1582 | P:1.000 | Loss_Ratio:2.1235
+  [Ep 0] Batch 50/63 | Loss Task: 1.3828 | LwF:0.1729 | P:1.000 | Loss_Ratio:1.6000
+  [Ep 0] Batch 55/63 | Loss Task: 1.1406 | LwF:0.1914 | P:1.000 | Loss_Ratio:1.1918
+  [Ep 0] Batch 60/63 | Loss Task: 1.1406 | LwF:0.1836 | P:1.000 | Loss_Ratio:1.2426
+  [Ep 1] Batch 0/63 | Loss Task: 1.1562 | LwF:0.1777 | P:1.000 | Loss_Ratio:1.3011
+  [Ep 1] Batch 5/63 | Loss Task: 1.0469 | LwF:0.2002 | P:1.000 | Loss_Ratio:1.0459
+  [Ep 1] Batch 10/63 | Loss Task: 1.0625 | LwF:0.1729 | P:1.000 | Loss_Ratio:1.2294
+  [Ep 1] Batch 15/63 | Loss Task: 1.0156 | LwF:0.2021 | P:1.000 | Loss_Ratio:1.0048
+  [Ep 1] Batch 20/63 | Loss Task: 0.9375 | LwF:0.1875 | P:1.000 | Loss_Ratio:1.0000
+  [Ep 1] Batch 25/63 | Loss Task: 1.1719 | LwF:0.1865 | P:1.000 | Loss_Ratio:1.2565
+  [Ep 1] Batch 30/63 | Loss Task: 1.0938 | LwF:0.1758 | P:1.000 | Loss_Ratio:1.2444
+  [Ep 1] Batch 35/63 | Loss Task: 0.9883 | LwF:0.1797 | P:1.000 | Loss_Ratio:1.1000
+  [Ep 1] Batch 40/63 | Loss Task: 0.9609 | LwF:0.1963 | P:1.000 | Loss_Ratio:0.9791
+  [Ep 1] Batch 45/63 | Loss Task: 0.9805 | LwF:0.2070 | P:1.000 | Loss_Ratio:0.9472
+  [Ep 1] Batch 50/63 | Loss Task: 0.8320 | LwF:0.2012 | P:1.000 | Loss_Ratio:0.8272
+  [Ep 1] Batch 55/63 | Loss Task: 0.8711 | LwF:0.1875 | P:1.000 | Loss_Ratio:0.9292
+  [Ep 1] Batch 60/63 | Loss Task: 1.0938 | LwF:0.1797 | P:1.000 | Loss_Ratio:1.2174
+  [Ep 2] Batch 0/63 | Loss Task: 1.1797 | LwF:0.1680 | P:1.000 | Loss_Ratio:1.4047
+  [Ep 2] Batch 5/63 | Loss Task: 0.9648 | LwF:0.1709 | P:1.000 | Loss_Ratio:1.1291
+  [Ep 2] Batch 10/63 | Loss Task: 0.9766 | LwF:0.1787 | P:1.000 | Loss_Ratio:1.0929
+  [Ep 2] Batch 15/63 | Loss Task: 0.9336 | LwF:0.1895 | P:1.000 | Loss_Ratio:0.9856
+  [Ep 2] Batch 20/63 | Loss Task: 0.8516 | LwF:0.1943 | P:1.000 | Loss_Ratio:0.8764
+  [Ep 2] Batch 25/63 | Loss Task: 0.9219 | LwF:0.1973 | P:1.000 | Loss_Ratio:0.9347
+  [Ep 2] Batch 30/63 | Loss Task: 1.0938 | LwF:0.1807 | P:1.000 | Loss_Ratio:1.2108
+  [Ep 2] Batch 35/63 | Loss Task: 0.8906 | LwF:0.1973 | P:1.000 | Loss_Ratio:0.9030
+  [Ep 2] Batch 40/63 | Loss Task: 1.0078 | LwF:0.1719 | P:1.000 | Loss_Ratio:1.1727
+  [Ep 2] Batch 45/63 | Loss Task: 0.9648 | LwF:0.1758 | P:1.000 | Loss_Ratio:1.0978
+  [Ep 2] Batch 50/63 | Loss Task: 0.8047 | LwF:0.1895 | P:1.000 | Loss_Ratio:0.8495
+  [Ep 2] Batch 55/63 | Loss Task: 0.9297 | LwF:0.1729 | P:1.000 | Loss_Ratio:1.0757
+  [Ep 2] Batch 60/63 | Loss Task: 0.8945 | LwF:0.1934 | P:1.000 | Loss_Ratio:0.9253
+  [Ep 3] Batch 0/63 | Loss Task: 0.9570 | LwF:0.1904 | P:1.000 | Loss_Ratio:1.0051
+  [Ep 3] Batch 5/63 | Loss Task: 0.8828 | LwF:0.1768 | P:1.000 | Loss_Ratio:0.9989
+  [Ep 3] Batch 10/63 | Loss Task: 0.9062 | LwF:0.1768 | P:1.000 | Loss_Ratio:1.0254
+  [Ep 3] Batch 15/63 | Loss Task: 0.8281 | LwF:0.1738 | P:1.000 | Loss_Ratio:0.9528
+  [Ep 3] Batch 20/63 | Loss Task: 0.8633 | LwF:0.1748 | P:1.000 | Loss_Ratio:0.9877
+  [Ep 3] Batch 25/63 | Loss Task: 0.9219 | LwF:0.1855 | P:1.000 | Loss_Ratio:0.9937
+  [Ep 3] Batch 30/63 | Loss Task: 0.7656 | LwF:0.1953 | P:1.000 | Loss_Ratio:0.7840
+  [Ep 3] Batch 35/63 | Loss Task: 0.8242 | LwF:0.2021 | P:1.000 | Loss_Ratio:0.8155
+  [Ep 3] Batch 40/63 | Loss Task: 0.7773 | LwF:0.1992 | P:1.000 | Loss_Ratio:0.7804
+  [Ep 3] Batch 45/63 | Loss Task: 0.7695 | LwF:0.1729 | P:1.000 | Loss_Ratio:0.8904
+  [Ep 3] Batch 50/63 | Loss Task: 0.8477 | LwF:0.1816 | P:1.000 | Loss_Ratio:0.9333
+  [Ep 3] Batch 55/63 | Loss Task: 0.8789 | LwF:0.1875 | P:1.000 | Loss_Ratio:0.9375
+  [Ep 3] Batch 60/63 | Loss Task: 0.9297 | LwF:0.1836 | P:1.000 | Loss_Ratio:1.0128
+  [Ep 4] Batch 0/63 | Loss Task: 0.7656 | LwF:0.1934 | P:1.000 | Loss_Ratio:0.7919
+  [Ep 4] Batch 5/63 | Loss Task: 0.8320 | LwF:0.1934 | P:1.000 | Loss_Ratio:0.8606
+  [Ep 4] Batch 10/63 | Loss Task: 0.8203 | LwF:0.1709 | P:1.000 | Loss_Ratio:0.9600
+  [Ep 4] Batch 15/63 | Loss Task: 0.9062 | LwF:0.1650 | P:1.000 | Loss_Ratio:1.0982
+  [Ep 4] Batch 20/63 | Loss Task: 0.8789 | LwF:0.1797 | P:1.000 | Loss_Ratio:0.9783
+  [Ep 4] Batch 25/63 | Loss Task: 0.9336 | LwF:0.1738 | P:1.000 | Loss_Ratio:1.0742
+  [Ep 4] Batch 30/63 | Loss Task: 0.8633 | LwF:0.1836 | P:1.000 | Loss_Ratio:0.9404
+  [Ep 4] Batch 35/63 | Loss Task: 0.9180 | LwF:0.1777 | P:1.000 | Loss_Ratio:1.0330
+  [Ep 4] Batch 40/63 | Loss Task: 0.9297 | LwF:0.1836 | P:1.000 | Loss_Ratio:1.0128
+  [Ep 4] Batch 45/63 | Loss Task: 0.7578 | LwF:0.1934 | P:1.000 | Loss_Ratio:0.7838
+  [Ep 4] Batch 50/63 | Loss Task: 1.0469 | LwF:0.1699 | P:1.000 | Loss_Ratio:1.2322
+  [Ep 4] Batch 55/63 | Loss Task: 0.7461 | LwF:0.1895 | P:1.000 | Loss_Ratio:0.7876
+  [Ep 4] Batch 60/63 | Loss Task: 0.9375 | LwF:0.1895 | P:1.000 | Loss_Ratio:0.9897
+    [Gestalt] L10_q: 71/576 dims protegidas
+    [Gestalt] L10_v: 71/576 dims protegidas
+    [Gestalt] L11_q: 51/576 dims protegidas
+    [Gestalt] L11_v: 51/576 dims protegidas
+    [Gestalt] L12_q: 11/576 dims protegidas
+    [Gestalt] L12_v: 11/576 dims protegidas
+    [Gestalt] L13_q: 7/576 dims protegidas
+    [Gestalt] L13_v: 7/576 dims protegidas
+    [Gestalt] L14_q: 11/576 dims protegidas
+    [Gestalt] L14_v: 11/576 dims protegidas
+    [Gestalt] L15_q: 12/576 dims protegidas
+    [Gestalt] L15_v: 12/576 dims protegidas
+    [Gestalt] L16_q: 13/576 dims protegidas
+    [Gestalt] L16_v: 13/576 dims protegidas
+    [Gestalt] L17_q: 14/576 dims protegidas
+    [Gestalt] L17_v: 14/576 dims protegidas
+    [Gestalt] L18_q: 16/576 dims protegidas
+    [Gestalt] L18_v: 16/576 dims protegidas
+    [Gestalt] L19_q: 13/576 dims protegidas
+    [Gestalt] L19_v: 13/576 dims protegidas
+    [Gestalt] L20_q: 17/576 dims protegidas
+    [Gestalt] L20_v: 17/576 dims protegidas
+    [Gestalt] L21_q: 19/576 dims protegidas
+    [Gestalt] L21_v: 19/576 dims protegidas
+    [Gestalt] L22_q: 23/576 dims protegidas
+    [Gestalt] L22_v: 23/576 dims protegidas
+    [Gestalt] L23_q: 39/576 dims protegidas
+    [Gestalt] L23_v: 39/576 dims protegidas
+    [Gestalt] L24_q: 31/576 dims protegidas
+    [Gestalt] L24_v: 31/576 dims protegidas
+    [Gestalt] L25_q: 40/576 dims protegidas
+    [Gestalt] L25_v: 40/576 dims protegidas
+    [Gestalt] L26_q: 42/576 dims protegidas
+    [Gestalt] L26_v: 42/576 dims protegidas
+    [Gestalt] L27_q: 39/576 dims protegidas
+    [Gestalt] L27_v: 39/576 dims protegidas
+    [Gestalt] L28_q: 40/576 dims protegidas
+    [Gestalt] L28_v: 40/576 dims protegidas
+    [Gestalt] L29_q: 49/576 dims protegidas
+    [Gestalt] L29_v: 49/576 dims protegidas
+ Completado. Accs: ['43%', '46%', '39%', '82%', '61%', '91%', '95%']
+  T7/15 → ['43%', '46%', '39%', '82%', '61%', '91%', '95%']
+  [Entrenando Tarea 8/15]...  [Ep 0] Batch 0/63 | Loss Task: 5.2188 | LwF:0.0000 | P:1.000 | Loss_Ratio:52187500000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 3.8750 | LwF:0.0825 | P:1.000 | Loss_Ratio:9.3917
+  [Ep 0] Batch 10/63 | Loss Task: 3.5469 | LwF:0.1157 | P:1.000 | Loss_Ratio:6.1300
+  [Ep 0] Batch 15/63 | Loss Task: 3.2969 | LwF:0.1177 | P:1.000 | Loss_Ratio:5.6033
+  [Ep 0] Batch 20/63 | Loss Task: 2.8125 | LwF:0.1416 | P:1.000 | Loss_Ratio:3.9724
+  [Ep 0] Batch 25/63 | Loss Task: 2.4531 | LwF:0.1592 | P:1.000 | Loss_Ratio:3.0822
+  [Ep 0] Batch 30/63 | Loss Task: 2.0469 | LwF:0.1738 | P:1.000 | Loss_Ratio:2.3551
+  [Ep 0] Batch 35/63 | Loss Task: 1.7891 | LwF:0.1680 | P:1.000 | Loss_Ratio:2.1302
+  [Ep 0] Batch 40/63 | Loss Task: 1.6328 | LwF:0.1777 | P:1.000 | Loss_Ratio:1.8374
+  [Ep 0] Batch 45/63 | Loss Task: 1.6641 | LwF:0.1885 | P:1.000 | Loss_Ratio:1.7658
+  [Ep 0] Batch 50/63 | Loss Task: 1.3594 | LwF:0.2021 | P:1.000 | Loss_Ratio:1.3449
+  [Ep 0] Batch 55/63 | Loss Task: 1.6250 | LwF:0.1748 | P:1.000 | Loss_Ratio:1.8592
+  [Ep 0] Batch 60/63 | Loss Task: 1.4375 | LwF:0.1895 | P:1.000 | Loss_Ratio:1.5175
+  [Ep 1] Batch 0/63 | Loss Task: 1.2109 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.1866
+  [Ep 1] Batch 5/63 | Loss Task: 1.6484 | LwF:0.1748 | P:1.000 | Loss_Ratio:1.8860
+  [Ep 1] Batch 10/63 | Loss Task: 1.3438 | LwF:0.1855 | P:1.000 | Loss_Ratio:1.4484
+  [Ep 1] Batch 15/63 | Loss Task: 1.1953 | LwF:0.1963 | P:1.000 | Loss_Ratio:1.2179
+  [Ep 1] Batch 20/63 | Loss Task: 1.1641 | LwF:0.1973 | P:1.000 | Loss_Ratio:1.1802
+  [Ep 1] Batch 25/63 | Loss Task: 1.3906 | LwF:0.1787 | P:1.000 | Loss_Ratio:1.5563
+  [Ep 1] Batch 30/63 | Loss Task: 1.0781 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.1095
+  [Ep 1] Batch 35/63 | Loss Task: 0.9219 | LwF:0.2119 | P:1.000 | Loss_Ratio:0.8700
+  [Ep 1] Batch 40/63 | Loss Task: 1.0391 | LwF:0.1973 | P:1.000 | Loss_Ratio:1.0535
+  [Ep 1] Batch 45/63 | Loss Task: 1.0547 | LwF:0.1914 | P:1.000 | Loss_Ratio:1.1020
+  [Ep 1] Batch 50/63 | Loss Task: 1.4844 | LwF:0.1719 | P:1.000 | Loss_Ratio:1.7273
+  [Ep 1] Batch 55/63 | Loss Task: 0.9922 | LwF:0.2158 | P:1.000 | Loss_Ratio:0.9195
+  [Ep 1] Batch 60/63 | Loss Task: 1.0156 | LwF:0.2080 | P:1.000 | Loss_Ratio:0.9765
+  [Ep 2] Batch 0/63 | Loss Task: 1.0391 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.0693
+  [Ep 2] Batch 5/63 | Loss Task: 1.0391 | LwF:0.1973 | P:1.000 | Loss_Ratio:1.0535
+  [Ep 2] Batch 10/63 | Loss Task: 1.0703 | LwF:0.1992 | P:1.000 | Loss_Ratio:1.0745
+  [Ep 2] Batch 15/63 | Loss Task: 1.0312 | LwF:0.1982 | P:1.000 | Loss_Ratio:1.0404
+  [Ep 2] Batch 20/63 | Loss Task: 1.0938 | LwF:0.1992 | P:1.000 | Loss_Ratio:1.0980
+  [Ep 2] Batch 25/63 | Loss Task: 1.2266 | LwF:0.1885 | P:1.000 | Loss_Ratio:1.3016
+  [Ep 2] Batch 30/63 | Loss Task: 0.9531 | LwF:0.2021 | P:1.000 | Loss_Ratio:0.9430
+  [Ep 2] Batch 35/63 | Loss Task: 1.0547 | LwF:0.1963 | P:1.000 | Loss_Ratio:1.0746
+  [Ep 2] Batch 40/63 | Loss Task: 0.9883 | LwF:0.2090 | P:1.000 | Loss_Ratio:0.9458
+  [Ep 2] Batch 45/63 | Loss Task: 0.9961 | LwF:0.1836 | P:1.000 | Loss_Ratio:1.0851
+  [Ep 2] Batch 50/63 | Loss Task: 1.1328 | LwF:0.1934 | P:1.000 | Loss_Ratio:1.1717
+  [Ep 2] Batch 55/63 | Loss Task: 0.9336 | LwF:0.2090 | P:1.000 | Loss_Ratio:0.8935
+  [Ep 2] Batch 60/63 | Loss Task: 1.0625 | LwF:0.2129 | P:1.000 | Loss_Ratio:0.9982
+  [Ep 3] Batch 0/63 | Loss Task: 0.9688 | LwF:0.2012 | P:1.000 | Loss_Ratio:0.9631
+  [Ep 3] Batch 5/63 | Loss Task: 1.0156 | LwF:0.2061 | P:1.000 | Loss_Ratio:0.9858
+  [Ep 3] Batch 10/63 | Loss Task: 0.8984 | LwF:0.2100 | P:1.000 | Loss_Ratio:0.8558
+  [Ep 3] Batch 15/63 | Loss Task: 0.8906 | LwF:0.2021 | P:1.000 | Loss_Ratio:0.8812
+  [Ep 3] Batch 20/63 | Loss Task: 0.9805 | LwF:0.1924 | P:1.000 | Loss_Ratio:1.0193
+  [Ep 3] Batch 25/63 | Loss Task: 0.9336 | LwF:0.2041 | P:1.000 | Loss_Ratio:0.9148
+  [Ep 3] Batch 30/63 | Loss Task: 1.0000 | LwF:0.1982 | P:1.000 | Loss_Ratio:1.0089
+  [Ep 3] Batch 35/63 | Loss Task: 1.0547 | LwF:0.1865 | P:1.000 | Loss_Ratio:1.1309
+  [Ep 3] Batch 40/63 | Loss Task: 0.9922 | LwF:0.1934 | P:1.000 | Loss_Ratio:1.0263
+  [Ep 3] Batch 45/63 | Loss Task: 0.9258 | LwF:0.2148 | P:1.000 | Loss_Ratio:0.8618
+  [Ep 3] Batch 50/63 | Loss Task: 0.9922 | LwF:0.1973 | P:1.000 | Loss_Ratio:1.0059
+  [Ep 3] Batch 55/63 | Loss Task: 0.9961 | LwF:0.1826 | P:1.000 | Loss_Ratio:1.0909
+  [Ep 3] Batch 60/63 | Loss Task: 1.1016 | LwF:0.1895 | P:1.000 | Loss_Ratio:1.1629
+  [Ep 4] Batch 0/63 | Loss Task: 0.8594 | LwF:0.2021 | P:1.000 | Loss_Ratio:0.8502
+  [Ep 4] Batch 5/63 | Loss Task: 0.8438 | LwF:0.2188 | P:1.000 | Loss_Ratio:0.7714
+  [Ep 4] Batch 10/63 | Loss Task: 0.8945 | LwF:0.2021 | P:1.000 | Loss_Ratio:0.8850
+  [Ep 4] Batch 15/63 | Loss Task: 1.0938 | LwF:0.1914 | P:1.000 | Loss_Ratio:1.1429
+  [Ep 4] Batch 20/63 | Loss Task: 0.9219 | LwF:0.1992 | P:1.000 | Loss_Ratio:0.9255
+  [Ep 4] Batch 25/63 | Loss Task: 0.8867 | LwF:0.2031 | P:1.000 | Loss_Ratio:0.8731
+  [Ep 4] Batch 30/63 | Loss Task: 1.0312 | LwF:0.1797 | P:1.000 | Loss_Ratio:1.1478
+  [Ep 4] Batch 35/63 | Loss Task: 0.9102 | LwF:0.2051 | P:1.000 | Loss_Ratio:0.8876
+  [Ep 4] Batch 40/63 | Loss Task: 0.8359 | LwF:0.2188 | P:1.000 | Loss_Ratio:0.7643
+  [Ep 4] Batch 45/63 | Loss Task: 1.0078 | LwF:0.1924 | P:1.000 | Loss_Ratio:1.0477
+  [Ep 4] Batch 50/63 | Loss Task: 0.8320 | LwF:0.2090 | P:1.000 | Loss_Ratio:0.7963
+  [Ep 4] Batch 55/63 | Loss Task: 0.7969 | LwF:0.2266 | P:1.000 | Loss_Ratio:0.7034
+  [Ep 4] Batch 60/63 | Loss Task: 1.0625 | LwF:0.1982 | P:1.000 | Loss_Ratio:1.0719
+    [Gestalt] L10_q: 73/576 dims protegidas
+    [Gestalt] L10_v: 73/576 dims protegidas
+    [Gestalt] L11_q: 53/576 dims protegidas
+    [Gestalt] L11_v: 53/576 dims protegidas
+    [Gestalt] L12_q: 11/576 dims protegidas
+    [Gestalt] L12_v: 11/576 dims protegidas
+    [Gestalt] L13_q: 6/576 dims protegidas
+    [Gestalt] L13_v: 6/576 dims protegidas
+    [Gestalt] L14_q: 11/576 dims protegidas
+    [Gestalt] L14_v: 11/576 dims protegidas
+    [Gestalt] L15_q: 12/576 dims protegidas
+    [Gestalt] L15_v: 12/576 dims protegidas
+    [Gestalt] L16_q: 13/576 dims protegidas
+    [Gestalt] L16_v: 13/576 dims protegidas
+    [Gestalt] L17_q: 14/576 dims protegidas
+    [Gestalt] L17_v: 14/576 dims protegidas
+    [Gestalt] L18_q: 14/576 dims protegidas
+    [Gestalt] L18_v: 14/576 dims protegidas
+    [Gestalt] L19_q: 10/576 dims protegidas
+    [Gestalt] L19_v: 10/576 dims protegidas
+    [Gestalt] L20_q: 17/576 dims protegidas
+    [Gestalt] L20_v: 17/576 dims protegidas
+    [Gestalt] L21_q: 18/576 dims protegidas
+    [Gestalt] L21_v: 18/576 dims protegidas
+    [Gestalt] L22_q: 25/576 dims protegidas
+    [Gestalt] L22_v: 25/576 dims protegidas
+    [Gestalt] L23_q: 37/576 dims protegidas
+    [Gestalt] L23_v: 37/576 dims protegidas
+    [Gestalt] L24_q: 31/576 dims protegidas
+    [Gestalt] L24_v: 31/576 dims protegidas
+    [Gestalt] L25_q: 39/576 dims protegidas
+    [Gestalt] L25_v: 39/576 dims protegidas
+    [Gestalt] L26_q: 41/576 dims protegidas
+    [Gestalt] L26_v: 41/576 dims protegidas
+    [Gestalt] L27_q: 37/576 dims protegidas
+    [Gestalt] L27_v: 37/576 dims protegidas
+    [Gestalt] L28_q: 39/576 dims protegidas
+    [Gestalt] L28_v: 39/576 dims protegidas
+    [Gestalt] L29_q: 50/576 dims protegidas
+    [Gestalt] L29_v: 50/576 dims protegidas
+ Completado. Accs: ['35%', '28%', '28%', '79%', '40%', '79%', '84%', '93%']
+  T8/15 → ['35%', '28%', '28%', '79%', '40%', '79%', '84%', '93%']
+  [Entrenando Tarea 9/15]...  [Ep 0] Batch 0/63 | Loss Task: 5.4688 | LwF:0.0000 | P:1.000 | Loss_Ratio:54687500000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 3.6406 | LwF:0.0728 | P:1.000 | Loss_Ratio:10.0081
+  [Ep 0] Batch 10/63 | Loss Task: 3.2188 | LwF:0.1089 | P:1.000 | Loss_Ratio:5.9121
+  [Ep 0] Batch 15/63 | Loss Task: 2.8125 | LwF:0.1445 | P:1.000 | Loss_Ratio:3.8919
+  [Ep 0] Batch 20/63 | Loss Task: 2.4531 | LwF:0.1299 | P:1.000 | Loss_Ratio:3.7774
+  [Ep 0] Batch 25/63 | Loss Task: 2.2031 | LwF:0.1484 | P:1.000 | Loss_Ratio:2.9684
+  [Ep 0] Batch 30/63 | Loss Task: 2.0625 | LwF:0.1572 | P:1.000 | Loss_Ratio:2.6236
+  [Ep 0] Batch 35/63 | Loss Task: 2.0781 | LwF:0.1484 | P:1.000 | Loss_Ratio:2.8000
+  [Ep 0] Batch 40/63 | Loss Task: 2.0000 | LwF:0.1807 | P:1.000 | Loss_Ratio:2.2141
+  [Ep 0] Batch 45/63 | Loss Task: 1.6719 | LwF:0.1699 | P:1.000 | Loss_Ratio:1.9678
+  [Ep 0] Batch 50/63 | Loss Task: 1.4688 | LwF:0.1768 | P:1.000 | Loss_Ratio:1.6619
+  [Ep 0] Batch 55/63 | Loss Task: 1.4297 | LwF:0.1768 | P:1.000 | Loss_Ratio:1.6177
+  [Ep 0] Batch 60/63 | Loss Task: 1.3828 | LwF:0.1846 | P:1.000 | Loss_Ratio:1.4984
+  [Ep 1] Batch 0/63 | Loss Task: 1.0859 | LwF:0.2119 | P:1.000 | Loss_Ratio:1.0249
+  [Ep 1] Batch 5/63 | Loss Task: 1.2031 | LwF:0.1934 | P:1.000 | Loss_Ratio:1.2444
+  [Ep 1] Batch 10/63 | Loss Task: 1.0625 | LwF:0.1963 | P:1.000 | Loss_Ratio:1.0826
+  [Ep 1] Batch 15/63 | Loss Task: 1.1797 | LwF:0.1855 | P:1.000 | Loss_Ratio:1.2716
+  [Ep 1] Batch 20/63 | Loss Task: 0.9297 | LwF:0.2061 | P:1.000 | Loss_Ratio:0.9024
+  [Ep 1] Batch 25/63 | Loss Task: 1.3984 | LwF:0.1709 | P:1.000 | Loss_Ratio:1.6366
+  [Ep 1] Batch 30/63 | Loss Task: 1.0625 | LwF:0.2002 | P:1.000 | Loss_Ratio:1.0615
+  [Ep 1] Batch 35/63 | Loss Task: 1.0312 | LwF:0.1973 | P:1.000 | Loss_Ratio:1.0455
+  [Ep 1] Batch 40/63 | Loss Task: 1.0469 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.0774
+  [Ep 1] Batch 45/63 | Loss Task: 1.4219 | LwF:0.1680 | P:1.000 | Loss_Ratio:1.6930
+  [Ep 1] Batch 50/63 | Loss Task: 1.2812 | LwF:0.1758 | P:1.000 | Loss_Ratio:1.4578
+  [Ep 1] Batch 55/63 | Loss Task: 0.9453 | LwF:0.2139 | P:1.000 | Loss_Ratio:0.8840
+  [Ep 1] Batch 60/63 | Loss Task: 1.2891 | LwF:0.1807 | P:1.000 | Loss_Ratio:1.4270
+  [Ep 2] Batch 0/63 | Loss Task: 1.0781 | LwF:0.1846 | P:1.000 | Loss_Ratio:1.1683
+  [Ep 2] Batch 5/63 | Loss Task: 0.9609 | LwF:0.2100 | P:1.000 | Loss_Ratio:0.9153
+  [Ep 2] Batch 10/63 | Loss Task: 0.9219 | LwF:0.2070 | P:1.000 | Loss_Ratio:0.8906
+  [Ep 2] Batch 15/63 | Loss Task: 1.1016 | LwF:0.1807 | P:1.000 | Loss_Ratio:1.2195
+  [Ep 2] Batch 20/63 | Loss Task: 1.0078 | LwF:0.1895 | P:1.000 | Loss_Ratio:1.0639
+  [Ep 2] Batch 25/63 | Loss Task: 1.2109 | LwF:0.1777 | P:1.000 | Loss_Ratio:1.3626
+  [Ep 2] Batch 30/63 | Loss Task: 0.9219 | LwF:0.2021 | P:1.000 | Loss_Ratio:0.9121
+  [Ep 2] Batch 35/63 | Loss Task: 1.2031 | LwF:0.1846 | P:1.000 | Loss_Ratio:1.3037
+  [Ep 2] Batch 40/63 | Loss Task: 0.9062 | LwF:0.2051 | P:1.000 | Loss_Ratio:0.8838
+  [Ep 2] Batch 45/63 | Loss Task: 0.8984 | LwF:0.2002 | P:1.000 | Loss_Ratio:0.8976
+  [Ep 2] Batch 50/63 | Loss Task: 1.0547 | LwF:0.2031 | P:1.000 | Loss_Ratio:1.0385
+  [Ep 2] Batch 55/63 | Loss Task: 0.8984 | LwF:0.1973 | P:1.000 | Loss_Ratio:0.9109
+  [Ep 2] Batch 60/63 | Loss Task: 1.2344 | LwF:0.1719 | P:1.000 | Loss_Ratio:1.4364
+  [Ep 3] Batch 0/63 | Loss Task: 0.9961 | LwF:0.1846 | P:1.000 | Loss_Ratio:1.0794
+  [Ep 3] Batch 5/63 | Loss Task: 0.8984 | LwF:0.2031 | P:1.000 | Loss_Ratio:0.8846
+  [Ep 3] Batch 10/63 | Loss Task: 1.0859 | LwF:0.1865 | P:1.000 | Loss_Ratio:1.1644
+  [Ep 3] Batch 15/63 | Loss Task: 0.8711 | LwF:0.2139 | P:1.000 | Loss_Ratio:0.8146
+  [Ep 3] Batch 20/63 | Loss Task: 0.9375 | LwF:0.1992 | P:1.000 | Loss_Ratio:0.9412
+  [Ep 3] Batch 25/63 | Loss Task: 0.8711 | LwF:0.2041 | P:1.000 | Loss_Ratio:0.8536
+  [Ep 3] Batch 30/63 | Loss Task: 1.1250 | LwF:0.1758 | P:1.000 | Loss_Ratio:1.2800
+  [Ep 3] Batch 35/63 | Loss Task: 0.9883 | LwF:0.1797 | P:1.000 | Loss_Ratio:1.1000
+  [Ep 3] Batch 40/63 | Loss Task: 0.9219 | LwF:0.1982 | P:1.000 | Loss_Ratio:0.9300
+  [Ep 3] Batch 45/63 | Loss Task: 1.0078 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.0019
+  [Ep 3] Batch 50/63 | Loss Task: 0.7930 | LwF:0.2031 | P:1.000 | Loss_Ratio:0.7808
+  [Ep 3] Batch 55/63 | Loss Task: 1.0156 | LwF:0.1963 | P:1.000 | Loss_Ratio:1.0348
+  [Ep 3] Batch 60/63 | Loss Task: 1.0312 | LwF:0.1934 | P:1.000 | Loss_Ratio:1.0667
+  [Ep 4] Batch 0/63 | Loss Task: 0.8438 | LwF:0.1963 | P:1.000 | Loss_Ratio:0.8597
+  [Ep 4] Batch 5/63 | Loss Task: 0.9375 | LwF:0.1895 | P:1.000 | Loss_Ratio:0.9897
+  [Ep 4] Batch 10/63 | Loss Task: 0.8750 | LwF:0.2021 | P:1.000 | Loss_Ratio:0.8657
+  [Ep 4] Batch 15/63 | Loss Task: 0.9180 | LwF:0.1904 | P:1.000 | Loss_Ratio:0.9641
+  [Ep 4] Batch 20/63 | Loss Task: 0.9414 | LwF:0.1777 | P:1.000 | Loss_Ratio:1.0593
+  [Ep 4] Batch 25/63 | Loss Task: 0.8359 | LwF:0.2021 | P:1.000 | Loss_Ratio:0.8271
+  [Ep 4] Batch 30/63 | Loss Task: 1.1875 | LwF:0.1836 | P:1.000 | Loss_Ratio:1.2936
+  [Ep 4] Batch 35/63 | Loss Task: 0.8242 | LwF:0.2012 | P:1.000 | Loss_Ratio:0.8194
+  [Ep 4] Batch 40/63 | Loss Task: 0.9336 | LwF:0.1846 | P:1.000 | Loss_Ratio:1.0116
+  [Ep 4] Batch 45/63 | Loss Task: 1.0469 | LwF:0.1963 | P:1.000 | Loss_Ratio:1.0667
+  [Ep 4] Batch 50/63 | Loss Task: 0.9023 | LwF:0.1943 | P:1.000 | Loss_Ratio:0.9286
+  [Ep 4] Batch 55/63 | Loss Task: 0.7461 | LwF:0.2207 | P:1.000 | Loss_Ratio:0.6761
+  [Ep 4] Batch 60/63 | Loss Task: 0.9453 | LwF:0.2012 | P:1.000 | Loss_Ratio:0.9398
+    [Gestalt] L10_q: 75/576 dims protegidas
+    [Gestalt] L10_v: 75/576 dims protegidas
+    [Gestalt] L11_q: 54/576 dims protegidas
+    [Gestalt] L11_v: 54/576 dims protegidas
+    [Gestalt] L12_q: 11/576 dims protegidas
+    [Gestalt] L12_v: 11/576 dims protegidas
+    [Gestalt] L13_q: 6/576 dims protegidas
+    [Gestalt] L13_v: 6/576 dims protegidas
+    [Gestalt] L14_q: 11/576 dims protegidas
+    [Gestalt] L14_v: 11/576 dims protegidas
+    [Gestalt] L15_q: 12/576 dims protegidas
+    [Gestalt] L15_v: 12/576 dims protegidas
+    [Gestalt] L16_q: 13/576 dims protegidas
+    [Gestalt] L16_v: 13/576 dims protegidas
+    [Gestalt] L17_q: 14/576 dims protegidas
+    [Gestalt] L17_v: 14/576 dims protegidas
+    [Gestalt] L18_q: 14/576 dims protegidas
+    [Gestalt] L18_v: 14/576 dims protegidas
+    [Gestalt] L19_q: 11/576 dims protegidas
+    [Gestalt] L19_v: 11/576 dims protegidas
+    [Gestalt] L20_q: 16/576 dims protegidas
+    [Gestalt] L20_v: 16/576 dims protegidas
+    [Gestalt] L21_q: 19/576 dims protegidas
+    [Gestalt] L21_v: 19/576 dims protegidas
+    [Gestalt] L22_q: 26/576 dims protegidas
+    [Gestalt] L22_v: 26/576 dims protegidas
+    [Gestalt] L23_q: 36/576 dims protegidas
+    [Gestalt] L23_v: 36/576 dims protegidas
+    [Gestalt] L24_q: 30/576 dims protegidas
+    [Gestalt] L24_v: 30/576 dims protegidas
+    [Gestalt] L25_q: 42/576 dims protegidas
+    [Gestalt] L25_v: 42/576 dims protegidas
+    [Gestalt] L26_q: 41/576 dims protegidas
+    [Gestalt] L26_v: 41/576 dims protegidas
+    [Gestalt] L27_q: 37/576 dims protegidas
+    [Gestalt] L27_v: 37/576 dims protegidas
+    [Gestalt] L28_q: 39/576 dims protegidas
+    [Gestalt] L28_v: 39/576 dims protegidas
+    [Gestalt] L29_q: 49/576 dims protegidas
+    [Gestalt] L29_v: 49/576 dims protegidas
+ Completado. Accs: ['25%', '26%', '20%', '62%', '27%', '65%', '72%', '89%', '97%']
+  T9/15 → ['25%', '26%', '20%', '62%', '27%', '65%', '72%', '89%', '97%']
+  [Entrenando Tarea 10/15]...  [Ep 0] Batch 0/63 | Loss Task: 5.0312 | LwF:0.0000 | P:1.000 | Loss_Ratio:50312500000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 3.6250 | LwF:0.0981 | P:1.000 | Loss_Ratio:7.3871
+  [Ep 0] Batch 10/63 | Loss Task: 2.8594 | LwF:0.1177 | P:1.000 | Loss_Ratio:4.8598
+  [Ep 0] Batch 15/63 | Loss Task: 2.4375 | LwF:0.1465 | P:1.000 | Loss_Ratio:3.3280
+  [Ep 0] Batch 20/63 | Loss Task: 2.0781 | LwF:0.1650 | P:1.000 | Loss_Ratio:2.5183
+  [Ep 0] Batch 25/63 | Loss Task: 2.0312 | LwF:0.1650 | P:1.000 | Loss_Ratio:2.4615
+  [Ep 0] Batch 30/63 | Loss Task: 1.7812 | LwF:0.1738 | P:1.000 | Loss_Ratio:2.0494
+  [Ep 0] Batch 35/63 | Loss Task: 1.7812 | LwF:0.1768 | P:1.000 | Loss_Ratio:2.0155
+  [Ep 0] Batch 40/63 | Loss Task: 1.4766 | LwF:0.1855 | P:1.000 | Loss_Ratio:1.5916
+  [Ep 0] Batch 45/63 | Loss Task: 1.6641 | LwF:0.1699 | P:1.000 | Loss_Ratio:1.9586
+  [Ep 0] Batch 50/63 | Loss Task: 1.5625 | LwF:0.1826 | P:1.000 | Loss_Ratio:1.7112
+  [Ep 0] Batch 55/63 | Loss Task: 1.5625 | LwF:0.1787 | P:1.000 | Loss_Ratio:1.7486
+  [Ep 0] Batch 60/63 | Loss Task: 1.2422 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.2784
+  [Ep 1] Batch 0/63 | Loss Task: 1.4688 | LwF:0.1865 | P:1.000 | Loss_Ratio:1.5749
+  [Ep 1] Batch 5/63 | Loss Task: 1.0938 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.0874
+  [Ep 1] Batch 10/63 | Loss Task: 1.2266 | LwF:0.2002 | P:1.000 | Loss_Ratio:1.2254
+  [Ep 1] Batch 15/63 | Loss Task: 1.2344 | LwF:0.1846 | P:1.000 | Loss_Ratio:1.3376
+  [Ep 1] Batch 20/63 | Loss Task: 1.2031 | LwF:0.1865 | P:1.000 | Loss_Ratio:1.2901
+  [Ep 1] Batch 25/63 | Loss Task: 1.3125 | LwF:0.1914 | P:1.000 | Loss_Ratio:1.3714
+  [Ep 1] Batch 30/63 | Loss Task: 1.0547 | LwF:0.1982 | P:1.000 | Loss_Ratio:1.0640
+  [Ep 1] Batch 35/63 | Loss Task: 1.1562 | LwF:0.1924 | P:1.000 | Loss_Ratio:1.2020
+  [Ep 1] Batch 40/63 | Loss Task: 1.2891 | LwF:0.1904 | P:1.000 | Loss_Ratio:1.3538
+  [Ep 1] Batch 45/63 | Loss Task: 1.2188 | LwF:0.1914 | P:1.000 | Loss_Ratio:1.2735
+  [Ep 1] Batch 50/63 | Loss Task: 1.0469 | LwF:0.1924 | P:1.000 | Loss_Ratio:1.0883
+  [Ep 1] Batch 55/63 | Loss Task: 1.0859 | LwF:0.2100 | P:1.000 | Loss_Ratio:1.0344
+  [Ep 1] Batch 60/63 | Loss Task: 1.0469 | LwF:0.2021 | P:1.000 | Loss_Ratio:1.0357
+  [Ep 2] Batch 0/63 | Loss Task: 1.1484 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.1819
+  [Ep 2] Batch 5/63 | Loss Task: 1.1328 | LwF:0.1855 | P:1.000 | Loss_Ratio:1.2211
+  [Ep 2] Batch 10/63 | Loss Task: 1.1719 | LwF:0.1914 | P:1.000 | Loss_Ratio:1.2245
+  [Ep 2] Batch 15/63 | Loss Task: 1.0078 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.0019
+  [Ep 2] Batch 20/63 | Loss Task: 1.0234 | LwF:0.1953 | P:1.000 | Loss_Ratio:1.0480
+  [Ep 2] Batch 25/63 | Loss Task: 0.9609 | LwF:0.2129 | P:1.000 | Loss_Ratio:0.9028
+  [Ep 2] Batch 30/63 | Loss Task: 1.0156 | LwF:0.2031 | P:1.000 | Loss_Ratio:1.0000
+  [Ep 2] Batch 35/63 | Loss Task: 0.9766 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.0050
+  [Ep 2] Batch 40/63 | Loss Task: 1.2266 | LwF:0.1865 | P:1.000 | Loss_Ratio:1.3152
+  [Ep 2] Batch 45/63 | Loss Task: 1.0547 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.0854
+  [Ep 2] Batch 50/63 | Loss Task: 1.2422 | LwF:0.1826 | P:1.000 | Loss_Ratio:1.3604
+  [Ep 2] Batch 55/63 | Loss Task: 1.0078 | LwF:0.1934 | P:1.000 | Loss_Ratio:1.0424
+  [Ep 2] Batch 60/63 | Loss Task: 1.0781 | LwF:0.1934 | P:1.000 | Loss_Ratio:1.1152
+  [Ep 3] Batch 0/63 | Loss Task: 1.1797 | LwF:0.1807 | P:1.000 | Loss_Ratio:1.3059
+  [Ep 3] Batch 5/63 | Loss Task: 0.9492 | LwF:0.1973 | P:1.000 | Loss_Ratio:0.9624
+  [Ep 3] Batch 10/63 | Loss Task: 0.9961 | LwF:0.1982 | P:1.000 | Loss_Ratio:1.0049
+  [Ep 3] Batch 15/63 | Loss Task: 0.9180 | LwF:0.2002 | P:1.000 | Loss_Ratio:0.9171
+  [Ep 3] Batch 20/63 | Loss Task: 1.0469 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.0408
+  [Ep 3] Batch 25/63 | Loss Task: 0.9609 | LwF:0.2041 | P:1.000 | Loss_Ratio:0.9416
+  [Ep 3] Batch 30/63 | Loss Task: 1.2656 | LwF:0.1865 | P:1.000 | Loss_Ratio:1.3571
+  [Ep 3] Batch 35/63 | Loss Task: 0.9727 | LwF:0.2012 | P:1.000 | Loss_Ratio:0.9670
+  [Ep 3] Batch 40/63 | Loss Task: 1.0469 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.0258
+  [Ep 3] Batch 45/63 | Loss Task: 1.0312 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.0613
+  [Ep 3] Batch 50/63 | Loss Task: 1.0391 | LwF:0.1904 | P:1.000 | Loss_Ratio:1.0913
+  [Ep 3] Batch 55/63 | Loss Task: 0.8711 | LwF:0.2090 | P:1.000 | Loss_Ratio:0.8336
+  [Ep 3] Batch 60/63 | Loss Task: 0.9453 | LwF:0.1934 | P:1.000 | Loss_Ratio:0.9778
+  [Ep 4] Batch 0/63 | Loss Task: 1.3047 | LwF:0.1777 | P:1.000 | Loss_Ratio:1.4681
+  [Ep 4] Batch 5/63 | Loss Task: 1.0000 | LwF:0.2021 | P:1.000 | Loss_Ratio:0.9894
+  [Ep 4] Batch 10/63 | Loss Task: 0.9609 | LwF:0.1963 | P:1.000 | Loss_Ratio:0.9791
+  [Ep 4] Batch 15/63 | Loss Task: 1.0000 | LwF:0.2002 | P:1.000 | Loss_Ratio:0.9990
+  [Ep 4] Batch 20/63 | Loss Task: 0.8945 | LwF:0.2012 | P:1.000 | Loss_Ratio:0.8893
+  [Ep 4] Batch 25/63 | Loss Task: 0.9219 | LwF:0.1963 | P:1.000 | Loss_Ratio:0.9393
+  [Ep 4] Batch 30/63 | Loss Task: 0.9922 | LwF:0.2031 | P:1.000 | Loss_Ratio:0.9769
+  [Ep 4] Batch 35/63 | Loss Task: 0.9102 | LwF:0.2031 | P:1.000 | Loss_Ratio:0.8962
+  [Ep 4] Batch 40/63 | Loss Task: 0.9531 | LwF:0.1924 | P:1.000 | Loss_Ratio:0.9909
+  [Ep 4] Batch 45/63 | Loss Task: 0.9844 | LwF:0.1982 | P:1.000 | Loss_Ratio:0.9931
+  [Ep 4] Batch 50/63 | Loss Task: 0.8164 | LwF:0.2178 | P:1.000 | Loss_Ratio:0.7498
+  [Ep 4] Batch 55/63 | Loss Task: 1.0625 | LwF:0.1865 | P:1.000 | Loss_Ratio:1.1393
+  [Ep 4] Batch 60/63 | Loss Task: 1.0312 | LwF:0.1924 | P:1.000 | Loss_Ratio:1.0721
+    [Gestalt] L10_q: 77/576 dims protegidas
+    [Gestalt] L10_v: 77/576 dims protegidas
+    [Gestalt] L11_q: 58/576 dims protegidas
+    [Gestalt] L11_v: 58/576 dims protegidas
+    [Gestalt] L12_q: 11/576 dims protegidas
+    [Gestalt] L12_v: 11/576 dims protegidas
+    [Gestalt] L13_q: 6/576 dims protegidas
+    [Gestalt] L13_v: 6/576 dims protegidas
+    [Gestalt] L14_q: 11/576 dims protegidas
+    [Gestalt] L14_v: 11/576 dims protegidas
+    [Gestalt] L15_q: 13/576 dims protegidas
+    [Gestalt] L15_v: 13/576 dims protegidas
+    [Gestalt] L16_q: 15/576 dims protegidas
+    [Gestalt] L16_v: 15/576 dims protegidas
+    [Gestalt] L17_q: 14/576 dims protegidas
+    [Gestalt] L17_v: 14/576 dims protegidas
+    [Gestalt] L18_q: 14/576 dims protegidas
+    [Gestalt] L18_v: 14/576 dims protegidas
+    [Gestalt] L19_q: 12/576 dims protegidas
+    [Gestalt] L19_v: 12/576 dims protegidas
+    [Gestalt] L20_q: 16/576 dims protegidas
+    [Gestalt] L20_v: 16/576 dims protegidas
+    [Gestalt] L21_q: 20/576 dims protegidas
+    [Gestalt] L21_v: 20/576 dims protegidas
+    [Gestalt] L22_q: 26/576 dims protegidas
+    [Gestalt] L22_v: 26/576 dims protegidas
+    [Gestalt] L23_q: 36/576 dims protegidas
+    [Gestalt] L23_v: 36/576 dims protegidas
+    [Gestalt] L24_q: 29/576 dims protegidas
+    [Gestalt] L24_v: 29/576 dims protegidas
+    [Gestalt] L25_q: 44/576 dims protegidas
+    [Gestalt] L25_v: 44/576 dims protegidas
+    [Gestalt] L26_q: 41/576 dims protegidas
+    [Gestalt] L26_v: 41/576 dims protegidas
+    [Gestalt] L27_q: 36/576 dims protegidas
+    [Gestalt] L27_v: 36/576 dims protegidas
+    [Gestalt] L28_q: 38/576 dims protegidas
+    [Gestalt] L28_v: 38/576 dims protegidas
+    [Gestalt] L29_q: 50/576 dims protegidas
+    [Gestalt] L29_v: 50/576 dims protegidas
+ Completado. Accs: ['12%', '18%', '13%', '45%', '14%', '46%', '52%', '81%', '93%', '93%']
+  T10/15 → ['12%', '18%', '13%', '45%', '14%', '46%', '52%', '81%', '93%', '93%']
+  [Entrenando Tarea 11/15]...  [Ep 0] Batch 0/63 | Loss Task: 5.2188 | LwF:0.0000 | P:1.000 | Loss_Ratio:52187500000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 3.7344 | LwF:0.1094 | P:1.000 | Loss_Ratio:6.8286
+  [Ep 0] Batch 10/63 | Loss Task: 3.0156 | LwF:0.1182 | P:1.000 | Loss_Ratio:5.1041
+  [Ep 0] Batch 15/63 | Loss Task: 3.1250 | LwF:0.1416 | P:1.000 | Loss_Ratio:4.4138
+  [Ep 0] Batch 20/63 | Loss Task: 2.5312 | LwF:0.1514 | P:1.000 | Loss_Ratio:3.3445
+  [Ep 0] Batch 25/63 | Loss Task: 2.3594 | LwF:0.1611 | P:1.000 | Loss_Ratio:2.9285
+  [Ep 0] Batch 30/63 | Loss Task: 2.3125 | LwF:0.1611 | P:1.000 | Loss_Ratio:2.8703
+  [Ep 0] Batch 35/63 | Loss Task: 1.7891 | LwF:0.1787 | P:1.000 | Loss_Ratio:2.0022
+  [Ep 0] Batch 40/63 | Loss Task: 1.9219 | LwF:0.1816 | P:1.000 | Loss_Ratio:2.1161
+  [Ep 0] Batch 45/63 | Loss Task: 1.7031 | LwF:0.1855 | P:1.000 | Loss_Ratio:1.8358
+  [Ep 0] Batch 50/63 | Loss Task: 1.8594 | LwF:0.1758 | P:1.000 | Loss_Ratio:2.1156
+  [Ep 0] Batch 55/63 | Loss Task: 1.3203 | LwF:0.2178 | P:1.000 | Loss_Ratio:1.2126
+  [Ep 0] Batch 60/63 | Loss Task: 1.4844 | LwF:0.1846 | P:1.000 | Loss_Ratio:1.6085
+  [Ep 1] Batch 0/63 | Loss Task: 1.4062 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.3981
+  [Ep 1] Batch 5/63 | Loss Task: 1.3672 | LwF:0.1982 | P:1.000 | Loss_Ratio:1.3793
+  [Ep 1] Batch 10/63 | Loss Task: 1.4453 | LwF:0.1992 | P:1.000 | Loss_Ratio:1.4510
+  [Ep 1] Batch 15/63 | Loss Task: 1.2891 | LwF:0.1973 | P:1.000 | Loss_Ratio:1.3069
+  [Ep 1] Batch 20/63 | Loss Task: 1.2656 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.2583
+  [Ep 1] Batch 25/63 | Loss Task: 1.6172 | LwF:0.1865 | P:1.000 | Loss_Ratio:1.7340
+  [Ep 1] Batch 30/63 | Loss Task: 1.1328 | LwF:0.2178 | P:1.000 | Loss_Ratio:1.0404
+  [Ep 1] Batch 35/63 | Loss Task: 1.4062 | LwF:0.1875 | P:1.000 | Loss_Ratio:1.5000
+  [Ep 1] Batch 40/63 | Loss Task: 1.1094 | LwF:0.2314 | P:1.000 | Loss_Ratio:0.9586
+  [Ep 1] Batch 45/63 | Loss Task: 1.1641 | LwF:0.2090 | P:1.000 | Loss_Ratio:1.1140
+  [Ep 1] Batch 50/63 | Loss Task: 1.1328 | LwF:0.2129 | P:1.000 | Loss_Ratio:1.0642
+  [Ep 1] Batch 55/63 | Loss Task: 1.2656 | LwF:0.1934 | P:1.000 | Loss_Ratio:1.3091
+  [Ep 1] Batch 60/63 | Loss Task: 1.2500 | LwF:0.2090 | P:1.000 | Loss_Ratio:1.1963
+  [Ep 2] Batch 0/63 | Loss Task: 1.2891 | LwF:0.2002 | P:1.000 | Loss_Ratio:1.2878
+  [Ep 2] Batch 5/63 | Loss Task: 1.0391 | LwF:0.2256 | P:1.000 | Loss_Ratio:0.9212
+  [Ep 2] Batch 10/63 | Loss Task: 1.1641 | LwF:0.2051 | P:1.000 | Loss_Ratio:1.1352
+  [Ep 2] Batch 15/63 | Loss Task: 1.2422 | LwF:0.1982 | P:1.000 | Loss_Ratio:1.2532
+  [Ep 2] Batch 20/63 | Loss Task: 1.0781 | LwF:0.2139 | P:1.000 | Loss_Ratio:1.0082
+  [Ep 2] Batch 25/63 | Loss Task: 1.3281 | LwF:0.1836 | P:1.000 | Loss_Ratio:1.4468
+  [Ep 2] Batch 30/63 | Loss Task: 1.3203 | LwF:0.1982 | P:1.000 | Loss_Ratio:1.3320
+  [Ep 2] Batch 35/63 | Loss Task: 1.0625 | LwF:0.2119 | P:1.000 | Loss_Ratio:1.0028
+  [Ep 2] Batch 40/63 | Loss Task: 1.1719 | LwF:0.2031 | P:1.000 | Loss_Ratio:1.1538
+  [Ep 2] Batch 45/63 | Loss Task: 1.1797 | LwF:0.1973 | P:1.000 | Loss_Ratio:1.1960
+  [Ep 2] Batch 50/63 | Loss Task: 1.0547 | LwF:0.2148 | P:1.000 | Loss_Ratio:0.9818
+  [Ep 2] Batch 55/63 | Loss Task: 1.2500 | LwF:0.2021 | P:1.000 | Loss_Ratio:1.2367
+  [Ep 2] Batch 60/63 | Loss Task: 1.2891 | LwF:0.1963 | P:1.000 | Loss_Ratio:1.3134
+  [Ep 3] Batch 0/63 | Loss Task: 1.2969 | LwF:0.1904 | P:1.000 | Loss_Ratio:1.3621
+  [Ep 3] Batch 5/63 | Loss Task: 1.0625 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.0411
+  [Ep 3] Batch 10/63 | Loss Task: 1.0703 | LwF:0.2109 | P:1.000 | Loss_Ratio:1.0148
+  [Ep 3] Batch 15/63 | Loss Task: 0.9609 | LwF:0.2100 | P:1.000 | Loss_Ratio:0.9153
+  [Ep 3] Batch 20/63 | Loss Task: 1.0703 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.0641
+  [Ep 3] Batch 25/63 | Loss Task: 1.2734 | LwF:0.1973 | P:1.000 | Loss_Ratio:1.2911
+  [Ep 3] Batch 30/63 | Loss Task: 1.0469 | LwF:0.2080 | P:1.000 | Loss_Ratio:1.0066
+  [Ep 3] Batch 35/63 | Loss Task: 1.1953 | LwF:0.2070 | P:1.000 | Loss_Ratio:1.1547
+  [Ep 3] Batch 40/63 | Loss Task: 1.0156 | LwF:0.2090 | P:1.000 | Loss_Ratio:0.9720
+  [Ep 3] Batch 45/63 | Loss Task: 1.1250 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.1578
+  [Ep 3] Batch 50/63 | Loss Task: 1.1094 | LwF:0.1934 | P:1.000 | Loss_Ratio:1.1475
+  [Ep 3] Batch 55/63 | Loss Task: 1.1875 | LwF:0.2002 | P:1.000 | Loss_Ratio:1.1863
+  [Ep 3] Batch 60/63 | Loss Task: 0.9414 | LwF:0.2197 | P:1.000 | Loss_Ratio:0.8569
+  [Ep 4] Batch 0/63 | Loss Task: 1.1172 | LwF:0.2002 | P:1.000 | Loss_Ratio:1.1161
+  [Ep 4] Batch 5/63 | Loss Task: 0.9258 | LwF:0.2217 | P:1.000 | Loss_Ratio:0.8352
+  [Ep 4] Batch 10/63 | Loss Task: 1.1406 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.1340
+  [Ep 4] Batch 15/63 | Loss Task: 0.9570 | LwF:0.2100 | P:1.000 | Loss_Ratio:0.9116
+  [Ep 4] Batch 20/63 | Loss Task: 0.9336 | LwF:0.2148 | P:1.000 | Loss_Ratio:0.8691
+  [Ep 4] Batch 25/63 | Loss Task: 0.9844 | LwF:0.2070 | P:1.000 | Loss_Ratio:0.9509
+  [Ep 4] Batch 30/63 | Loss Task: 1.1562 | LwF:0.1953 | P:1.000 | Loss_Ratio:1.1840
+  [Ep 4] Batch 35/63 | Loss Task: 1.0547 | LwF:0.2070 | P:1.000 | Loss_Ratio:1.0189
+  [Ep 4] Batch 40/63 | Loss Task: 1.1406 | LwF:0.1963 | P:1.000 | Loss_Ratio:1.1622
+  [Ep 4] Batch 45/63 | Loss Task: 0.9492 | LwF:0.2061 | P:1.000 | Loss_Ratio:0.9213
+  [Ep 4] Batch 50/63 | Loss Task: 1.4062 | LwF:0.1807 | P:1.000 | Loss_Ratio:1.5568
+  [Ep 4] Batch 55/63 | Loss Task: 1.0547 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.0485
+  [Ep 4] Batch 60/63 | Loss Task: 1.0391 | LwF:0.2139 | P:1.000 | Loss_Ratio:0.9717
+    [Gestalt] L10_q: 79/576 dims protegidas
+    [Gestalt] L10_v: 79/576 dims protegidas
+    [Gestalt] L11_q: 60/576 dims protegidas
+    [Gestalt] L11_v: 60/576 dims protegidas
+    [Gestalt] L12_q: 12/576 dims protegidas
+    [Gestalt] L12_v: 12/576 dims protegidas
+    [Gestalt] L13_q: 7/576 dims protegidas
+    [Gestalt] L13_v: 7/576 dims protegidas
+    [Gestalt] L14_q: 11/576 dims protegidas
+    [Gestalt] L14_v: 11/576 dims protegidas
+    [Gestalt] L15_q: 13/576 dims protegidas
+    [Gestalt] L15_v: 13/576 dims protegidas
+    [Gestalt] L16_q: 14/576 dims protegidas
+    [Gestalt] L16_v: 14/576 dims protegidas
+    [Gestalt] L17_q: 14/576 dims protegidas
+    [Gestalt] L17_v: 14/576 dims protegidas
+    [Gestalt] L18_q: 16/576 dims protegidas
+    [Gestalt] L18_v: 16/576 dims protegidas
+    [Gestalt] L19_q: 12/576 dims protegidas
+    [Gestalt] L19_v: 12/576 dims protegidas
+    [Gestalt] L20_q: 16/576 dims protegidas
+    [Gestalt] L20_v: 16/576 dims protegidas
+    [Gestalt] L21_q: 21/576 dims protegidas
+    [Gestalt] L21_v: 21/576 dims protegidas
+    [Gestalt] L22_q: 26/576 dims protegidas
+    [Gestalt] L22_v: 26/576 dims protegidas
+    [Gestalt] L23_q: 36/576 dims protegidas
+    [Gestalt] L23_v: 36/576 dims protegidas
+    [Gestalt] L24_q: 30/576 dims protegidas
+    [Gestalt] L24_v: 30/576 dims protegidas
+    [Gestalt] L25_q: 41/576 dims protegidas
+    [Gestalt] L25_v: 41/576 dims protegidas
+    [Gestalt] L26_q: 39/576 dims protegidas
+    [Gestalt] L26_v: 39/576 dims protegidas
+    [Gestalt] L27_q: 38/576 dims protegidas
+    [Gestalt] L27_v: 38/576 dims protegidas
+    [Gestalt] L28_q: 41/576 dims protegidas
+    [Gestalt] L28_v: 41/576 dims protegidas
+    [Gestalt] L29_q: 53/576 dims protegidas
+    [Gestalt] L29_v: 53/576 dims protegidas
+ Completado. Accs: ['11%', '19%', '3%', '40%', '9%', '40%', '42%', '74%', '92%', '86%', '95%']
+  T11/15 → ['11%', '19%', '3%', '40%', '9%', '40%', '42%', '74%', '92%', '86%', '95%']
+  [Entrenando Tarea 12/15]...  [Ep 0] Batch 0/63 | Loss Task: 5.8438 | LwF:0.0000 | P:1.000 | Loss_Ratio:58437500000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 4.4062 | LwF:0.0845 | P:1.000 | Loss_Ratio:10.4324
+  [Ep 0] Batch 10/63 | Loss Task: 3.4688 | LwF:0.1201 | P:1.000 | Loss_Ratio:5.7756
+  [Ep 0] Batch 15/63 | Loss Task: 3.2656 | LwF:0.1377 | P:1.000 | Loss_Ratio:4.7433
+  [Ep 0] Batch 20/63 | Loss Task: 2.9375 | LwF:0.1494 | P:1.000 | Loss_Ratio:3.9320
+  [Ep 0] Batch 25/63 | Loss Task: 2.1875 | LwF:0.1992 | P:1.000 | Loss_Ratio:2.1961
+  [Ep 0] Batch 30/63 | Loss Task: 2.2656 | LwF:0.1943 | P:1.000 | Loss_Ratio:2.3317
+  [Ep 0] Batch 35/63 | Loss Task: 1.8438 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.8975
+  [Ep 0] Batch 40/63 | Loss Task: 1.8438 | LwF:0.2070 | P:1.000 | Loss_Ratio:1.7811
+  [Ep 0] Batch 45/63 | Loss Task: 1.7109 | LwF:0.2080 | P:1.000 | Loss_Ratio:1.6451
+  [Ep 0] Batch 50/63 | Loss Task: 1.6641 | LwF:0.2178 | P:1.000 | Loss_Ratio:1.5283
+  [Ep 0] Batch 55/63 | Loss Task: 1.7500 | LwF:0.2139 | P:1.000 | Loss_Ratio:1.6365
+  [Ep 0] Batch 60/63 | Loss Task: 1.5625 | LwF:0.2070 | P:1.000 | Loss_Ratio:1.5094
+  [Ep 1] Batch 0/63 | Loss Task: 1.7500 | LwF:0.1992 | P:1.000 | Loss_Ratio:1.7569
+  [Ep 1] Batch 5/63 | Loss Task: 1.3828 | LwF:0.2148 | P:1.000 | Loss_Ratio:1.2873
+  [Ep 1] Batch 10/63 | Loss Task: 1.4062 | LwF:0.2119 | P:1.000 | Loss_Ratio:1.3272
+  [Ep 1] Batch 15/63 | Loss Task: 1.2500 | LwF:0.2188 | P:1.000 | Loss_Ratio:1.1429
+  [Ep 1] Batch 20/63 | Loss Task: 1.4219 | LwF:0.2119 | P:1.000 | Loss_Ratio:1.3419
+  [Ep 1] Batch 25/63 | Loss Task: 1.4609 | LwF:0.2148 | P:1.000 | Loss_Ratio:1.3600
+  [Ep 1] Batch 30/63 | Loss Task: 1.3750 | LwF:0.2109 | P:1.000 | Loss_Ratio:1.3037
+  [Ep 1] Batch 35/63 | Loss Task: 1.2266 | LwF:0.2178 | P:1.000 | Loss_Ratio:1.1265
+  [Ep 1] Batch 40/63 | Loss Task: 1.1250 | LwF:0.2305 | P:1.000 | Loss_Ratio:0.9763
+  [Ep 1] Batch 45/63 | Loss Task: 1.2891 | LwF:0.2227 | P:1.000 | Loss_Ratio:1.1579
+  [Ep 1] Batch 50/63 | Loss Task: 1.3125 | LwF:0.2080 | P:1.000 | Loss_Ratio:1.2620
+  [Ep 1] Batch 55/63 | Loss Task: 1.3516 | LwF:0.2061 | P:1.000 | Loss_Ratio:1.3118
+  [Ep 1] Batch 60/63 | Loss Task: 1.2500 | LwF:0.2168 | P:1.000 | Loss_Ratio:1.1532
+  [Ep 2] Batch 0/63 | Loss Task: 1.1250 | LwF:0.2393 | P:1.000 | Loss_Ratio:0.9404
+  [Ep 2] Batch 5/63 | Loss Task: 1.1641 | LwF:0.2061 | P:1.000 | Loss_Ratio:1.1299
+  [Ep 2] Batch 10/63 | Loss Task: 1.2656 | LwF:0.2129 | P:1.000 | Loss_Ratio:1.1890
+  [Ep 2] Batch 15/63 | Loss Task: 1.1797 | LwF:0.2217 | P:1.000 | Loss_Ratio:1.0643
+  [Ep 2] Batch 20/63 | Loss Task: 1.2422 | LwF:0.2236 | P:1.000 | Loss_Ratio:1.1109
+  [Ep 2] Batch 25/63 | Loss Task: 1.1797 | LwF:0.2197 | P:1.000 | Loss_Ratio:1.0738
+  [Ep 2] Batch 30/63 | Loss Task: 1.2344 | LwF:0.2314 | P:1.000 | Loss_Ratio:1.0667
+  [Ep 2] Batch 35/63 | Loss Task: 1.0859 | LwF:0.2295 | P:1.000 | Loss_Ratio:0.9464
+  [Ep 2] Batch 40/63 | Loss Task: 1.1797 | LwF:0.2109 | P:1.000 | Loss_Ratio:1.1185
+  [Ep 2] Batch 45/63 | Loss Task: 1.1562 | LwF:0.2148 | P:1.000 | Loss_Ratio:1.0764
+  [Ep 2] Batch 50/63 | Loss Task: 1.1797 | LwF:0.2139 | P:1.000 | Loss_Ratio:1.1032
+  [Ep 2] Batch 55/63 | Loss Task: 0.9844 | LwF:0.2305 | P:1.000 | Loss_Ratio:0.8542
+  [Ep 2] Batch 60/63 | Loss Task: 1.0469 | LwF:0.2383 | P:1.000 | Loss_Ratio:0.8787
+  [Ep 3] Batch 0/63 | Loss Task: 1.0938 | LwF:0.2119 | P:1.000 | Loss_Ratio:1.0323
+  [Ep 3] Batch 5/63 | Loss Task: 1.3281 | LwF:0.2119 | P:1.000 | Loss_Ratio:1.2535
+  [Ep 3] Batch 10/63 | Loss Task: 1.0156 | LwF:0.2295 | P:1.000 | Loss_Ratio:0.8851
+  [Ep 3] Batch 15/63 | Loss Task: 1.2109 | LwF:0.2178 | P:1.000 | Loss_Ratio:1.1121
+  [Ep 3] Batch 20/63 | Loss Task: 1.1172 | LwF:0.2178 | P:1.000 | Loss_Ratio:1.0260
+  [Ep 3] Batch 25/63 | Loss Task: 1.0156 | LwF:0.2275 | P:1.000 | Loss_Ratio:0.8927
+  [Ep 3] Batch 30/63 | Loss Task: 1.2891 | LwF:0.2275 | P:1.000 | Loss_Ratio:1.1330
+  [Ep 3] Batch 35/63 | Loss Task: 1.1719 | LwF:0.2148 | P:1.000 | Loss_Ratio:1.0909
+  [Ep 3] Batch 40/63 | Loss Task: 1.0078 | LwF:0.2266 | P:1.000 | Loss_Ratio:0.8897
+  [Ep 3] Batch 45/63 | Loss Task: 1.1406 | LwF:0.2090 | P:1.000 | Loss_Ratio:1.0916
+  [Ep 3] Batch 50/63 | Loss Task: 0.9727 | LwF:0.2412 | P:1.000 | Loss_Ratio:0.8065
+  [Ep 3] Batch 55/63 | Loss Task: 1.0234 | LwF:0.2246 | P:1.000 | Loss_Ratio:0.9113
+  [Ep 3] Batch 60/63 | Loss Task: 1.0312 | LwF:0.2256 | P:1.000 | Loss_Ratio:0.9143
+  [Ep 4] Batch 0/63 | Loss Task: 1.1875 | LwF:0.2061 | P:1.000 | Loss_Ratio:1.1526
+  [Ep 4] Batch 5/63 | Loss Task: 1.0859 | LwF:0.2119 | P:1.000 | Loss_Ratio:1.0249
+  [Ep 4] Batch 10/63 | Loss Task: 1.1172 | LwF:0.2275 | P:1.000 | Loss_Ratio:0.9820
+  [Ep 4] Batch 15/63 | Loss Task: 1.1172 | LwF:0.2266 | P:1.000 | Loss_Ratio:0.9862
+  [Ep 4] Batch 20/63 | Loss Task: 1.0938 | LwF:0.2246 | P:1.000 | Loss_Ratio:0.9739
+  [Ep 4] Batch 25/63 | Loss Task: 1.1797 | LwF:0.2148 | P:1.000 | Loss_Ratio:1.0982
+  [Ep 4] Batch 30/63 | Loss Task: 1.0859 | LwF:0.2295 | P:1.000 | Loss_Ratio:0.9464
+  [Ep 4] Batch 35/63 | Loss Task: 1.0000 | LwF:0.2344 | P:1.000 | Loss_Ratio:0.8533
+  [Ep 4] Batch 40/63 | Loss Task: 1.0859 | LwF:0.2197 | P:1.000 | Loss_Ratio:0.9884
+  [Ep 4] Batch 45/63 | Loss Task: 1.0625 | LwF:0.2168 | P:1.000 | Loss_Ratio:0.9802
+  [Ep 4] Batch 50/63 | Loss Task: 1.1562 | LwF:0.2217 | P:1.000 | Loss_Ratio:1.0432
+  [Ep 4] Batch 55/63 | Loss Task: 1.0547 | LwF:0.2178 | P:1.000 | Loss_Ratio:0.9686
+  [Ep 4] Batch 60/63 | Loss Task: 1.0234 | LwF:0.2373 | P:1.000 | Loss_Ratio:0.8626
+    [Gestalt] L10_q: 82/576 dims protegidas
+    [Gestalt] L10_v: 82/576 dims protegidas
+    [Gestalt] L11_q: 61/576 dims protegidas
+    [Gestalt] L11_v: 61/576 dims protegidas
+    [Gestalt] L12_q: 13/576 dims protegidas
+    [Gestalt] L12_v: 13/576 dims protegidas
+    [Gestalt] L13_q: 8/576 dims protegidas
+    [Gestalt] L13_v: 8/576 dims protegidas
+    [Gestalt] L14_q: 11/576 dims protegidas
+    [Gestalt] L14_v: 11/576 dims protegidas
+    [Gestalt] L15_q: 14/576 dims protegidas
+    [Gestalt] L15_v: 14/576 dims protegidas
+    [Gestalt] L16_q: 15/576 dims protegidas
+    [Gestalt] L16_v: 15/576 dims protegidas
+    [Gestalt] L17_q: 14/576 dims protegidas
+    [Gestalt] L17_v: 14/576 dims protegidas
+    [Gestalt] L18_q: 17/576 dims protegidas
+    [Gestalt] L18_v: 17/576 dims protegidas
+    [Gestalt] L19_q: 13/576 dims protegidas
+    [Gestalt] L19_v: 13/576 dims protegidas
+    [Gestalt] L20_q: 16/576 dims protegidas
+    [Gestalt] L20_v: 16/576 dims protegidas
+    [Gestalt] L21_q: 21/576 dims protegidas
+    [Gestalt] L21_v: 21/576 dims protegidas
+    [Gestalt] L22_q: 25/576 dims protegidas
+    [Gestalt] L22_v: 25/576 dims protegidas
+    [Gestalt] L23_q: 36/576 dims protegidas
+    [Gestalt] L23_v: 36/576 dims protegidas
+    [Gestalt] L24_q: 31/576 dims protegidas
+    [Gestalt] L24_v: 31/576 dims protegidas
+    [Gestalt] L25_q: 43/576 dims protegidas
+    [Gestalt] L25_v: 43/576 dims protegidas
+    [Gestalt] L26_q: 39/576 dims protegidas
+    [Gestalt] L26_v: 39/576 dims protegidas
+    [Gestalt] L27_q: 38/576 dims protegidas
+    [Gestalt] L27_v: 38/576 dims protegidas
+    [Gestalt] L28_q: 43/576 dims protegidas
+    [Gestalt] L28_v: 43/576 dims protegidas
+    [Gestalt] L29_q: 54/576 dims protegidas
+    [Gestalt] L29_v: 54/576 dims protegidas
+ Completado. Accs: ['9%', '10%', '2%', '32%', '7%', '27%', '35%', '66%', '87%', '82%', '79%', '95%']
+  T12/15 → ['9%', '10%', '2%', '32%', '7%', '27%', '35%', '66%', '87%', '82%', '79%', '95%']
+  [Entrenando Tarea 13/15]...  [Ep 0] Batch 0/63 | Loss Task: 5.2812 | LwF:0.0000 | P:1.000 | Loss_Ratio:52812500000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 3.9844 | LwF:0.0977 | P:1.000 | Loss_Ratio:8.1600
+  [Ep 0] Batch 10/63 | Loss Task: 3.5469 | LwF:0.1387 | P:1.000 | Loss_Ratio:5.1155
+  [Ep 0] Batch 15/63 | Loss Task: 3.2500 | LwF:0.1157 | P:1.000 | Loss_Ratio:5.6169
+  [Ep 0] Batch 20/63 | Loss Task: 2.8125 | LwF:0.1436 | P:1.000 | Loss_Ratio:3.9184
+  [Ep 0] Batch 25/63 | Loss Task: 2.5625 | LwF:0.1553 | P:1.000 | Loss_Ratio:3.3006
+  [Ep 0] Batch 30/63 | Loss Task: 2.5000 | LwF:0.1660 | P:1.000 | Loss_Ratio:3.0118
+  [Ep 0] Batch 35/63 | Loss Task: 2.0312 | LwF:0.1855 | P:1.000 | Loss_Ratio:2.1895
+  [Ep 0] Batch 40/63 | Loss Task: 1.7656 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.8171
+  [Ep 0] Batch 45/63 | Loss Task: 1.7734 | LwF:0.1953 | P:1.000 | Loss_Ratio:1.8160
+  [Ep 0] Batch 50/63 | Loss Task: 1.8594 | LwF:0.1865 | P:1.000 | Loss_Ratio:1.9937
+  [Ep 0] Batch 55/63 | Loss Task: 1.6250 | LwF:0.1963 | P:1.000 | Loss_Ratio:1.6557
+  [Ep 0] Batch 60/63 | Loss Task: 1.5469 | LwF:0.2109 | P:1.000 | Loss_Ratio:1.4667
+  [Ep 1] Batch 0/63 | Loss Task: 1.5625 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.5311
+  [Ep 1] Batch 5/63 | Loss Task: 1.5703 | LwF:0.1904 | P:1.000 | Loss_Ratio:1.6492
+  [Ep 1] Batch 10/63 | Loss Task: 1.3672 | LwF:0.2109 | P:1.000 | Loss_Ratio:1.2963
+  [Ep 1] Batch 15/63 | Loss Task: 1.3828 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.4231
+  [Ep 1] Batch 20/63 | Loss Task: 1.4922 | LwF:0.2021 | P:1.000 | Loss_Ratio:1.4763
+  [Ep 1] Batch 25/63 | Loss Task: 1.3516 | LwF:0.2051 | P:1.000 | Loss_Ratio:1.3181
+  [Ep 1] Batch 30/63 | Loss Task: 1.4609 | LwF:0.1963 | P:1.000 | Loss_Ratio:1.4886
+  [Ep 1] Batch 35/63 | Loss Task: 1.4062 | LwF:0.2002 | P:1.000 | Loss_Ratio:1.4049
+  [Ep 1] Batch 40/63 | Loss Task: 1.4141 | LwF:0.2080 | P:1.000 | Loss_Ratio:1.3596
+  [Ep 1] Batch 45/63 | Loss Task: 1.3359 | LwF:0.1982 | P:1.000 | Loss_Ratio:1.3478
+  [Ep 1] Batch 50/63 | Loss Task: 1.1641 | LwF:0.2207 | P:1.000 | Loss_Ratio:1.0549
+  [Ep 1] Batch 55/63 | Loss Task: 1.4688 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.5116
+  [Ep 1] Batch 60/63 | Loss Task: 1.3438 | LwF:0.1992 | P:1.000 | Loss_Ratio:1.3490
+  [Ep 2] Batch 0/63 | Loss Task: 1.3828 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.3748
+  [Ep 2] Batch 5/63 | Loss Task: 1.2266 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.2019
+  [Ep 2] Batch 10/63 | Loss Task: 1.1562 | LwF:0.2061 | P:1.000 | Loss_Ratio:1.1223
+  [Ep 2] Batch 15/63 | Loss Task: 1.5312 | LwF:0.1943 | P:1.000 | Loss_Ratio:1.5759
+  [Ep 2] Batch 20/63 | Loss Task: 1.1250 | LwF:0.2148 | P:1.000 | Loss_Ratio:1.0473
+  [Ep 2] Batch 25/63 | Loss Task: 1.2500 | LwF:0.2109 | P:1.000 | Loss_Ratio:1.1852
+  [Ep 2] Batch 30/63 | Loss Task: 1.3047 | LwF:0.2061 | P:1.000 | Loss_Ratio:1.2664
+  [Ep 2] Batch 35/63 | Loss Task: 1.2891 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.2816
+  [Ep 2] Batch 40/63 | Loss Task: 1.1328 | LwF:0.2148 | P:1.000 | Loss_Ratio:1.0545
+  [Ep 2] Batch 45/63 | Loss Task: 1.2578 | LwF:0.2051 | P:1.000 | Loss_Ratio:1.2267
+  [Ep 2] Batch 50/63 | Loss Task: 1.1797 | LwF:0.2305 | P:1.000 | Loss_Ratio:1.0237
+  [Ep 2] Batch 55/63 | Loss Task: 1.1250 | LwF:0.2314 | P:1.000 | Loss_Ratio:0.9722
+  [Ep 2] Batch 60/63 | Loss Task: 1.1719 | LwF:0.2061 | P:1.000 | Loss_Ratio:1.1374
+  [Ep 3] Batch 0/63 | Loss Task: 1.2188 | LwF:0.2100 | P:1.000 | Loss_Ratio:1.1609
+  [Ep 3] Batch 5/63 | Loss Task: 1.2734 | LwF:0.2178 | P:1.000 | Loss_Ratio:1.1695
+  [Ep 3] Batch 10/63 | Loss Task: 1.1406 | LwF:0.2109 | P:1.000 | Loss_Ratio:1.0815
+  [Ep 3] Batch 15/63 | Loss Task: 1.1641 | LwF:0.2070 | P:1.000 | Loss_Ratio:1.1245
+  [Ep 3] Batch 20/63 | Loss Task: 1.3438 | LwF:0.1982 | P:1.000 | Loss_Ratio:1.3557
+  [Ep 3] Batch 25/63 | Loss Task: 1.0625 | LwF:0.2227 | P:1.000 | Loss_Ratio:0.9544
+  [Ep 3] Batch 30/63 | Loss Task: 1.1641 | LwF:0.1992 | P:1.000 | Loss_Ratio:1.1686
+  [Ep 3] Batch 35/63 | Loss Task: 1.2188 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.1943
+  [Ep 3] Batch 40/63 | Loss Task: 1.0938 | LwF:0.2148 | P:1.000 | Loss_Ratio:1.0182
+  [Ep 3] Batch 45/63 | Loss Task: 0.9844 | LwF:0.2236 | P:1.000 | Loss_Ratio:0.8803
+  [Ep 3] Batch 50/63 | Loss Task: 0.9609 | LwF:0.2275 | P:1.000 | Loss_Ratio:0.8446
+  [Ep 3] Batch 55/63 | Loss Task: 1.1719 | LwF:0.1973 | P:1.000 | Loss_Ratio:1.1881
+  [Ep 3] Batch 60/63 | Loss Task: 1.1250 | LwF:0.2051 | P:1.000 | Loss_Ratio:1.0971
+  [Ep 4] Batch 0/63 | Loss Task: 1.1016 | LwF:0.2178 | P:1.000 | Loss_Ratio:1.0117
+  [Ep 4] Batch 5/63 | Loss Task: 1.1562 | LwF:0.2070 | P:1.000 | Loss_Ratio:1.1170
+  [Ep 4] Batch 10/63 | Loss Task: 1.0781 | LwF:0.2178 | P:1.000 | Loss_Ratio:0.9901
+  [Ep 4] Batch 15/63 | Loss Task: 1.0781 | LwF:0.2021 | P:1.000 | Loss_Ratio:1.0667
+  [Ep 4] Batch 20/63 | Loss Task: 1.0547 | LwF:0.2051 | P:1.000 | Loss_Ratio:1.0286
+  [Ep 4] Batch 25/63 | Loss Task: 0.9805 | LwF:0.2148 | P:1.000 | Loss_Ratio:0.9127
+  [Ep 4] Batch 30/63 | Loss Task: 1.1484 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.1417
+  [Ep 4] Batch 35/63 | Loss Task: 1.0859 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.0641
+  [Ep 4] Batch 40/63 | Loss Task: 1.1875 | LwF:0.1973 | P:1.000 | Loss_Ratio:1.2040
+  [Ep 4] Batch 45/63 | Loss Task: 1.1562 | LwF:0.2148 | P:1.000 | Loss_Ratio:1.0764
+  [Ep 4] Batch 50/63 | Loss Task: 1.1016 | LwF:0.2129 | P:1.000 | Loss_Ratio:1.0349
+  [Ep 4] Batch 55/63 | Loss Task: 1.1797 | LwF:0.2158 | P:1.000 | Loss_Ratio:1.0932
+  [Ep 4] Batch 60/63 | Loss Task: 1.0938 | LwF:0.2080 | P:1.000 | Loss_Ratio:1.0516
+    [Gestalt] L10_q: 82/576 dims protegidas
+    [Gestalt] L10_v: 82/576 dims protegidas
+    [Gestalt] L11_q: 64/576 dims protegidas
+    [Gestalt] L11_v: 64/576 dims protegidas
+    [Gestalt] L12_q: 13/576 dims protegidas
+    [Gestalt] L12_v: 13/576 dims protegidas
+    [Gestalt] L13_q: 8/576 dims protegidas
+    [Gestalt] L13_v: 8/576 dims protegidas
+    [Gestalt] L14_q: 11/576 dims protegidas
+    [Gestalt] L14_v: 11/576 dims protegidas
+    [Gestalt] L15_q: 14/576 dims protegidas
+    [Gestalt] L15_v: 14/576 dims protegidas
+    [Gestalt] L16_q: 15/576 dims protegidas
+    [Gestalt] L16_v: 15/576 dims protegidas
+    [Gestalt] L17_q: 15/576 dims protegidas
+    [Gestalt] L17_v: 15/576 dims protegidas
+    [Gestalt] L18_q: 17/576 dims protegidas
+    [Gestalt] L18_v: 17/576 dims protegidas
+    [Gestalt] L19_q: 12/576 dims protegidas
+    [Gestalt] L19_v: 12/576 dims protegidas
+    [Gestalt] L20_q: 16/576 dims protegidas
+    [Gestalt] L20_v: 16/576 dims protegidas
+    [Gestalt] L21_q: 22/576 dims protegidas
+    [Gestalt] L21_v: 22/576 dims protegidas
+    [Gestalt] L22_q: 25/576 dims protegidas
+    [Gestalt] L22_v: 25/576 dims protegidas
+    [Gestalt] L23_q: 36/576 dims protegidas
+    [Gestalt] L23_v: 36/576 dims protegidas
+    [Gestalt] L24_q: 30/576 dims protegidas
+    [Gestalt] L24_v: 30/576 dims protegidas
+    [Gestalt] L25_q: 44/576 dims protegidas
+    [Gestalt] L25_v: 44/576 dims protegidas
+    [Gestalt] L26_q: 39/576 dims protegidas
+    [Gestalt] L26_v: 39/576 dims protegidas
+    [Gestalt] L27_q: 38/576 dims protegidas
+    [Gestalt] L27_v: 38/576 dims protegidas
+    [Gestalt] L28_q: 45/576 dims protegidas
+    [Gestalt] L28_v: 45/576 dims protegidas
+    [Gestalt] L29_q: 54/576 dims protegidas
+    [Gestalt] L29_v: 54/576 dims protegidas
+ Completado. Accs: ['9%', '8%', '3%', '24%', '4%', '22%', '29%', '61%', '81%', '76%', '73%', '90%', '95%']
+  T13/15 → ['9%', '8%', '3%', '24%', '4%', '22%', '29%', '61%', '81%', '76%', '73%', '90%', '95%']
+  [Entrenando Tarea 14/15]...  [Ep 0] Batch 0/63 | Loss Task: 5.9062 | LwF:0.0000 | P:1.000 | Loss_Ratio:59062500000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 4.5625 | LwF:0.0830 | P:1.000 | Loss_Ratio:10.9929
+  [Ep 0] Batch 10/63 | Loss Task: 3.5469 | LwF:0.1299 | P:1.000 | Loss_Ratio:5.4617
+  [Ep 0] Batch 15/63 | Loss Task: 2.9375 | LwF:0.1514 | P:1.000 | Loss_Ratio:3.8813
+  [Ep 0] Batch 20/63 | Loss Task: 3.0156 | LwF:0.1367 | P:1.000 | Loss_Ratio:4.4114
+  [Ep 0] Batch 25/63 | Loss Task: 2.6875 | LwF:0.1670 | P:1.000 | Loss_Ratio:3.2187
+  [Ep 0] Batch 30/63 | Loss Task: 2.5156 | LwF:0.1689 | P:1.000 | Loss_Ratio:2.9780
+  [Ep 0] Batch 35/63 | Loss Task: 2.3750 | LwF:0.1719 | P:1.000 | Loss_Ratio:2.7636
+  [Ep 0] Batch 40/63 | Loss Task: 1.9688 | LwF:0.1924 | P:1.000 | Loss_Ratio:2.0467
+  [Ep 0] Batch 45/63 | Loss Task: 1.8281 | LwF:0.2002 | P:1.000 | Loss_Ratio:1.8263
+  [Ep 0] Batch 50/63 | Loss Task: 1.8125 | LwF:0.2031 | P:1.000 | Loss_Ratio:1.7846
+  [Ep 0] Batch 55/63 | Loss Task: 1.8203 | LwF:0.2061 | P:1.000 | Loss_Ratio:1.7668
+  [Ep 0] Batch 60/63 | Loss Task: 1.5703 | LwF:0.2246 | P:1.000 | Loss_Ratio:1.3983
+  [Ep 1] Batch 0/63 | Loss Task: 1.6172 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.5847
+  [Ep 1] Batch 5/63 | Loss Task: 1.6328 | LwF:0.2158 | P:1.000 | Loss_Ratio:1.5131
+  [Ep 1] Batch 10/63 | Loss Task: 1.5625 | LwF:0.2188 | P:1.000 | Loss_Ratio:1.4286
+  [Ep 1] Batch 15/63 | Loss Task: 1.5781 | LwF:0.2148 | P:1.000 | Loss_Ratio:1.4691
+  [Ep 1] Batch 20/63 | Loss Task: 1.4766 | LwF:0.2119 | P:1.000 | Loss_Ratio:1.3935
+  [Ep 1] Batch 25/63 | Loss Task: 1.3672 | LwF:0.2314 | P:1.000 | Loss_Ratio:1.1814
+  [Ep 1] Batch 30/63 | Loss Task: 1.6172 | LwF:0.1982 | P:1.000 | Loss_Ratio:1.6315
+  [Ep 1] Batch 35/63 | Loss Task: 1.2891 | LwF:0.2207 | P:1.000 | Loss_Ratio:1.1681
+  [Ep 1] Batch 40/63 | Loss Task: 1.3203 | LwF:0.2246 | P:1.000 | Loss_Ratio:1.1757
+  [Ep 1] Batch 45/63 | Loss Task: 1.2656 | LwF:0.2314 | P:1.000 | Loss_Ratio:1.0937
+  [Ep 1] Batch 50/63 | Loss Task: 1.2266 | LwF:0.2314 | P:1.000 | Loss_Ratio:1.0599
+  [Ep 1] Batch 55/63 | Loss Task: 1.2578 | LwF:0.2275 | P:1.000 | Loss_Ratio:1.1056
+  [Ep 1] Batch 60/63 | Loss Task: 1.3750 | LwF:0.2090 | P:1.000 | Loss_Ratio:1.3159
+  [Ep 2] Batch 0/63 | Loss Task: 1.1719 | LwF:0.2295 | P:1.000 | Loss_Ratio:1.0213
+  [Ep 2] Batch 5/63 | Loss Task: 1.2109 | LwF:0.2246 | P:1.000 | Loss_Ratio:1.0783
+  [Ep 2] Batch 10/63 | Loss Task: 1.1406 | LwF:0.2324 | P:1.000 | Loss_Ratio:0.9815
+  [Ep 2] Batch 15/63 | Loss Task: 1.4375 | LwF:0.2100 | P:1.000 | Loss_Ratio:1.3693
+  [Ep 2] Batch 20/63 | Loss Task: 1.1094 | LwF:0.2363 | P:1.000 | Loss_Ratio:0.9388
+  [Ep 2] Batch 25/63 | Loss Task: 1.1562 | LwF:0.2334 | P:1.000 | Loss_Ratio:0.9908
+  [Ep 2] Batch 30/63 | Loss Task: 1.1641 | LwF:0.2354 | P:1.000 | Loss_Ratio:0.9892
+  [Ep 2] Batch 35/63 | Loss Task: 1.3438 | LwF:0.2139 | P:1.000 | Loss_Ratio:1.2566
+  [Ep 2] Batch 40/63 | Loss Task: 1.2500 | LwF:0.2285 | P:1.000 | Loss_Ratio:1.0940
+  [Ep 2] Batch 45/63 | Loss Task: 1.1641 | LwF:0.2412 | P:1.000 | Loss_Ratio:0.9652
+  [Ep 2] Batch 50/63 | Loss Task: 1.3750 | LwF:0.2129 | P:1.000 | Loss_Ratio:1.2917
+  [Ep 2] Batch 55/63 | Loss Task: 1.2344 | LwF:0.2197 | P:1.000 | Loss_Ratio:1.1236
+  [Ep 2] Batch 60/63 | Loss Task: 1.5312 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.5005
+  [Ep 3] Batch 0/63 | Loss Task: 1.1406 | LwF:0.2324 | P:1.000 | Loss_Ratio:0.9815
+  [Ep 3] Batch 5/63 | Loss Task: 1.1328 | LwF:0.2246 | P:1.000 | Loss_Ratio:1.0087
+  [Ep 3] Batch 10/63 | Loss Task: 1.1719 | LwF:0.2168 | P:1.000 | Loss_Ratio:1.0811
+  [Ep 3] Batch 15/63 | Loss Task: 1.1953 | LwF:0.2266 | P:1.000 | Loss_Ratio:1.0552
+  [Ep 3] Batch 20/63 | Loss Task: 1.2812 | LwF:0.2236 | P:1.000 | Loss_Ratio:1.1459
+  [Ep 3] Batch 25/63 | Loss Task: 1.1406 | LwF:0.2236 | P:1.000 | Loss_Ratio:1.0201
+  [Ep 3] Batch 30/63 | Loss Task: 1.0703 | LwF:0.2441 | P:1.000 | Loss_Ratio:0.8768
+  [Ep 3] Batch 35/63 | Loss Task: 1.2188 | LwF:0.2236 | P:1.000 | Loss_Ratio:1.0900
+  [Ep 3] Batch 40/63 | Loss Task: 1.1797 | LwF:0.2324 | P:1.000 | Loss_Ratio:1.0151
+  [Ep 3] Batch 45/63 | Loss Task: 1.2812 | LwF:0.2178 | P:1.000 | Loss_Ratio:1.1767
+  [Ep 3] Batch 50/63 | Loss Task: 1.2422 | LwF:0.2158 | P:1.000 | Loss_Ratio:1.1511
+  [Ep 3] Batch 55/63 | Loss Task: 1.2734 | LwF:0.2295 | P:1.000 | Loss_Ratio:1.1098
+  [Ep 3] Batch 60/63 | Loss Task: 1.2266 | LwF:0.2100 | P:1.000 | Loss_Ratio:1.1684
+  [Ep 4] Batch 0/63 | Loss Task: 1.2031 | LwF:0.2090 | P:1.000 | Loss_Ratio:1.1514
+  [Ep 4] Batch 5/63 | Loss Task: 1.2812 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.2555
+  [Ep 4] Batch 10/63 | Loss Task: 1.2891 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.2632
+  [Ep 4] Batch 15/63 | Loss Task: 1.1016 | LwF:0.2266 | P:1.000 | Loss_Ratio:0.9724
+  [Ep 4] Batch 20/63 | Loss Task: 1.1094 | LwF:0.2383 | P:1.000 | Loss_Ratio:0.9311
+  [Ep 4] Batch 25/63 | Loss Task: 1.0234 | LwF:0.2295 | P:1.000 | Loss_Ratio:0.8919
+  [Ep 4] Batch 30/63 | Loss Task: 1.1172 | LwF:0.2188 | P:1.000 | Loss_Ratio:1.0214
+  [Ep 4] Batch 35/63 | Loss Task: 1.0938 | LwF:0.2334 | P:1.000 | Loss_Ratio:0.9372
+  [Ep 4] Batch 40/63 | Loss Task: 1.0703 | LwF:0.2236 | P:1.000 | Loss_Ratio:0.9572
+  [Ep 4] Batch 45/63 | Loss Task: 1.0469 | LwF:0.2354 | P:1.000 | Loss_Ratio:0.8896
+  [Ep 4] Batch 50/63 | Loss Task: 1.1641 | LwF:0.2275 | P:1.000 | Loss_Ratio:1.0232
+  [Ep 4] Batch 55/63 | Loss Task: 1.3359 | LwF:0.2148 | P:1.000 | Loss_Ratio:1.2436
+  [Ep 4] Batch 60/63 | Loss Task: 1.1953 | LwF:0.2139 | P:1.000 | Loss_Ratio:1.1178
+    [Gestalt] L10_q: 84/576 dims protegidas
+    [Gestalt] L10_v: 84/576 dims protegidas
+    [Gestalt] L11_q: 64/576 dims protegidas
+    [Gestalt] L11_v: 64/576 dims protegidas
+    [Gestalt] L12_q: 13/576 dims protegidas
+    [Gestalt] L12_v: 13/576 dims protegidas
+    [Gestalt] L13_q: 8/576 dims protegidas
+    [Gestalt] L13_v: 8/576 dims protegidas
+    [Gestalt] L14_q: 12/576 dims protegidas
+    [Gestalt] L14_v: 12/576 dims protegidas
+    [Gestalt] L15_q: 15/576 dims protegidas
+    [Gestalt] L15_v: 15/576 dims protegidas
+    [Gestalt] L16_q: 16/576 dims protegidas
+    [Gestalt] L16_v: 16/576 dims protegidas
+    [Gestalt] L17_q: 15/576 dims protegidas
+    [Gestalt] L17_v: 15/576 dims protegidas
+    [Gestalt] L18_q: 18/576 dims protegidas
+    [Gestalt] L18_v: 18/576 dims protegidas
+    [Gestalt] L19_q: 13/576 dims protegidas
+    [Gestalt] L19_v: 13/576 dims protegidas
+    [Gestalt] L20_q: 16/576 dims protegidas
+    [Gestalt] L20_v: 16/576 dims protegidas
+    [Gestalt] L21_q: 24/576 dims protegidas
+    [Gestalt] L21_v: 24/576 dims protegidas
+    [Gestalt] L22_q: 26/576 dims protegidas
+    [Gestalt] L22_v: 26/576 dims protegidas
+    [Gestalt] L23_q: 35/576 dims protegidas
+    [Gestalt] L23_v: 35/576 dims protegidas
+    [Gestalt] L24_q: 30/576 dims protegidas
+    [Gestalt] L24_v: 30/576 dims protegidas
+    [Gestalt] L25_q: 44/576 dims protegidas
+    [Gestalt] L25_v: 44/576 dims protegidas
+    [Gestalt] L26_q: 40/576 dims protegidas
+    [Gestalt] L26_v: 40/576 dims protegidas
+    [Gestalt] L27_q: 37/576 dims protegidas
+    [Gestalt] L27_v: 37/576 dims protegidas
+    [Gestalt] L28_q: 44/576 dims protegidas
+    [Gestalt] L28_v: 44/576 dims protegidas
+    [Gestalt] L29_q: 56/576 dims protegidas
+    [Gestalt] L29_v: 56/576 dims protegidas
+ Completado. Accs: ['1%', '2%', '1%', '18%', '3%', '18%', '25%', '54%', '69%', '66%', '59%', '85%', '90%', '92%']
+  T14/15 → ['1%', '2%', '1%', '18%', '3%', '18%', '25%', '54%', '69%', '66%', '59%', '85%', '90%', '92%']
+  [Entrenando Tarea 15/15]...  [Ep 0] Batch 0/63 | Loss Task: 5.3750 | LwF:0.0000 | P:1.000 | Loss_Ratio:53750000000.0000
+  [Ep 0] Batch 5/63 | Loss Task: 4.3438 | LwF:0.0864 | P:1.000 | Loss_Ratio:10.0520
+  [Ep 0] Batch 10/63 | Loss Task: 3.5000 | LwF:0.1289 | P:1.000 | Loss_Ratio:5.4303
+  [Ep 0] Batch 15/63 | Loss Task: 3.1094 | LwF:0.1367 | P:1.000 | Loss_Ratio:4.5486
+  [Ep 0] Batch 20/63 | Loss Task: 2.6406 | LwF:0.1689 | P:1.000 | Loss_Ratio:3.1260
+  [Ep 0] Batch 25/63 | Loss Task: 2.4375 | LwF:0.1709 | P:1.000 | Loss_Ratio:2.8526
+  [Ep 0] Batch 30/63 | Loss Task: 2.3125 | LwF:0.1895 | P:1.000 | Loss_Ratio:2.4412
+  [Ep 0] Batch 35/63 | Loss Task: 2.0469 | LwF:0.1875 | P:1.000 | Loss_Ratio:2.1833
+  [Ep 0] Batch 40/63 | Loss Task: 1.9609 | LwF:0.1914 | P:1.000 | Loss_Ratio:2.0490
+  [Ep 0] Batch 45/63 | Loss Task: 1.9062 | LwF:0.2090 | P:1.000 | Loss_Ratio:1.8243
+  [Ep 0] Batch 50/63 | Loss Task: 1.6641 | LwF:0.2139 | P:1.000 | Loss_Ratio:1.5562
+  [Ep 0] Batch 55/63 | Loss Task: 1.9062 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.8679
+  [Ep 0] Batch 60/63 | Loss Task: 1.5469 | LwF:0.2090 | P:1.000 | Loss_Ratio:1.4804
+  [Ep 1] Batch 0/63 | Loss Task: 1.8906 | LwF:0.1855 | P:1.000 | Loss_Ratio:2.0379
+  [Ep 1] Batch 5/63 | Loss Task: 1.4375 | LwF:0.2188 | P:1.000 | Loss_Ratio:1.3143
+  [Ep 1] Batch 10/63 | Loss Task: 1.7891 | LwF:0.1953 | P:1.000 | Loss_Ratio:1.8320
+  [Ep 1] Batch 15/63 | Loss Task: 1.6641 | LwF:0.2051 | P:1.000 | Loss_Ratio:1.6229
+  [Ep 1] Batch 20/63 | Loss Task: 1.7031 | LwF:0.2012 | P:1.000 | Loss_Ratio:1.6932
+  [Ep 1] Batch 25/63 | Loss Task: 1.5625 | LwF:0.1924 | P:1.000 | Loss_Ratio:1.6244
+  [Ep 1] Batch 30/63 | Loss Task: 1.2188 | LwF:0.2266 | P:1.000 | Loss_Ratio:1.0759
+  [Ep 1] Batch 35/63 | Loss Task: 1.4297 | LwF:0.2295 | P:1.000 | Loss_Ratio:1.2460
+  [Ep 1] Batch 40/63 | Loss Task: 1.4453 | LwF:0.2070 | P:1.000 | Loss_Ratio:1.3962
+  [Ep 1] Batch 45/63 | Loss Task: 1.5547 | LwF:0.1914 | P:1.000 | Loss_Ratio:1.6245
+  [Ep 1] Batch 50/63 | Loss Task: 1.3984 | LwF:0.2363 | P:1.000 | Loss_Ratio:1.1835
+  [Ep 1] Batch 55/63 | Loss Task: 1.3203 | LwF:0.2109 | P:1.000 | Loss_Ratio:1.2519
+  [Ep 1] Batch 60/63 | Loss Task: 1.5078 | LwF:0.2002 | P:1.000 | Loss_Ratio:1.5063
+  [Ep 2] Batch 0/63 | Loss Task: 1.5000 | LwF:0.2031 | P:1.000 | Loss_Ratio:1.4769
+  [Ep 2] Batch 5/63 | Loss Task: 1.2891 | LwF:0.2158 | P:1.000 | Loss_Ratio:1.1946
+  [Ep 2] Batch 10/63 | Loss Task: 1.6328 | LwF:0.1963 | P:1.000 | Loss_Ratio:1.6637
+  [Ep 2] Batch 15/63 | Loss Task: 1.3828 | LwF:0.2061 | P:1.000 | Loss_Ratio:1.3422
+  [Ep 2] Batch 20/63 | Loss Task: 1.1172 | LwF:0.2520 | P:1.000 | Loss_Ratio:0.8868
+  [Ep 2] Batch 25/63 | Loss Task: 1.3125 | LwF:0.2148 | P:1.000 | Loss_Ratio:1.2218
+  [Ep 2] Batch 30/63 | Loss Task: 1.2891 | LwF:0.2188 | P:1.000 | Loss_Ratio:1.1786
+  [Ep 2] Batch 35/63 | Loss Task: 1.3594 | LwF:0.2051 | P:1.000 | Loss_Ratio:1.3257
+  [Ep 2] Batch 40/63 | Loss Task: 1.2266 | LwF:0.2207 | P:1.000 | Loss_Ratio:1.1115
+  [Ep 2] Batch 45/63 | Loss Task: 1.1094 | LwF:0.2275 | P:1.000 | Loss_Ratio:0.9751
+  [Ep 2] Batch 50/63 | Loss Task: 1.2578 | LwF:0.2031 | P:1.000 | Loss_Ratio:1.2385
+  [Ep 2] Batch 55/63 | Loss Task: 1.2188 | LwF:0.2188 | P:1.000 | Loss_Ratio:1.1143
+  [Ep 2] Batch 60/63 | Loss Task: 1.1719 | LwF:0.2256 | P:1.000 | Loss_Ratio:1.0390
+  [Ep 3] Batch 0/63 | Loss Task: 1.2422 | LwF:0.2080 | P:1.000 | Loss_Ratio:1.1944
+  [Ep 3] Batch 5/63 | Loss Task: 1.2266 | LwF:0.2109 | P:1.000 | Loss_Ratio:1.1630
+  [Ep 3] Batch 10/63 | Loss Task: 1.3750 | LwF:0.2061 | P:1.000 | Loss_Ratio:1.3346
+  [Ep 3] Batch 15/63 | Loss Task: 1.2344 | LwF:0.2207 | P:1.000 | Loss_Ratio:1.1186
+  [Ep 3] Batch 20/63 | Loss Task: 1.2891 | LwF:0.2129 | P:1.000 | Loss_Ratio:1.2110
+  [Ep 3] Batch 25/63 | Loss Task: 1.1328 | LwF:0.2207 | P:1.000 | Loss_Ratio:1.0265
+  [Ep 3] Batch 30/63 | Loss Task: 1.1406 | LwF:0.2100 | P:1.000 | Loss_Ratio:1.0865
+  [Ep 3] Batch 35/63 | Loss Task: 1.1719 | LwF:0.2197 | P:1.000 | Loss_Ratio:1.0667
+  [Ep 3] Batch 40/63 | Loss Task: 1.2656 | LwF:0.2217 | P:1.000 | Loss_Ratio:1.1419
+  [Ep 3] Batch 45/63 | Loss Task: 1.2812 | LwF:0.2178 | P:1.000 | Loss_Ratio:1.1767
+  [Ep 3] Batch 50/63 | Loss Task: 1.3047 | LwF:0.2070 | P:1.000 | Loss_Ratio:1.2604
+  [Ep 3] Batch 55/63 | Loss Task: 1.3047 | LwF:0.2090 | P:1.000 | Loss_Ratio:1.2486
+  [Ep 3] Batch 60/63 | Loss Task: 1.1797 | LwF:0.2227 | P:1.000 | Loss_Ratio:1.0596
+  [Ep 4] Batch 0/63 | Loss Task: 1.0312 | LwF:0.2275 | P:1.000 | Loss_Ratio:0.9064
+  [Ep 4] Batch 5/63 | Loss Task: 1.3125 | LwF:0.2256 | P:1.000 | Loss_Ratio:1.1636
+  [Ep 4] Batch 10/63 | Loss Task: 1.1016 | LwF:0.2197 | P:1.000 | Loss_Ratio:1.0027
+  [Ep 4] Batch 15/63 | Loss Task: 1.3281 | LwF:0.2080 | P:1.000 | Loss_Ratio:1.2770
+  [Ep 4] Batch 20/63 | Loss Task: 1.2578 | LwF:0.2080 | P:1.000 | Loss_Ratio:1.2094
+  [Ep 4] Batch 25/63 | Loss Task: 1.1406 | LwF:0.2197 | P:1.000 | Loss_Ratio:1.0382
+  [Ep 4] Batch 30/63 | Loss Task: 1.2031 | LwF:0.2246 | P:1.000 | Loss_Ratio:1.0713
+  [Ep 4] Batch 35/63 | Loss Task: 1.1016 | LwF:0.2441 | P:1.000 | Loss_Ratio:0.9024
+  [Ep 4] Batch 40/63 | Loss Task: 1.1719 | LwF:0.2119 | P:1.000 | Loss_Ratio:1.1060
+  [Ep 4] Batch 45/63 | Loss Task: 1.1328 | LwF:0.2109 | P:1.000 | Loss_Ratio:1.0741
+  [Ep 4] Batch 50/63 | Loss Task: 1.1719 | LwF:0.2236 | P:1.000 | Loss_Ratio:1.0480
+  [Ep 4] Batch 55/63 | Loss Task: 1.0703 | LwF:0.2178 | P:1.000 | Loss_Ratio:0.9830
+  [Ep 4] Batch 60/63 | Loss Task: 1.3047 | LwF:0.2041 | P:1.000 | Loss_Ratio:1.2785
+    [Gestalt] L10_q: 87/576 dims protegidas
+    [Gestalt] L10_v: 87/576 dims protegidas
+    [Gestalt] L11_q: 67/576 dims protegidas
+    [Gestalt] L11_v: 67/576 dims protegidas
+    [Gestalt] L12_q: 13/576 dims protegidas
+    [Gestalt] L12_v: 13/576 dims protegidas
+    [Gestalt] L13_q: 9/576 dims protegidas
+    [Gestalt] L13_v: 9/576 dims protegidas
+    [Gestalt] L14_q: 12/576 dims protegidas
+    [Gestalt] L14_v: 12/576 dims protegidas
+    [Gestalt] L15_q: 16/576 dims protegidas
+    [Gestalt] L15_v: 16/576 dims protegidas
+    [Gestalt] L16_q: 16/576 dims protegidas
+    [Gestalt] L16_v: 16/576 dims protegidas
+    [Gestalt] L17_q: 16/576 dims protegidas
+    [Gestalt] L17_v: 16/576 dims protegidas
+    [Gestalt] L18_q: 18/576 dims protegidas
+    [Gestalt] L18_v: 18/576 dims protegidas
+    [Gestalt] L19_q: 13/576 dims protegidas
+    [Gestalt] L19_v: 13/576 dims protegidas
+    [Gestalt] L20_q: 17/576 dims protegidas
+    [Gestalt] L20_v: 17/576 dims protegidas
+    [Gestalt] L21_q: 24/576 dims protegidas
+    [Gestalt] L21_v: 24/576 dims protegidas
+    [Gestalt] L22_q: 26/576 dims protegidas
+    [Gestalt] L22_v: 26/576 dims protegidas
+    [Gestalt] L23_q: 35/576 dims protegidas
+    [Gestalt] L23_v: 35/576 dims protegidas
+    [Gestalt] L24_q: 30/576 dims protegidas
+    [Gestalt] L24_v: 30/576 dims protegidas
+    [Gestalt] L25_q: 43/576 dims protegidas
+    [Gestalt] L25_v: 43/576 dims protegidas
+    [Gestalt] L26_q: 40/576 dims protegidas
+    [Gestalt] L26_v: 40/576 dims protegidas
+    [Gestalt] L27_q: 41/576 dims protegidas
+    [Gestalt] L27_v: 41/576 dims protegidas
+    [Gestalt] L28_q: 46/576 dims protegidas
+    [Gestalt] L28_v: 46/576 dims protegidas
+    [Gestalt] L29_q: 54/576 dims protegidas
+    [Gestalt] L29_v: 54/576 dims protegidas
+ Completado. Accs: ['0%', '1%', '0%', '11%', '2%', '16%', '22%', '40%', '52%', '51%', '60%', '72%', '86%', '93%', '91%']
+  T15/15 → ['0%', '1%', '0%', '11%', '2%', '16%', '22%', '40%', '52%', '51%', '60%', '72%', '86%', '93%', '91%']
+  --> Final AIA: 63.49% | BWT: -58.24%
+📊 ANTENA_Base: AIA=63.49% | BWT=-58.24%
+
+--- Evaluando cristalización de inteligencia para ANTENA_Base ---
+    -> Configurando Modelo CausalLM para Zero-Shot...
+Loading weights:   0%|          | 0/272 [00:00<?, ?it/s]Loading weights:  45%|████▍     | 122/272 [00:00<00:00, 1216.82it/s]Loading weights: 100%|██████████| 272/272 [00:00<00:00, 1409.51it/s]
+      [Evaluando Perplejidad en WikiText-2]...
+      [Evaluando PIQA Zero-Shot via lm-eval]...
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+Generating train split:   0%|          | 0/16113 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 16113/16113 [00:00<00:00, 496859.44 examples/s]
+Generating validation split:   0%|          | 0/1838 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 1838/1838 [00:00<00:00, 324008.35 examples/s]
+Generating test split:   0%|          | 0/3084 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 3084/3084 [00:00<00:00, 411439.09 examples/s]
+Overwriting default num_fewshot of piqa from None to 0
+  0%|          | 0/1838 [00:00<?, ?it/s]  3%|▎         | 46/1838 [00:00<00:03, 457.45it/s]  6%|▌         | 108/1838 [00:00<00:03, 549.54it/s]  9%|▉         | 169/1838 [00:00<00:02, 575.98it/s] 12%|█▏        | 227/1838 [00:00<00:03, 439.68it/s] 15%|█▍        | 275/1838 [00:00<00:03, 429.24it/s] 17%|█▋        | 321/1838 [00:00<00:03, 422.12it/s] 20%|█▉        | 365/1838 [00:00<00:03, 423.51it/s] 22%|██▏       | 409/1838 [00:00<00:03, 426.42it/s] 25%|██▍       | 453/1838 [00:01<00:03, 427.35it/s] 27%|██▋       | 497/1838 [00:01<00:03, 423.33it/s] 29%|██▉       | 541/1838 [00:01<00:03, 425.34it/s] 32%|███▏      | 584/1838 [00:01<00:02, 424.39it/s] 34%|███▍      | 627/1838 [00:01<00:02, 423.76it/s] 36%|███▋      | 670/1838 [00:01<00:02, 416.06it/s] 39%|███▉      | 713/1838 [00:01<00:02, 417.28it/s] 41%|████      | 756/1838 [00:01<00:02, 420.86it/s] 43%|████▎     | 799/1838 [00:01<00:02, 422.12it/s] 46%|████▌     | 842/1838 [00:01<00:02, 421.97it/s] 48%|████▊     | 885/1838 [00:02<00:02, 419.51it/s] 50%|█████     | 927/1838 [00:02<00:02, 417.62it/s] 53%|█████▎    | 969/1838 [00:02<00:02, 410.43it/s] 55%|█████▌    | 1011/1838 [00:02<00:02, 411.58it/s] 57%|█████▋    | 1053/1838 [00:02<00:01, 407.97it/s] 60%|█████▉    | 1094/1838 [00:02<00:01, 404.95it/s] 62%|██████▏   | 1135/1838 [00:02<00:01, 394.70it/s] 64%|██████▍   | 1178/1838 [00:02<00:01, 403.23it/s] 66%|██████▋   | 1222/1838 [00:02<00:01, 411.55it/s] 69%|██████▉   | 1265/1838 [00:02<00:01, 416.20it/s] 71%|███████   | 1307/1838 [00:03<00:01, 414.96it/s] 73%|███████▎  | 1349/1838 [00:03<00:01, 405.57it/s] 76%|███████▌  | 1392/1838 [00:03<00:01, 411.11it/s] 78%|███████▊  | 1435/1838 [00:03<00:00, 415.05it/s] 80%|████████  | 1478/1838 [00:03<00:00, 418.85it/s] 83%|████████▎ | 1521/1838 [00:03<00:00, 420.22it/s] 85%|████████▌ | 1564/1838 [00:03<00:00, 408.28it/s] 87%|████████▋ | 1605/1838 [00:03<00:00, 407.58it/s] 90%|████████▉ | 1648/1838 [00:03<00:00, 413.38it/s] 92%|█████████▏| 1691/1838 [00:04<00:00, 416.37it/s] 94%|█████████▍| 1733/1838 [00:04<00:00, 410.79it/s] 97%|█████████▋| 1775/1838 [00:04<00:00, 406.20it/s] 99%|█████████▉| 1816/1838 [00:04<00:00, 403.29it/s]100%|██████████| 1838/1838 [00:04<00:00, 419.74it/s]
+Tokenizing inputs:   0%|          | 0/3676 [00:00<?, ?it/s]Tokenizing inputs:   6%|▌         | 222/3676 [00:00<00:01, 2209.39it/s]Tokenizing inputs:  12%|█▏        | 452/3676 [00:00<00:01, 2256.52it/s]Tokenizing inputs:  18%|█▊        | 678/3676 [00:00<00:01, 2222.60it/s]Tokenizing inputs:  25%|██▍       | 901/3676 [00:00<00:01, 1992.52it/s]Tokenizing inputs:  30%|███       | 1104/3676 [00:00<00:01, 1985.22it/s]Tokenizing inputs:  36%|███▌      | 1305/3676 [00:00<00:01, 1984.90it/s]Tokenizing inputs:  41%|████      | 1505/3676 [00:00<00:01, 1931.16it/s]Tokenizing inputs:  46%|████▌     | 1700/3676 [00:01<00:01, 1032.15it/s]Tokenizing inputs:  55%|█████▌    | 2039/3676 [00:01<00:01, 1473.40it/s]Tokenizing inputs:  65%|██████▌   | 2405/3676 [00:01<00:00, 1934.12it/s]Tokenizing inputs:  75%|███████▍  | 2753/3676 [00:01<00:00, 2286.26it/s]Tokenizing inputs:  83%|████████▎ | 3055/3676 [00:01<00:00, 2467.85it/s]Tokenizing inputs:  94%|█████████▎| 3439/3676 [00:01<00:00, 2825.36it/s]Tokenizing inputs: 100%|██████████| 3676/3676 [00:01<00:00, 2157.86it/s]
+Running loglikelihood requests:   0%|          | 0/3676 [00:00<?, ?it/s]Running loglikelihood requests:   0%|          | 1/3676 [00:00<15:07,  4.05it/s]Running loglikelihood requests:   0%|          | 5/3676 [00:00<03:45, 16.26it/s]Running loglikelihood requests:   0%|          | 9/3676 [00:00<02:34, 23.67it/s]Running loglikelihood requests:   0%|          | 17/3676 [00:00<01:49, 33.27it/s]Running loglikelihood requests:   1%|          | 25/3676 [00:00<01:34, 38.49it/s]Running loglikelihood requests:   1%|          | 33/3676 [00:00<01:25, 42.36it/s]Running loglikelihood requests:   1%|          | 41/3676 [00:01<01:19, 45.47it/s]Running loglikelihood requests:   1%|▏         | 49/3676 [00:01<01:14, 48.79it/s]Running loglikelihood requests:   2%|▏         | 57/3676 [00:01<01:10, 51.12it/s]Running loglikelihood requests:   2%|▏         | 65/3676 [00:01<01:07, 53.15it/s]Running loglikelihood requests:   2%|▏         | 73/3676 [00:01<01:04, 55.59it/s]Running loglikelihood requests:   2%|▏         | 81/3676 [00:01<01:03, 56.75it/s]Running loglikelihood requests:   2%|▏         | 89/3676 [00:01<01:02, 57.06it/s]Running loglikelihood requests:   3%|▎         | 97/3676 [00:02<01:00, 59.02it/s]Running loglikelihood requests:   3%|▎         | 105/3676 [00:02<00:59, 60.38it/s]Running loglikelihood requests:   3%|▎         | 113/3676 [00:02<00:57, 62.34it/s]Running loglikelihood requests:   3%|▎         | 121/3676 [00:02<00:55, 63.95it/s]Running loglikelihood requests:   4%|▎         | 129/3676 [00:02<00:54, 65.05it/s]Running loglikelihood requests:   4%|▎         | 137/3676 [00:02<00:54, 65.41it/s]Running loglikelihood requests:   4%|▍         | 145/3676 [00:02<00:53, 66.25it/s]Running loglikelihood requests:   4%|▍         | 153/3676 [00:02<00:55, 63.21it/s]Running loglikelihood requests:   4%|▍         | 161/3676 [00:03<00:54, 64.06it/s]Running loglikelihood requests:   5%|▍         | 169/3676 [00:03<00:53, 64.99it/s]Running loglikelihood requests:   5%|▍         | 177/3676 [00:03<00:53, 65.81it/s]Running loglikelihood requests:   5%|▌         | 185/3676 [00:03<00:52, 66.96it/s]Running loglikelihood requests:   5%|▌         | 193/3676 [00:03<00:51, 67.72it/s]Running loglikelihood requests:   5%|▌         | 201/3676 [00:03<00:51, 68.08it/s]Running loglikelihood requests:   6%|▌         | 209/3676 [00:03<00:50, 69.08it/s]Running loglikelihood requests:   6%|▌         | 217/3676 [00:03<00:49, 69.31it/s]Running loglikelihood requests:   6%|▌         | 225/3676 [00:04<00:52, 65.66it/s]Running loglikelihood requests:   6%|▋         | 233/3676 [00:04<00:51, 66.32it/s]Running loglikelihood requests:   7%|▋         | 241/3676 [00:04<00:51, 67.05it/s]Running loglikelihood requests:   7%|▋         | 249/3676 [00:04<00:50, 68.37it/s]Running loglikelihood requests:   7%|▋         | 257/3676 [00:04<00:51, 66.33it/s]Running loglikelihood requests:   7%|▋         | 265/3676 [00:04<00:50, 67.65it/s]Running loglikelihood requests:   7%|▋         | 273/3676 [00:04<00:49, 68.74it/s]Running loglikelihood requests:   8%|▊         | 281/3676 [00:04<00:49, 68.49it/s]Running loglikelihood requests:   8%|▊         | 289/3676 [00:04<00:48, 69.48it/s]Running loglikelihood requests:   8%|▊         | 297/3676 [00:05<00:50, 67.31it/s]Running loglikelihood requests:   8%|▊         | 306/3676 [00:05<00:47, 71.25it/s]Running loglikelihood requests:   9%|▊         | 314/3676 [00:05<00:47, 71.35it/s]Running loglikelihood requests:   9%|▉         | 322/3676 [00:05<00:46, 71.82it/s]Running loglikelihood requests:   9%|▉         | 330/3676 [00:05<00:46, 71.75it/s]Running loglikelihood requests:   9%|▉         | 338/3676 [00:05<00:46, 71.55it/s]Running loglikelihood requests:   9%|▉         | 346/3676 [00:05<00:46, 71.69it/s]Running loglikelihood requests:  10%|▉         | 354/3676 [00:05<00:46, 71.93it/s]Running loglikelihood requests:  10%|▉         | 362/3676 [00:05<00:46, 70.64it/s]Running loglikelihood requests:  10%|█         | 370/3676 [00:06<00:48, 68.52it/s]Running loglikelihood requests:  10%|█         | 378/3676 [00:06<00:46, 70.27it/s]Running loglikelihood requests:  11%|█         | 386/3676 [00:06<00:46, 71.20it/s]Running loglikelihood requests:  11%|█         | 394/3676 [00:06<00:45, 72.20it/s]Running loglikelihood requests:  11%|█         | 402/3676 [00:06<00:45, 71.29it/s]Running loglikelihood requests:  11%|█         | 410/3676 [00:06<00:45, 71.88it/s]Running loglikelihood requests:  11%|█▏        | 418/3676 [00:06<00:45, 72.31it/s]Running loglikelihood requests:  12%|█▏        | 426/3676 [00:06<00:44, 73.27it/s]Running loglikelihood requests:  12%|█▏        | 434/3676 [00:06<00:44, 73.68it/s]Running loglikelihood requests:  12%|█▏        | 442/3676 [00:07<00:45, 70.66it/s]Running loglikelihood requests:  12%|█▏        | 450/3676 [00:07<00:45, 71.68it/s]Running loglikelihood requests:  12%|█▏        | 458/3676 [00:07<00:44, 72.56it/s]Running loglikelihood requests:  13%|█▎        | 466/3676 [00:07<00:43, 73.26it/s]Running loglikelihood requests:  13%|█▎        | 474/3676 [00:07<00:43, 73.50it/s]Running loglikelihood requests:  13%|█▎        | 482/3676 [00:07<00:43, 73.37it/s]Running loglikelihood requests:  13%|█▎        | 490/3676 [00:07<00:43, 73.51it/s]Running loglikelihood requests:  14%|█▎        | 498/3676 [00:07<00:43, 73.74it/s]Running loglikelihood requests:  14%|█▍        | 506/3676 [00:07<00:43, 72.74it/s]Running loglikelihood requests:  14%|█▍        | 514/3676 [00:08<00:43, 72.85it/s]Running loglikelihood requests:  14%|█▍        | 522/3676 [00:08<00:44, 70.65it/s]Running loglikelihood requests:  14%|█▍        | 530/3676 [00:08<00:43, 71.69it/s]Running loglikelihood requests:  15%|█▍        | 538/3676 [00:08<00:43, 72.66it/s]Running loglikelihood requests:  15%|█▍        | 546/3676 [00:08<00:42, 73.47it/s]Running loglikelihood requests:  15%|█▌        | 554/3676 [00:08<00:42, 73.37it/s]Running loglikelihood requests:  15%|█▌        | 562/3676 [00:08<00:42, 73.40it/s]Running loglikelihood requests:  16%|█▌        | 570/3676 [00:08<00:42, 73.78it/s]Running loglikelihood requests:  16%|█▌        | 578/3676 [00:08<00:42, 72.18it/s]Running loglikelihood requests:  16%|█▌        | 586/3676 [00:09<00:46, 66.18it/s]Running loglikelihood requests:  16%|█▌        | 594/3676 [00:09<00:46, 65.62it/s]Running loglikelihood requests:  16%|█▋        | 602/3676 [00:09<00:53, 57.81it/s]Running loglikelihood requests:  17%|█▋        | 610/3676 [00:09<00:54, 56.08it/s]Running loglikelihood requests:  17%|█▋        | 618/3676 [00:09<00:54, 56.02it/s]Running loglikelihood requests:  17%|█▋        | 626/3676 [00:09<00:55, 54.54it/s]Running loglikelihood requests:  17%|█▋        | 634/3676 [00:09<00:56, 53.67it/s]Running loglikelihood requests:  17%|█▋        | 642/3676 [00:10<00:57, 53.20it/s]Running loglikelihood requests:  18%|█▊        | 650/3676 [00:10<00:56, 53.32it/s]Running loglikelihood requests:  18%|█▊        | 658/3676 [00:10<00:54, 55.31it/s]Running loglikelihood requests:  18%|█▊        | 666/3676 [00:10<00:52, 56.88it/s]Running loglikelihood requests:  18%|█▊        | 674/3676 [00:10<00:52, 57.66it/s]Running loglikelihood requests:  19%|█▊        | 682/3676 [00:10<00:51, 58.30it/s]Running loglikelihood requests:  19%|█▉        | 690/3676 [00:10<00:52, 57.00it/s]Running loglikelihood requests:  19%|█▉        | 698/3676 [00:11<00:54, 54.92it/s]Running loglikelihood requests:  19%|█▉        | 706/3676 [00:11<00:56, 52.35it/s]Running loglikelihood requests:  19%|█▉        | 714/3676 [00:11<00:54, 53.99it/s]Running loglikelihood requests:  20%|█▉        | 722/3676 [00:11<00:53, 55.38it/s]Running loglikelihood requests:  20%|█▉        | 730/3676 [00:11<00:52, 56.48it/s]Running loglikelihood requests:  20%|██        | 738/3676 [00:11<00:51, 57.54it/s]Running loglikelihood requests:  20%|██        | 747/3676 [00:11<00:49, 59.60it/s]Running loglikelihood requests:  21%|██        | 755/3676 [00:12<00:50, 58.35it/s]Running loglikelihood requests:  21%|██        | 763/3676 [00:12<00:50, 58.11it/s]Running loglikelihood requests:  21%|██        | 771/3676 [00:12<00:50, 57.80it/s]Running loglikelihood requests:  21%|██        | 779/3676 [00:12<00:49, 58.94it/s]Running loglikelihood requests:  21%|██▏       | 787/3676 [00:12<00:48, 59.31it/s]Running loglikelihood requests:  22%|██▏       | 795/3676 [00:12<00:51, 56.11it/s]Running loglikelihood requests:  22%|██▏       | 803/3676 [00:12<00:53, 53.29it/s]Running loglikelihood requests:  22%|██▏       | 811/3676 [00:13<00:53, 53.67it/s]Running loglikelihood requests:  22%|██▏       | 819/3676 [00:13<00:52, 54.74it/s]Running loglikelihood requests:  22%|██▏       | 827/3676 [00:13<00:55, 51.56it/s]Running loglikelihood requests:  23%|██▎       | 835/3676 [00:13<00:58, 48.58it/s]Running loglikelihood requests:  23%|██▎       | 843/3676 [00:13<00:58, 48.19it/s]Running loglikelihood requests:  23%|██▎       | 851/3676 [00:13<00:56, 49.95it/s]Running loglikelihood requests:  23%|██▎       | 859/3676 [00:14<00:51, 55.19it/s]Running loglikelihood requests:  24%|██▎       | 867/3676 [00:14<00:47, 59.36it/s]Running loglikelihood requests:  24%|██▍       | 875/3676 [00:14<00:44, 62.57it/s]Running loglikelihood requests:  24%|██▍       | 883/3676 [00:14<00:42, 65.81it/s]Running loglikelihood requests:  24%|██▍       | 891/3676 [00:14<00:42, 65.63it/s]Running loglikelihood requests:  24%|██▍       | 899/3676 [00:14<00:42, 64.94it/s]Running loglikelihood requests:  25%|██▍       | 907/3676 [00:14<00:40, 67.80it/s]Running loglikelihood requests:  25%|██▍       | 915/3676 [00:14<00:39, 69.94it/s]Running loglikelihood requests:  25%|██▌       | 923/3676 [00:14<00:39, 70.24it/s]Running loglikelihood requests:  25%|██▌       | 931/3676 [00:15<00:38, 71.60it/s]Running loglikelihood requests:  26%|██▌       | 939/3676 [00:15<00:38, 71.95it/s]Running loglikelihood requests:  26%|██▌       | 947/3676 [00:15<00:37, 72.67it/s]Running loglikelihood requests:  26%|██▌       | 955/3676 [00:15<00:36, 73.56it/s]Running loglikelihood requests:  26%|██▌       | 963/3676 [00:15<00:37, 73.26it/s]Running loglikelihood requests:  26%|██▋       | 971/3676 [00:15<00:38, 70.79it/s]Running loglikelihood requests:  27%|██▋       | 979/3676 [00:15<00:37, 72.05it/s]Running loglikelihood requests:  27%|██▋       | 987/3676 [00:15<00:36, 73.05it/s]Running loglikelihood requests:  27%|██▋       | 995/3676 [00:15<00:36, 72.55it/s]Running loglikelihood requests:  27%|██▋       | 1003/3676 [00:16<00:36, 73.33it/s]Running loglikelihood requests:  28%|██▊       | 1011/3676 [00:16<00:36, 73.55it/s]Running loglikelihood requests:  28%|██▊       | 1019/3676 [00:16<00:35, 74.16it/s]Running loglikelihood requests:  28%|██▊       | 1027/3676 [00:16<00:35, 74.88it/s]Running loglikelihood requests:  28%|██▊       | 1035/3676 [00:16<00:35, 75.20it/s]Running loglikelihood requests:  28%|██▊       | 1043/3676 [00:16<00:36, 72.25it/s]Running loglikelihood requests:  29%|██▊       | 1051/3676 [00:16<00:36, 72.70it/s]Running loglikelihood requests:  29%|██▉       | 1059/3676 [00:16<00:35, 73.36it/s]Running loglikelihood requests:  29%|██▉       | 1067/3676 [00:16<00:35, 73.04it/s]Running loglikelihood requests:  29%|██▉       | 1075/3676 [00:17<00:36, 71.96it/s]Running loglikelihood requests:  29%|██▉       | 1083/3676 [00:17<00:35, 72.55it/s]Running loglikelihood requests:  30%|██▉       | 1091/3676 [00:17<00:35, 73.18it/s]Running loglikelihood requests:  30%|██▉       | 1099/3676 [00:17<00:35, 73.49it/s]Running loglikelihood requests:  30%|███       | 1107/3676 [00:17<00:34, 73.87it/s]Running loglikelihood requests:  30%|███       | 1115/3676 [00:17<00:34, 73.85it/s]Running loglikelihood requests:  31%|███       | 1123/3676 [00:17<00:35, 71.27it/s]Running loglikelihood requests:  31%|███       | 1131/3676 [00:17<00:35, 72.31it/s]Running loglikelihood requests:  31%|███       | 1139/3676 [00:17<00:35, 72.48it/s]Running loglikelihood requests:  31%|███       | 1147/3676 [00:18<00:35, 71.85it/s]Running loglikelihood requests:  31%|███▏      | 1155/3676 [00:18<00:34, 72.35it/s]Running loglikelihood requests:  32%|███▏      | 1163/3676 [00:18<00:34, 72.78it/s]Running loglikelihood requests:  32%|███▏      | 1171/3676 [00:18<00:34, 73.50it/s]Running loglikelihood requests:  32%|███▏      | 1179/3676 [00:18<00:33, 73.61it/s]Running loglikelihood requests:  32%|███▏      | 1187/3676 [00:18<00:33, 73.92it/s]Running loglikelihood requests:  33%|███▎      | 1195/3676 [00:18<00:35, 70.52it/s]Running loglikelihood requests:  33%|███▎      | 1203/3676 [00:18<00:34, 71.63it/s]Running loglikelihood requests:  33%|███▎      | 1211/3676 [00:18<00:34, 71.85it/s]Running loglikelihood requests:  33%|███▎      | 1219/3676 [00:19<00:34, 71.27it/s]Running loglikelihood requests:  33%|███▎      | 1227/3676 [00:19<00:33, 72.07it/s]Running loglikelihood requests:  34%|███▎      | 1235/3676 [00:19<00:33, 72.87it/s]Running loglikelihood requests:  34%|███▍      | 1243/3676 [00:19<00:33, 73.27it/s]Running loglikelihood requests:  34%|███▍      | 1251/3676 [00:19<00:33, 73.37it/s]Running loglikelihood requests:  34%|███▍      | 1259/3676 [00:19<00:32, 73.78it/s]Running loglikelihood requests:  34%|███▍      | 1267/3676 [00:19<00:33, 71.42it/s]Running loglikelihood requests:  35%|███▍      | 1275/3676 [00:19<00:33, 72.32it/s]Running loglikelihood requests:  35%|███▍      | 1283/3676 [00:19<00:32, 73.00it/s]Running loglikelihood requests:  35%|███▌      | 1291/3676 [00:20<00:33, 71.80it/s]Running loglikelihood requests:  35%|███▌      | 1299/3676 [00:20<00:33, 71.98it/s]Running loglikelihood requests:  36%|███▌      | 1307/3676 [00:20<00:32, 72.83it/s]Running loglikelihood requests:  36%|███▌      | 1315/3676 [00:20<00:31, 73.81it/s]Running loglikelihood requests:  36%|███▌      | 1323/3676 [00:20<00:31, 74.14it/s]Running loglikelihood requests:  36%|███▌      | 1331/3676 [00:20<00:31, 74.57it/s]Running loglikelihood requests:  36%|███▋      | 1339/3676 [00:20<00:31, 74.53it/s]Running loglikelihood requests:  37%|███▋      | 1347/3676 [00:20<00:32, 71.52it/s]Running loglikelihood requests:  37%|███▋      | 1355/3676 [00:20<00:31, 72.80it/s]Running loglikelihood requests:  37%|███▋      | 1363/3676 [00:21<00:32, 72.10it/s]Running loglikelihood requests:  37%|███▋      | 1371/3676 [00:21<00:31, 73.09it/s]Running loglikelihood requests:  38%|███▊      | 1379/3676 [00:21<00:31, 73.33it/s]Running loglikelihood requests:  38%|███▊      | 1387/3676 [00:21<00:30, 73.92it/s]Running loglikelihood requests:  38%|███▊      | 1395/3676 [00:21<00:30, 74.15it/s]Running loglikelihood requests:  38%|███▊      | 1403/3676 [00:21<00:30, 74.25it/s]Running loglikelihood requests:  38%|███▊      | 1411/3676 [00:21<00:30, 74.08it/s]Running loglikelihood requests:  39%|███▊      | 1419/3676 [00:21<00:31, 71.79it/s]Running loglikelihood requests:  39%|███▉      | 1427/3676 [00:21<00:31, 72.36it/s]Running loglikelihood requests:  39%|███▉      | 1435/3676 [00:21<00:31, 71.94it/s]Running loglikelihood requests:  39%|███▉      | 1443/3676 [00:22<00:30, 73.09it/s]Running loglikelihood requests:  39%|███▉      | 1451/3676 [00:22<00:30, 73.48it/s]Running loglikelihood requests:  40%|███▉      | 1459/3676 [00:22<00:29, 74.32it/s]Running loglikelihood requests:  40%|███▉      | 1467/3676 [00:22<00:29, 74.67it/s]Running loglikelihood requests:  40%|████      | 1475/3676 [00:22<00:29, 75.10it/s]Running loglikelihood requests:  40%|████      | 1483/3676 [00:22<00:29, 75.25it/s]Running loglikelihood requests:  41%|████      | 1491/3676 [00:22<00:29, 75.03it/s]Running loglikelihood requests:  41%|████      | 1499/3676 [00:22<00:30, 72.21it/s]Running loglikelihood requests:  41%|████      | 1507/3676 [00:22<00:30, 71.79it/s]Running loglikelihood requests:  41%|████      | 1516/3676 [00:23<00:28, 75.60it/s]Running loglikelihood requests:  41%|████▏     | 1524/3676 [00:23<00:28, 75.09it/s]Running loglikelihood requests:  42%|████▏     | 1532/3676 [00:23<00:28, 75.36it/s]Running loglikelihood requests:  42%|████▏     | 1540/3676 [00:23<00:28, 75.34it/s]Running loglikelihood requests:  42%|████▏     | 1548/3676 [00:23<00:28, 75.54it/s]Running loglikelihood requests:  42%|████▏     | 1556/3676 [00:23<00:27, 76.11it/s]Running loglikelihood requests:  43%|████▎     | 1564/3676 [00:23<00:27, 75.92it/s]Running loglikelihood requests:  43%|████▎     | 1572/3676 [00:23<00:27, 76.56it/s]Running loglikelihood requests:  43%|████▎     | 1580/3676 [00:23<00:30, 68.08it/s]Running loglikelihood requests:  43%|████▎     | 1588/3676 [00:24<00:33, 61.92it/s]Running loglikelihood requests:  43%|████▎     | 1596/3676 [00:24<00:35, 58.99it/s]Running loglikelihood requests:  44%|████▎     | 1604/3676 [00:24<00:35, 59.17it/s]Running loglikelihood requests:  44%|████▍     | 1612/3676 [00:24<00:34, 59.24it/s]Running loglikelihood requests:  44%|████▍     | 1620/3676 [00:24<00:34, 59.11it/s]Running loglikelihood requests:  44%|████▍     | 1628/3676 [00:24<00:34, 58.78it/s]Running loglikelihood requests:  45%|████▍     | 1636/3676 [00:24<00:37, 54.69it/s]Running loglikelihood requests:  45%|████▍     | 1644/3676 [00:25<00:37, 54.00it/s]Running loglikelihood requests:  45%|████▍     | 1652/3676 [00:25<00:36, 55.28it/s]Running loglikelihood requests:  45%|████▌     | 1660/3676 [00:25<00:35, 56.89it/s]Running loglikelihood requests:  45%|████▌     | 1668/3676 [00:25<00:34, 58.03it/s]Running loglikelihood requests:  46%|████▌     | 1676/3676 [00:25<00:36, 55.35it/s]Running loglikelihood requests:  46%|████▌     | 1684/3676 [00:25<00:36, 54.06it/s]Running loglikelihood requests:  46%|████▌     | 1692/3676 [00:25<00:37, 53.52it/s]Running loglikelihood requests:  46%|████▌     | 1700/3676 [00:26<00:37, 53.12it/s]Running loglikelihood requests:  46%|████▋     | 1708/3676 [00:26<00:37, 53.14it/s]Running loglikelihood requests:  47%|████▋     | 1716/3676 [00:26<00:36, 53.46it/s]Running loglikelihood requests:  47%|████▋     | 1724/3676 [00:26<00:36, 53.69it/s]Running loglikelihood requests:  47%|████▋     | 1732/3676 [00:26<00:36, 53.24it/s]Running loglikelihood requests:  47%|████▋     | 1740/3676 [00:26<00:35, 55.28it/s]Running loglikelihood requests:  48%|████▊     | 1748/3676 [00:27<00:34, 56.65it/s]Running loglikelihood requests:  48%|████▊     | 1756/3676 [00:27<00:34, 55.97it/s]Running loglikelihood requests:  48%|████▊     | 1764/3676 [00:27<00:33, 56.83it/s]Running loglikelihood requests:  48%|████▊     | 1772/3676 [00:27<00:33, 56.70it/s]Running loglikelihood requests:  48%|████▊     | 1780/3676 [00:27<00:35, 53.97it/s]Running loglikelihood requests:  49%|████▊     | 1788/3676 [00:27<00:35, 53.10it/s]Running loglikelihood requests:  49%|████▉     | 1796/3676 [00:27<00:35, 52.97it/s]Running loglikelihood requests:  49%|████▉     | 1804/3676 [00:28<00:35, 52.23it/s]Running loglikelihood requests:  49%|████▉     | 1812/3676 [00:28<00:36, 50.43it/s]Running loglikelihood requests:  50%|████▉     | 1820/3676 [00:28<00:37, 49.83it/s]Running loglikelihood requests:  50%|████▉     | 1828/3676 [00:28<00:36, 49.97it/s]Running loglikelihood requests:  50%|████▉     | 1836/3676 [00:28<00:34, 53.26it/s]Running loglikelihood requests:  50%|█████     | 1844/3676 [00:28<00:31, 58.53it/s]Running loglikelihood requests:  50%|█████     | 1852/3676 [00:28<00:29, 62.67it/s]Running loglikelihood requests:  51%|█████     | 1860/3676 [00:29<00:28, 64.31it/s]Running loglikelihood requests:  51%|█████     | 1868/3676 [00:29<00:27, 66.85it/s]Running loglikelihood requests:  51%|█████     | 1876/3676 [00:29<00:26, 69.00it/s]Running loglikelihood requests:  51%|█████▏    | 1884/3676 [00:29<00:26, 67.85it/s]Running loglikelihood requests:  51%|█████▏    | 1892/3676 [00:29<00:25, 69.86it/s]Running loglikelihood requests:  52%|█████▏    | 1900/3676 [00:29<00:24, 71.69it/s]Running loglikelihood requests:  52%|█████▏    | 1908/3676 [00:29<00:24, 73.03it/s]Running loglikelihood requests:  52%|█████▏    | 1916/3676 [00:29<00:23, 73.76it/s]Running loglikelihood requests:  52%|█████▏    | 1925/3676 [00:29<00:22, 77.51it/s]Running loglikelihood requests:  53%|█████▎    | 1933/3676 [00:29<00:22, 76.25it/s]Running loglikelihood requests:  53%|█████▎    | 1941/3676 [00:30<00:22, 76.36it/s]Running loglikelihood requests:  53%|█████▎    | 1949/3676 [00:30<00:22, 76.54it/s]Running loglikelihood requests:  53%|█████▎    | 1957/3676 [00:30<00:23, 74.23it/s]Running loglikelihood requests:  53%|█████▎    | 1965/3676 [00:30<00:23, 73.82it/s]Running loglikelihood requests:  54%|█████▎    | 1973/3676 [00:30<00:23, 73.33it/s]Running loglikelihood requests:  54%|█████▍    | 1981/3676 [00:30<00:22, 74.46it/s]Running loglikelihood requests:  54%|█████▍    | 1989/3676 [00:30<00:22, 74.74it/s]Running loglikelihood requests:  54%|█████▍    | 1997/3676 [00:30<00:22, 75.60it/s]Running loglikelihood requests:  55%|█████▍    | 2006/3676 [00:30<00:21, 78.89it/s]Running loglikelihood requests:  55%|█████▍    | 2014/3676 [00:31<00:21, 78.22it/s]Running loglikelihood requests:  55%|█████▌    | 2022/3676 [00:31<00:21, 77.89it/s]Running loglikelihood requests:  55%|█████▌    | 2030/3676 [00:31<00:21, 77.09it/s]Running loglikelihood requests:  55%|█████▌    | 2038/3676 [00:31<00:22, 73.72it/s]Running loglikelihood requests:  56%|█████▌    | 2046/3676 [00:31<00:21, 74.36it/s]Running loglikelihood requests:  56%|█████▌    | 2054/3676 [00:31<00:21, 74.87it/s]Running loglikelihood requests:  56%|█████▌    | 2062/3676 [00:31<00:21, 74.75it/s]Running loglikelihood requests:  56%|█████▋    | 2070/3676 [00:31<00:21, 75.26it/s]Running loglikelihood requests:  57%|█████▋    | 2078/3676 [00:31<00:21, 75.67it/s]Running loglikelihood requests:  57%|█████▋    | 2086/3676 [00:32<00:21, 74.36it/s]Running loglikelihood requests:  57%|█████▋    | 2094/3676 [00:32<00:21, 74.97it/s]Running loglikelihood requests:  57%|█████▋    | 2102/3676 [00:32<00:20, 74.96it/s]Running loglikelihood requests:  57%|█████▋    | 2110/3676 [00:32<00:20, 75.60it/s]Running loglikelihood requests:  58%|█████▊    | 2118/3676 [00:32<00:21, 72.71it/s]Running loglikelihood requests:  58%|█████▊    | 2126/3676 [00:32<00:20, 74.04it/s]Running loglikelihood requests:  58%|█████▊    | 2134/3676 [00:32<00:20, 75.12it/s]Running loglikelihood requests:  58%|█████▊    | 2142/3676 [00:32<00:20, 75.49it/s]Running loglikelihood requests:  58%|█████▊    | 2150/3676 [00:32<00:20, 75.52it/s]Running loglikelihood requests:  59%|█████▊    | 2158/3676 [00:32<00:20, 74.58it/s]Running loglikelihood requests:  59%|█████▉    | 2166/3676 [00:33<00:20, 75.31it/s]Running loglikelihood requests:  59%|█████▉    | 2174/3676 [00:33<00:19, 75.82it/s]Running loglikelihood requests:  59%|█████▉    | 2182/3676 [00:33<00:19, 75.69it/s]Running loglikelihood requests:  60%|█████▉    | 2190/3676 [00:33<00:19, 76.26it/s]Running loglikelihood requests:  60%|█████▉    | 2198/3676 [00:33<00:20, 73.33it/s]Running loglikelihood requests:  60%|██████    | 2206/3676 [00:33<00:19, 74.03it/s]Running loglikelihood requests:  60%|██████    | 2214/3676 [00:33<00:19, 74.43it/s]Running loglikelihood requests:  60%|██████    | 2222/3676 [00:33<00:19, 75.04it/s]Running loglikelihood requests:  61%|██████    | 2230/3676 [00:33<00:19, 73.54it/s]Running loglikelihood requests:  61%|██████    | 2238/3676 [00:34<00:19, 74.20it/s]Running loglikelihood requests:  61%|██████    | 2246/3676 [00:34<00:19, 74.87it/s]Running loglikelihood requests:  61%|██████▏   | 2254/3676 [00:34<00:19, 74.40it/s]Running loglikelihood requests:  62%|██████▏   | 2262/3676 [00:34<00:18, 74.92it/s]Running loglikelihood requests:  62%|██████▏   | 2270/3676 [00:34<00:19, 72.17it/s]Running loglikelihood requests:  62%|██████▏   | 2278/3676 [00:34<00:19, 73.47it/s]Running loglikelihood requests:  62%|██████▏   | 2286/3676 [00:34<00:18, 73.71it/s]Running loglikelihood requests:  62%|██████▏   | 2294/3676 [00:34<00:18, 74.35it/s]Running loglikelihood requests:  63%|██████▎   | 2302/3676 [00:34<00:18, 74.34it/s]Running loglikelihood requests:  63%|██████▎   | 2310/3676 [00:35<00:18, 73.95it/s]Running loglikelihood requests:  63%|██████▎   | 2318/3676 [00:35<00:18, 74.78it/s]Running loglikelihood requests:  63%|██████▎   | 2326/3676 [00:35<00:17, 75.10it/s]Running loglikelihood requests:  63%|██████▎   | 2334/3676 [00:35<00:18, 71.68it/s]Running loglikelihood requests:  64%|██████▎   | 2342/3676 [00:35<00:18, 72.73it/s]Running loglikelihood requests:  64%|██████▍   | 2350/3676 [00:35<00:18, 70.52it/s]Running loglikelihood requests:  64%|██████▍   | 2358/3676 [00:35<00:18, 71.94it/s]Running loglikelihood requests:  64%|██████▍   | 2366/3676 [00:35<00:18, 72.09it/s]Running loglikelihood requests:  65%|██████▍   | 2374/3676 [00:35<00:17, 73.56it/s]Running loglikelihood requests:  65%|██████▍   | 2382/3676 [00:36<00:17, 74.53it/s]Running loglikelihood requests:  65%|██████▌   | 2390/3676 [00:36<00:17, 75.37it/s]Running loglikelihood requests:  65%|██████▌   | 2398/3676 [00:36<00:16, 75.93it/s]Running loglikelihood requests:  65%|██████▌   | 2406/3676 [00:36<00:16, 75.95it/s]Running loglikelihood requests:  66%|██████▌   | 2414/3676 [00:36<00:16, 76.29it/s]Running loglikelihood requests:  66%|██████▌   | 2422/3676 [00:36<00:16, 74.84it/s]Running loglikelihood requests:  66%|██████▌   | 2430/3676 [00:36<00:16, 73.99it/s]Running loglikelihood requests:  66%|██████▋   | 2438/3676 [00:36<00:16, 74.68it/s]Running loglikelihood requests:  67%|██████▋   | 2446/3676 [00:36<00:16, 75.30it/s]Running loglikelihood requests:  67%|██████▋   | 2454/3676 [00:36<00:16, 74.48it/s]Running loglikelihood requests:  67%|██████▋   | 2462/3676 [00:37<00:16, 75.15it/s]Running loglikelihood requests:  67%|██████▋   | 2470/3676 [00:37<00:15, 75.54it/s]Running loglikelihood requests:  67%|██████▋   | 2479/3676 [00:37<00:15, 78.26it/s]Running loglikelihood requests:  68%|██████▊   | 2487/3676 [00:37<00:15, 77.63it/s]Running loglikelihood requests:  68%|██████▊   | 2495/3676 [00:37<00:15, 77.26it/s]Running loglikelihood requests:  68%|██████▊   | 2503/3676 [00:37<00:15, 73.51it/s]Running loglikelihood requests:  68%|██████▊   | 2512/3676 [00:37<00:15, 76.76it/s]Running loglikelihood requests:  69%|██████▊   | 2520/3676 [00:37<00:15, 76.74it/s]Running loglikelihood requests:  69%|██████▉   | 2528/3676 [00:37<00:15, 74.57it/s]Running loglikelihood requests:  69%|██████▉   | 2537/3676 [00:38<00:14, 77.61it/s]Running loglikelihood requests:  69%|██████▉   | 2545/3676 [00:38<00:14, 77.27it/s]Running loglikelihood requests:  69%|██████▉   | 2553/3676 [00:38<00:14, 76.50it/s]Running loglikelihood requests:  70%|██████▉   | 2561/3676 [00:38<00:14, 76.09it/s]Running loglikelihood requests:  70%|██████▉   | 2569/3676 [00:38<00:14, 76.14it/s]Running loglikelihood requests:  70%|███████   | 2577/3676 [00:38<00:14, 75.80it/s]Running loglikelihood requests:  70%|███████   | 2585/3676 [00:38<00:17, 63.98it/s]Running loglikelihood requests:  71%|███████   | 2593/3676 [00:38<00:17, 60.19it/s]Running loglikelihood requests:  71%|███████   | 2601/3676 [00:39<00:18, 57.88it/s]Running loglikelihood requests:  71%|███████   | 2609/3676 [00:39<00:18, 58.66it/s]Running loglikelihood requests:  71%|███████   | 2617/3676 [00:39<00:18, 56.36it/s]Running loglikelihood requests:  71%|███████▏  | 2625/3676 [00:39<00:18, 55.98it/s]Running loglikelihood requests:  72%|███████▏  | 2634/3676 [00:39<00:17, 58.81it/s]Running loglikelihood requests:  72%|███████▏  | 2642/3676 [00:39<00:18, 56.96it/s]Running loglikelihood requests:  72%|███████▏  | 2650/3676 [00:39<00:17, 58.43it/s]Running loglikelihood requests:  72%|███████▏  | 2658/3676 [00:40<00:17, 59.29it/s]Running loglikelihood requests:  73%|███████▎  | 2666/3676 [00:40<00:16, 59.94it/s]Running loglikelihood requests:  73%|███████▎  | 2674/3676 [00:40<00:16, 60.35it/s]Running loglikelihood requests:  73%|███████▎  | 2682/3676 [00:40<00:16, 58.74it/s]Running loglikelihood requests:  73%|███████▎  | 2690/3676 [00:40<00:17, 57.16it/s]Running loglikelihood requests:  73%|███████▎  | 2698/3676 [00:40<00:17, 56.28it/s]Running loglikelihood requests:  74%|███████▎  | 2706/3676 [00:40<00:17, 54.75it/s]Running loglikelihood requests:  74%|███████▍  | 2714/3676 [00:41<00:17, 54.96it/s]Running loglikelihood requests:  74%|███████▍  | 2722/3676 [00:41<00:17, 54.25it/s]Running loglikelihood requests:  74%|███████▍  | 2730/3676 [00:41<00:17, 54.18it/s]Running loglikelihood requests:  74%|███████▍  | 2738/3676 [00:41<00:17, 53.81it/s]Running loglikelihood requests:  75%|███████▍  | 2746/3676 [00:41<00:16, 55.94it/s]Running loglikelihood requests:  75%|███████▍  | 2754/3676 [00:41<00:16, 57.18it/s]Running loglikelihood requests:  75%|███████▌  | 2762/3676 [00:41<00:15, 57.52it/s]Running loglikelihood requests:  75%|███████▌  | 2770/3676 [00:42<00:16, 54.73it/s]Running loglikelihood requests:  76%|███████▌  | 2778/3676 [00:42<00:16, 55.52it/s]Running loglikelihood requests:  76%|███████▌  | 2786/3676 [00:42<00:16, 53.17it/s]Running loglikelihood requests:  76%|███████▌  | 2794/3676 [00:42<00:16, 53.52it/s]Running loglikelihood requests:  76%|███████▌  | 2802/3676 [00:42<00:15, 54.69it/s]Running loglikelihood requests:  76%|███████▋  | 2810/3676 [00:42<00:15, 54.55it/s]Running loglikelihood requests:  77%|███████▋  | 2818/3676 [00:42<00:16, 52.29it/s]Running loglikelihood requests:  77%|███████▋  | 2826/3676 [00:43<00:16, 50.32it/s]Running loglikelihood requests:  77%|███████▋  | 2834/3676 [00:43<00:16, 50.18it/s]Running loglikelihood requests:  77%|███████▋  | 2842/3676 [00:43<00:15, 52.84it/s]Running loglikelihood requests:  78%|███████▊  | 2851/3676 [00:43<00:13, 60.32it/s]Running loglikelihood requests:  78%|███████▊  | 2861/3676 [00:43<00:11, 68.71it/s]Running loglikelihood requests:  78%|███████▊  | 2869/3676 [00:43<00:11, 70.37it/s]Running loglikelihood requests:  78%|███████▊  | 2877/3676 [00:43<00:11, 71.82it/s]Running loglikelihood requests:  78%|███████▊  | 2885/3676 [00:43<00:11, 70.74it/s]Running loglikelihood requests:  79%|███████▊  | 2893/3676 [00:44<00:10, 71.85it/s]Running loglikelihood requests:  79%|███████▉  | 2901/3676 [00:44<00:11, 70.35it/s]Running loglikelihood requests:  79%|███████▉  | 2909/3676 [00:44<00:10, 71.45it/s]Running loglikelihood requests:  79%|███████▉  | 2917/3676 [00:44<00:10, 73.11it/s]Running loglikelihood requests:  80%|███████▉  | 2925/3676 [00:44<00:10, 74.26it/s]Running loglikelihood requests:  80%|███████▉  | 2933/3676 [00:44<00:09, 75.07it/s]Running loglikelihood requests:  80%|████████  | 2941/3676 [00:44<00:09, 75.68it/s]Running loglikelihood requests:  80%|████████  | 2951/3676 [00:44<00:08, 81.37it/s]Running loglikelihood requests:  81%|████████  | 2960/3676 [00:44<00:08, 83.14it/s]Running loglikelihood requests:  81%|████████  | 2969/3676 [00:45<00:08, 82.66it/s]Running loglikelihood requests:  81%|████████  | 2978/3676 [00:45<00:08, 80.30it/s]Running loglikelihood requests:  81%|████████▏ | 2987/3676 [00:45<00:09, 71.04it/s]Running loglikelihood requests:  81%|████████▏ | 2995/3676 [00:45<00:09, 72.47it/s]Running loglikelihood requests:  82%|████████▏ | 3003/3676 [00:45<00:09, 73.52it/s]Running loglikelihood requests:  82%|████████▏ | 3011/3676 [00:45<00:08, 74.65it/s]Running loglikelihood requests:  82%|████████▏ | 3019/3676 [00:45<00:08, 73.88it/s]Running loglikelihood requests:  82%|████████▏ | 3027/3676 [00:45<00:08, 73.44it/s]Running loglikelihood requests:  83%|████████▎ | 3035/3676 [00:45<00:08, 73.16it/s]Running loglikelihood requests:  83%|████████▎ | 3043/3676 [00:46<00:08, 74.16it/s]Running loglikelihood requests:  83%|████████▎ | 3051/3676 [00:46<00:08, 73.90it/s]Running loglikelihood requests:  83%|████████▎ | 3059/3676 [00:46<00:08, 73.18it/s]Running loglikelihood requests:  83%|████████▎ | 3067/3676 [00:46<00:08, 74.02it/s]Running loglikelihood requests:  84%|████████▎ | 3075/3676 [00:46<00:08, 75.00it/s]Running loglikelihood requests:  84%|████████▍ | 3083/3676 [00:46<00:07, 75.79it/s]Running loglikelihood requests:  84%|████████▍ | 3091/3676 [00:46<00:07, 76.43it/s]Running loglikelihood requests:  84%|████████▍ | 3099/3676 [00:46<00:07, 76.42it/s]Running loglikelihood requests:  85%|████████▍ | 3107/3676 [00:46<00:07, 76.82it/s]Running loglikelihood requests:  85%|████████▍ | 3115/3676 [00:47<00:07, 72.44it/s]Running loglikelihood requests:  85%|████████▍ | 3123/3676 [00:47<00:07, 71.82it/s]Running loglikelihood requests:  85%|████████▌ | 3131/3676 [00:47<00:07, 68.67it/s]Running loglikelihood requests:  85%|████████▌ | 3139/3676 [00:47<00:07, 68.95it/s]Running loglikelihood requests:  86%|████████▌ | 3147/3676 [00:47<00:07, 68.40it/s]Running loglikelihood requests:  86%|████████▌ | 3155/3676 [00:47<00:07, 69.26it/s]Running loglikelihood requests:  86%|████████▌ | 3163/3676 [00:47<00:07, 69.69it/s]Running loglikelihood requests:  86%|████████▋ | 3171/3676 [00:47<00:07, 69.92it/s]Running loglikelihood requests:  86%|████████▋ | 3179/3676 [00:47<00:07, 70.07it/s]Running loglikelihood requests:  87%|████████▋ | 3187/3676 [00:48<00:06, 71.87it/s]Running loglikelihood requests:  87%|████████▋ | 3195/3676 [00:48<00:06, 73.72it/s]Running loglikelihood requests:  87%|████████▋ | 3203/3676 [00:48<00:06, 71.63it/s]Running loglikelihood requests:  87%|████████▋ | 3211/3676 [00:48<00:06, 72.05it/s]Running loglikelihood requests:  88%|████████▊ | 3219/3676 [00:48<00:06, 71.70it/s]Running loglikelihood requests:  88%|████████▊ | 3227/3676 [00:48<00:06, 71.53it/s]Running loglikelihood requests:  88%|████████▊ | 3235/3676 [00:48<00:06, 71.32it/s]Running loglikelihood requests:  88%|████████▊ | 3243/3676 [00:48<00:06, 70.82it/s]Running loglikelihood requests:  88%|████████▊ | 3251/3676 [00:48<00:06, 68.36it/s]Running loglikelihood requests:  89%|████████▊ | 3259/3676 [00:49<00:06, 68.97it/s]Running loglikelihood requests:  89%|████████▉ | 3267/3676 [00:49<00:05, 69.14it/s]Running loglikelihood requests:  89%|████████▉ | 3275/3676 [00:49<00:05, 67.22it/s]Running loglikelihood requests:  89%|████████▉ | 3283/3676 [00:49<00:05, 68.22it/s]Running loglikelihood requests:  90%|████████▉ | 3291/3676 [00:49<00:05, 68.97it/s]Running loglikelihood requests:  90%|████████▉ | 3299/3676 [00:49<00:05, 69.55it/s]Running loglikelihood requests:  90%|████████▉ | 3307/3676 [00:49<00:05, 69.90it/s]Running loglikelihood requests:  90%|█████████ | 3315/3676 [00:49<00:05, 70.21it/s]Running loglikelihood requests:  90%|█████████ | 3323/3676 [00:50<00:05, 69.16it/s]Running loglikelihood requests:  91%|█████████ | 3331/3676 [00:50<00:04, 70.35it/s]Running loglikelihood requests:  91%|█████████ | 3339/3676 [00:50<00:04, 70.33it/s]Running loglikelihood requests:  91%|█████████ | 3348/3676 [00:50<00:04, 69.05it/s]Running loglikelihood requests:  91%|█████████▏| 3356/3676 [00:50<00:04, 69.42it/s]Running loglikelihood requests:  92%|█████████▏| 3364/3676 [00:50<00:04, 69.53it/s]Running loglikelihood requests:  92%|█████████▏| 3372/3676 [00:50<00:04, 69.79it/s]Running loglikelihood requests:  92%|█████████▏| 3380/3676 [00:50<00:04, 69.66it/s]Running loglikelihood requests:  92%|█████████▏| 3388/3676 [00:50<00:04, 68.87it/s]Running loglikelihood requests:  92%|█████████▏| 3396/3676 [00:51<00:04, 69.37it/s]Running loglikelihood requests:  93%|█████████▎| 3404/3676 [00:51<00:03, 69.93it/s]Running loglikelihood requests:  93%|█████████▎| 3412/3676 [00:51<00:03, 70.93it/s]Running loglikelihood requests:  93%|█████████▎| 3421/3676 [00:51<00:03, 69.83it/s]Running loglikelihood requests:  93%|█████████▎| 3429/3676 [00:51<00:03, 70.23it/s]Running loglikelihood requests:  93%|█████████▎| 3437/3676 [00:51<00:03, 70.51it/s]Running loglikelihood requests:  94%|█████████▎| 3445/3676 [00:51<00:03, 70.78it/s]Running loglikelihood requests:  94%|█████████▍| 3453/3676 [00:51<00:03, 70.50it/s]Running loglikelihood requests:  94%|█████████▍| 3461/3676 [00:51<00:03, 69.99it/s]Running loglikelihood requests:  94%|█████████▍| 3469/3676 [00:52<00:02, 70.66it/s]Running loglikelihood requests:  95%|█████████▍| 3477/3676 [00:52<00:02, 73.13it/s]Running loglikelihood requests:  95%|█████████▍| 3485/3676 [00:52<00:02, 73.97it/s]Running loglikelihood requests:  95%|█████████▌| 3494/3676 [00:52<00:02, 74.71it/s]Running loglikelihood requests:  95%|█████████▌| 3502/3676 [00:52<00:02, 71.60it/s]Running loglikelihood requests:  95%|█████████▌| 3510/3676 [00:52<00:02, 71.45it/s]Running loglikelihood requests:  96%|█████████▌| 3518/3676 [00:52<00:02, 71.41it/s]Running loglikelihood requests:  96%|█████████▌| 3526/3676 [00:52<00:02, 71.55it/s]Running loglikelihood requests:  96%|█████████▌| 3534/3676 [00:52<00:02, 70.47it/s]Running loglikelihood requests:  96%|█████████▋| 3542/3676 [00:53<00:01, 70.57it/s]Running loglikelihood requests:  97%|█████████▋| 3550/3676 [00:53<00:01, 71.54it/s]Running loglikelihood requests:  97%|█████████▋| 3558/3676 [00:53<00:01, 71.82it/s]Running loglikelihood requests:  97%|█████████▋| 3566/3676 [00:53<00:01, 62.87it/s]Running loglikelihood requests:  97%|█████████▋| 3574/3676 [00:53<00:01, 56.97it/s]Running loglikelihood requests:  97%|█████████▋| 3582/3676 [00:53<00:01, 55.09it/s]Running loglikelihood requests:  98%|█████████▊| 3590/3676 [00:53<00:01, 54.98it/s]Running loglikelihood requests:  98%|█████████▊| 3598/3676 [00:54<00:01, 55.33it/s]Running loglikelihood requests:  98%|█████████▊| 3606/3676 [00:54<00:01, 55.63it/s]Running loglikelihood requests:  98%|█████████▊| 3614/3676 [00:54<00:01, 55.16it/s]Running loglikelihood requests:  99%|█████████▊| 3622/3676 [00:54<00:00, 56.15it/s]Running loglikelihood requests:  99%|█████████▊| 3630/3676 [00:54<00:00, 54.30it/s]Running loglikelihood requests:  99%|█████████▉| 3638/3676 [00:54<00:00, 55.27it/s]Running loglikelihood requests:  99%|█████████▉| 3646/3676 [00:54<00:00, 55.77it/s]Running loglikelihood requests:  99%|█████████▉| 3654/3676 [00:55<00:00, 56.37it/s]Running loglikelihood requests: 100%|█████████▉| 3662/3676 [00:55<00:00, 57.37it/s]Running loglikelihood requests: 100%|█████████▉| 3670/3676 [00:55<00:00, 54.46it/s]Running loglikelihood requests: 100%|██████████| 3676/3676 [00:55<00:00, 66.26it/s]
+🌟 POST-TEST ANTENA_Base -> PIQA: 56.37% | Perplejidad: 813633.5000
