@@ -116,5 +116,12 @@ This repository is dual-licensed:
 2. **Commercial & Enterprise License:** For commercial deployment, proprietary hardware integration, closed-source enterprise software, or silicon IP integration, a commercial license is required.
 
 For commercial licensing inquiries, please contact:
-- **Author:** Lemos J. (jerolemos@proton.me)
+- **Author:** Jero Lemos (jerolemos@proton.me)
 - **Repository:** https://github.com/jerolemos/antena-cl-slm
+
+---
+
+## ☕ Support & Donations
+I believe in **Free Software**. If this project saves you time or helps your research, please consider supporting it:
+* **EVM (ETH / USDT / Polygon):** `0x4C788E8422dcF0Fb0d7F29D9511c1C6758474861`
+* **Bitcoin (BTC):** `bc1qnate8u3vhfaf9wgt93fp634u34gj0zkdgruvn4`
