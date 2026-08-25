@@ -1,5 +1,7 @@
 # ANTENA: Zero-Exemplar Class-Incremental Learning in Small Language Models
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22099108.svg)](https://doi.org/10.5281/zenodo.22099108)
+
 Official open-source implementation and benchmark suite for **ANTENA** (*Soft Orthogonal Gradient Projection and Feature Alignment for Small Language Models*).
 
 * **Part 2 of the Memory-Free Continual Learning Series:**
