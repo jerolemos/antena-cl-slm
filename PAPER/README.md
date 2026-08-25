@@ -27,9 +27,11 @@ This repository is dual-licensed:
 If you use this work in your research, please cite it as:
 ```bibtex
 @misc{lemos2026slm,
-  title={Thermodynamic Veto and Latent Representation: Mitigating Catastrophic Forgetting in Edge Language Models},
-  author={Lemos, J.},
+  title={Zero-Exemplar Class-Incremental Learning in Small Language Models via Soft Orthogonal Gradient Projection and Feature Alignment},
+  author={Lemos, Jero},
   year={2026},
-  howpublished={Preprint}
+  publisher={Zenodo},
+  doi={10.5281/zenodo.22099108},
+  url={https://doi.org/10.5281/zenodo.22099108}
 }
 ```
